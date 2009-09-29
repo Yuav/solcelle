@@ -1,0 +1,88 @@
+\section{Solcelle teori}
+
+TEORIDEL - Solceller - virkemåte, karakteristikker, MC vs. Thinfilm, utforming, 
+
+De fleste solceller er krystallinske, det betyr at strukturen er ordnet, eller periodisk. I praksis vil krystallene inneholde feil av forskjellige slag. Noen solcellematerialer er ikke krystallinske, men mangler langtrekkende periodisitet. Disse består da av amorfe materialer.
+
+Et fritt elektron i vakuum vil kunne innta en hvilken som helst energi. Et elektron i en krystallstruktur er bundet av energibånd atskilt av gap med energitilstander som elektronene ikke kan ha. Det er derfor bare plass til et endelig antall elektroner i hvert bånd, fordi hver tilstand bare kan romme to elektroner i følge Pauli-Prinsippet. For en krystall kan energibåndene oppfattes som overlapp av enkelttilstander for hvert atom. En kan oppfatte energibåndene som krystallens "elektronskall". 
+
+\begin{figure}[Energibånd]
+ \centering
+ % Tegning
+ \begin{tikzpicture}[scale=0.5]
+    \begin{scope} % Valens og ledningsbånd
+        \draw (2,7) rectangle node {Valensbånd} 
+            ++(22,4);
+        \draw (2,13) rectangle node {Ledningsbånd} 
+            ++(22,4);
+    \end{scope}
+    \end{tikzpicture}
+    \caption{Energibånd}
+    \label{fig:energibånd}
+\end{figure}
+
+Det øverste båndet kalles ledningsbåndet. Energibåndet umiddelbart under ledningsbåndet, kalles valensbåndet. De ikke-tillatte tilstandene mellom valensbåndet og ledningsbåndet kalles båndgapet. Dette båndgapet er veldig viktig i forbindelse med solceller og oppgis ofte i elektronvolt (eV).
+
+For at elektronet skal kunne flytte på seg må det befinne seg i ledningsbåndet. Et elektron må ha nok energi til å kunne eksiteres fra valensbåndet. Eksitasjon vil si at et elektron forflytter seg fra valensbåndet til ledningsbåndet. Dette kan skje ved at elektronet får høy nok energi til å forflytte seg over båndgapet ved termisk energi, eller annen energi tilført utenfra, som fra lys. Dette gir økt ledningsevne til materialet. Samtidig blir det en ledig plass i valensbåndet, som gjør at andre elektroner i valsensbåndet kan få høyere kinetisk energi, for eksempel under påvirkning av et elektrisk felt. Dette påvirker også slik at materialet får høyere ledningsevne.
+
+Materialer deles ofte inn i tre kategorier; Isolatorer, halvledere, og metaller. Isolatorer har ingen, eller få elektroner i ledningsbåndet, som gir dem dårlig ledningsevne. Metaller har som regel fylte ledningsbånd ved romtemperatur, som gir dem god ledningsevne. Selv ved 0K har metaller et delvis fylt energibånd. Halvledere har dårligere ledningsevne enn metaller, og vil ved 0K ikke ha noen elektroner i ledningsbåndet. Båndgapet til halvledere ligger mellom det for isolatorer og metaller, slik at ved romtemperatur er ledningsbåndet delvis fylt, i motsetning til isolatorer.
+
+<båndgap forskjeller bilde>
+
+Hull er en beskrivelse for fravær av elektroner i valensbåndet. Et hull vil oppstå når et elektron eksiteres fra valensbåndet til ledningsbåndet. Lite båndgap, og høy temperatur vil gi vesentlig flere elektroner i ledningsbåndet, enn for lave temperaturer og stort båndgap. Dette beskrives med massevirkningsloven:
+
+$np = NcNve-Eg/kT$
+
+der n er antall elektroner, p er antall hull, Nc og Nv er konstanter for gitte materialer. Eg er båndgapet, k er Boltzmanns konstant og T er temperaturen i Kelvin. For en intrinsikk halvleder, det vil si en halvleder uten noe form for doping, for eksempel ren silisium, kan massevirkningsloven skrives:
+
+$np=ni^2 $
+
+der $ni = \rot{NcNv}e-Eg/2kT$
+
+Fra massevirkningsloven kommer det av Eg er en avgjørende faktor for om en krystall kan sies å være en halvleder eller ikke. For silisium er båndgapet rundt 1.1 eV, med ni av størrelsesorden 10^12. Isolatorer har typisk båndgap over 2-3eV.
+
+
+Doping
+
+Ved å sette inn andre atomer i en krystallstruktur, med en annerledes elektronfordeling er det mulig å øke elektroner i ledningsbåndet uten å endre konsentrasjonen av hull i valensbåndet. Dette kalles doping. Et eksempel på doping er å tilsette fosfor i en silisiumkrystall. Dette vil føre til flere elektroner i ledningsbåndet, da fosfor har et valenselektron mer enn silisium og valensbåndet er tilnærmet fullt. Fosfor vil i dette tilfellet kalles donor i denne donor-dopingen. Doping konsentrasjonen er vanligvis så liten at båndstrukturen ikke forstyrres vesentlig. Hvis en for eksempel setter inn bor istedenfor fosfor, vil silisium krystallen bli akseptor-dopet. Bor har et mindre elektron i valensbåndet enn silisium, og vil derfor tilføre et hull ekstra i valensbåndet. Som regel er donorkonsentrasjonen av hull og elektroner i henholdsvis valens- og ledningsbånd vesentlig høyere enn den intrinsikke, slik at det er en god tilnærming å sette
+
+$n ca. lik Nd$
+
+for donordoping, og
+
+$n ca. lik Na$
+
+for akspetordoping. Der Nd er donorkonsentrasjonen, og Na er akseptorkonsentrasjonen.
+
+En dopet halvleder omtales generelt som ekstrinsikk. Hvis en halvleder er dopet med overtall av donor atomer, har den overtall av elektroner, og kalles n-dopet. For akseptordoping omtales halvlederen som p-dopet, da den har overtall av hull. Den dominerende ladningsbærertypen kalles for majoritetsbæreren. Majoritetsbærerene vil være de som i hovedsak sørger for strømtransporten gjennom halvlederen.
+
+
+Transport- og rekombinasjons-prosesser
+
+Det er to mekanismer som bidrar til transport av elektroner og hull i halvledere: drift og diffusjon. Drift er transport av en ladd partikkel på grunn av et elektrisk felt. For transport av et hull i en dimensjon er strømmen Ip lik antall hull Np ganger ladning q som krysser et tverrsnitt.
+
+$Ip = Npq$
+
+I vakuum vil et elektrisk felt akselerere hullene, og hastigheten vil stadig øke. I halvledere vil det oppstå kollisjoner med atomene i halvleder, som gir hullene en midlere hastighet, så lenge feltet er konstant. Denne midlere driftshastigheten er relatert til feltet via hullenes mobilitet up
+
+$vp = µpE$
+
+Hvis alle hullene beveger seg i samme retning kan en da beregne strøm per areal, eller strømtetthet.
+
+$Jp=Ip/A=Npq/A=pAvp......$
+
+Kombinert med tilsvarende uttrykk for elektroner
+
+$J = Jp + Jn = () = oE$
+
+der un er mobiliteten for elektroner, og o er halvlederens ledningsevne. Jn er elektronstrømtettheten.
+
+Strømmen blir da 
+
+$I = JA = AoE = Ao/LV$
+
+Halvledere vil typisk ha ledningsevne 10\8 til 10\3 S/cm. Typiske verdien for isolatorer og metaller er henholdsvis 10?14 og 10)6 S/cm
+
+
+
+\subsection{Halvledere}
