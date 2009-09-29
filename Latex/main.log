@@ -1,0 +1,469 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.9.29)  29 SEP 2009 16:09
+entering extended mode
+**main.tex
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\Latex\main.tex"
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size11.clo"
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\latin1.def"
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.sty"
+Package: babel 2008/07/06 v3.8l The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\norsk.ldf"
+Language: norsk 2005/03/30 v2.0h Norsk support from the babel system
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.def"
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Norsk'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@norsk = a dialect from \language0
+Package babel Info: Making " an active character on input line 113.
+)) ("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\front
+endlayer\tikz.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\basic
+layer\pgf.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\utili
+ties\pgfrcs.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
+lities\pgfutil-common.tex"
+\pgfutil@everybye=\toks17
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
+lities\pgfutil-latex.def")
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
+lities\pgfrcs.code.tex"
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\basic
+layer\pgfcore.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\syste
+mlayer\pgfsys.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgfsys.code.tex"
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
+lities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+)
+\pgf@x=\dimen106
+\pgf@y=\dimen107
+\pgf@xa=\dimen108
+\pgf@ya=\dimen109
+\pgf@xb=\dimen110
+\pgf@yb=\dimen111
+\pgf@xc=\dimen112
+\pgf@yc=\dimen113
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgf.cfg"
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 885.
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgfsys-dvips.def"
+File: pgfsys-dvips.def 2007/12/12  (rcs-revision 1.19)
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgfsys-common-postscript.def"
+File: pgfsys-common-postscript.def 2008/02/07  (rcs-revision 1.18)
+\pgf@objectcount=\count92
+)))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count93
+\pgfsyssoftpath@bigbuffer@items=\count94
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
+temlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\xcolor\xc
+olor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcore.code.tex"
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmath.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathcalc.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathutil.code.tex"
+\pgfmath@box=\box26
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathparser.code.tex"
+\pgfmath@stack=\toks20
+\c@pgfmath@parsecounta=\count95
+\c@pgfmath@parsecountb=\count96
+\c@pgfmath@parsecountc=\count97
+\pgfmath@parsex=\dimen114
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathoperations.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathtrig.code.tex")
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathrnd.code.tex"))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
+h\pgfmathbase.code.tex")))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen115
+\pgf@picmaxx=\dimen116
+\pgf@picminy=\dimen117
+\pgf@picmaxy=\dimen118
+\pgf@pathminx=\dimen119
+\pgf@pathmaxx=\dimen120
+\pgf@pathminy=\dimen121
+\pgf@pathmaxy=\dimen122
+\pgf@xx=\dimen123
+\pgf@xy=\dimen124
+\pgf@yx=\dimen125
+\pgf@yy=\dimen126
+\pgf@zx=\dimen127
+\pgf@zy=\dimen128
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen129
+\pgf@path@lasty=\dimen130
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen131
+\pgf@shorten@start@additional=\dimen132
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box27
+\pgf@hbox=\box28
+\pgf@layerbox@main=\box29
+\pgf@picture@serial@count=\count98
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen133
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen134
+\pgf@pt@y=\dimen135
+\pgf@pt@temp=\dimen136
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen137
+\pgf@sys@shading@range@num=\count99
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box30
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
+iclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
+ules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
+\pgfnodeparttextbox=\box31
+\toks@savedmacro=\toks21
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
+ules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgf@plotwrite=\write3
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
+tibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen138
+\pgf@nodesepend=\dimen139
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
+tibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\utili
+ties\pgffor.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
+lities\pgffor.code.tex"
+Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+\pgffor@iter=\dimen140
+\pgffor@skip=\dimen141
+))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
+ntendlayer\tikz\tikz.code.tex"
+Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
+raries\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
+\pgf@plot@mark@count=\count100
+\pgfplotmarksize=\dimen142
+)
+\tikz@lastx=\dimen143
+\tikz@lasty=\dimen144
+\tikz@lastxsaved=\dimen145
+\tikz@lastysaved=\dimen146
+\tikzleveldistance=\dimen147
+\tikzsiblingdistance=\dimen148
+\tikz@figbox=\box32
+\tikz@tempbox=\box33
+\tikztreelevel=\count101
+\tikznumberofchildren=\count102
+\tikznumberofcurrentchild=\count103
+\tikz@fig@count=\count104
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
+ules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfmatrixcurrentrow=\count105
+\pgfmatrixcurrentcolumn=\count106
+\pgf@matrix@numberofcolumns=\count107
+)
+\tikz@expandcount=\count108
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
+ntendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+)))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
+ntendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
+ntendlayer\tikz\libraries\tikzlibrarydecorations.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
+ules\pgfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen149
+\pgfdecoratedremainingdistance=\dimen150
+\pgfdecoratedinputsegmentcompleteddistance=\dimen151
+\pgfdecoratedinputsegmentremainingdistance=\dimen152
+\pgf@decorate@distancetomove=\dimen153
+\pgf@decorate@repeatstate=\count109
+\pgfdecorationsegmentamplitude=\dimen154
+\pgfdecorationsegmentlength=\dimen155
+))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
+raries\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\Latex\main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\Latex\introduksjon.tex")
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\Latex\solcelle_teori.tex"
+[1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 35.
+
+! Undefined control sequence.
+l.41 der $ni = \rot
+                   {NcNv}e-Eg/2kT$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 ...undt 1.1 eV, med ni av størrelsesorden 10^
+                                                  12. Isolatorer har typisk ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 43.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no å in font cmr10!
+
+Overfull \hbox (14.00864pt too wide) in paragraph at lines 43--44
+\T1/cmr/m/n/10.95 rundt 1.1 eV, med ni av stør-relsesor-den 10$[]\OT1/cmr/m/n/1
+0.95 2\OML/cmm/m/it/10.95 :Isolatorerhartypiskbndgapover\OT1/cmr/m/n/10.95 2 \O
+MS/cmsy/m/n/10.95  
+ []
+
+[2]
+! Undefined control sequence.
+l.85 Halvledere vil typisk ha ledningsevne 10\8
+                                                til 10\3 S/cm. Typiske verdi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.85 ...e vil typisk ha ledningsevne 10\8 til 10\3
+                                                   S/cm. Typiske verdien for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [3] ("C:\Documents and Settings\Jon\My Documents\Prosjekt\Latex\main.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7879 strings out of 495286
+ 147257 string characters out of 3180369
+ 190656 words of memory out of 3000000
+ 10926 multiletter control sequences out of 15000+200000
+ 11912 words of font info for 32 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 47i,6n,57p,992b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on main.dvi (3 pages, 18188 bytes).
