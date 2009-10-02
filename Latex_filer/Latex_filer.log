@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.2)  2 OCT 2009 16:54
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.2)  2 OCT 2009 17:39
 entering extended mode
 **Latex_filer.tex
 
@@ -596,6 +596,18 @@ ner og hull i halvledere:
 
 LaTeX Warning: Citation `streetman' on page 4 undefined on input line 151.
 
+
+Overfull \hbox (5.71133pt too wide) in paragraph at lines 164--165
+\T1/cmr/m/n/10.95 sjon av elek-troner til led-nings-bån-det, $\OML/cmm/m/it/10.
+95 U[]$\T1/cmr/m/n/10.95 , pro-posjon-alt med avviket fra likevekt 
+ []
+
+
+Overfull \hbox (6.42833pt too wide) in paragraph at lines 171--172
+\T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
+om-biner-er. Tilsvarende
+ []
+
 ) [4]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
@@ -604,12 +616,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9997 strings out of 495286
- 179613 string characters out of 3180369
- 242885 words of memory out of 3000000
- 12972 multiletter control sequences out of 15000+200000
+ 9999 strings out of 495286
+ 179647 string characters out of 3180369
+ 242903 words of memory out of 3000000
+ 12974 multiletter control sequences out of 15000+200000
  13772 words of font info for 41 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,6n,58p,1011b,637s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (4 pages, 22532 bytes).
+Output written on Latex_filer.dvi (4 pages, 25292 bytes).
