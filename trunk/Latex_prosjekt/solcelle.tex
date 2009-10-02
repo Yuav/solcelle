@@ -1,0 +1,33 @@
+\documentclass[a4paper, norsk, 11pt]{article}
+\usepackage[T1]{fontenc} 			% Nødvendig for fonter
+\usepackage[latin1]{inputenc} % Nødvendig for æøå
+\usepackage{babel}						% Nødvendig for dokument
+\usepackage{graphicx}					% For å kunne inkludere grafikk
+\usepackage{amsmath, amsfonts, amssymb} % Pakker for å skrive matte
+\usepackage[amssymb]{SIunits} % For å bruke \unit til SI-enheter
+
+% Tegninger, som båndgap
+\usepackage{tikz,tkz-tab}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows}
+%\usepackage[usenames,dvipsnames,pdftex]{xcolor}
+
+
+
+\author{Jon Skarpeteig}
+\title{Basis dokument}
+\date{\today}
+
+\begin{document}
+%\maketitle
+
+%\input{introduksjon }
+\input{solcelle_teori}
+
+
+
+
+\end{document}
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
