@@ -3,8 +3,8 @@ Type=TeXnicCenterProjectInformation
 Version=4
 
 [ProjectInfo]
-MainFile=solcelle.tex
-UseBibTeX=0
+MainFile=Latex_filer.tex
+UseBibTeX=1
 UseMakeIndex=0
 ActiveProfile=LaTeX => DVI
 ProjectLanguage=
