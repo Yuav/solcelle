@@ -14,8 +14,8 @@ Et fritt elektron i vakuum vil kunne innta en hvilken som helst energi. Et elekt
     	\draw[very thick,->] (1,6) -- node[left] {\begin{sideways}Energi\end{sideways}} (1,18); % Y akse
     
     \begin{scope} % Valens og ledningsbånd
-		    \draw[thick] (2,7) rectangle node {Valensbånd} ++(22,4);
-        \draw[thick] (2,13) rectangle node {Ledningsbånd} ++(22,4);
+		    \draw[thick,fill=black!10] (2,7) rectangle node {Valensbånd} ++(22,4);
+        \draw[thick,fill=black!10] (2,13) rectangle node {Ledningsbånd} ++(22,4);
         \draw[thick,<->] (13,13) -- node[right] {Båndgap} (13,11); % Pil
     \end{scope}
     \end{tikzpicture}    \caption{Energibånd}
@@ -35,8 +35,8 @@ Materialer deles ofte inn i tre kategorier; Isolatorer, halvledere, og metaller.
 
 \begin{tikzpicture}
  	% Styles til elementer (kan også være generelle utenfor tikzpicture)
-	\tikzstyle{ledningsband} 	=	[rectangle, draw, thick, text width=9em, text centered, minimum height=1.6cm]
-	\tikzstyle{valensband}		= [rectangle, draw, thick, text width=9em, text centered, minimum height=1.6cm]
+	\tikzstyle{ledningsband} 	=	[rectangle, draw, thick, fill=black!10, text width=9em, text centered, minimum height=1.6cm]
+	\tikzstyle{valensband}		= [rectangle, draw, thick, fill=black!10, text width=9em, text centered, minimum height=1.6cm]
 
 
 	% Boksene i bunnen
@@ -170,9 +170,9 @@ Elektronet kan gå fra det ene båndet til det andre direkte eller indirekte. Ved 
 \begin{tikzpicture}
 
 % Styles til elementer
-\tikzstyle{band} 	=	[rectangle, draw, thick, text width=12em, text centered, minimum height=1em]
+\tikzstyle{band} 	=	[rectangle, draw, thick, text width=12em, fill=black!10, text centered, minimum height=1em]
 \tikzstyle{e} 	=	[circle, draw, fill=black] % radius=0.2cm
-\tikzstyle{h} 	=	[circle, draw] % radius=0.2cm
+\tikzstyle{h} 	=	[circle, draw, fill=white] % radius=0.2cm
 
 	% Direkte
 	\node[band]	(direkte_valens)																									{};
