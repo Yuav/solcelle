@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  6 OCT 2009 15:06
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  6 OCT 2009 15:12
 entering extended mode
 **Latex_filer.tex
 
@@ -780,10 +780,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  14791 strings out of 495286
  271550 string characters out of 3180369
- 742086 words of memory out of 3000000
+ 742878 words of memory out of 3000000
  17644 multiletter control sequences out of 15000+200000
  16368 words of font info for 49 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,6n,58p,1011b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (5 pages, 429952 bytes).
+Output written on Latex_filer.dvi (5 pages, 432280 bytes).
