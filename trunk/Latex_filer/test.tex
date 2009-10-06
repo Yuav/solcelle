@@ -1,10 +1,11 @@
  % Tegning
  \begin{tikzpicture}[scale=0.5]
+     	\draw[very thick,->] (1,6) -- node[below] {x}  (25,6); % X akse
+    	\draw[very thick,->] (1,6) -- node[left] {Energi} (1,18); % Y akse
+    
     \begin{scope} % Valens og ledningsbånd
-        \draw[thick] (2,7) rectangle node {Valensbånd} 
-            ++(22,4);
-        \draw[thick] (2,13) rectangle node {Ledningsbånd} 
-            ++(22,4);
+		    \draw[thick] (2,7) rectangle node {Valensbånd} ++(22,4);
+        \draw[thick] (2,13) rectangle node {Ledningsbånd} ++(22,4);
         \draw[thick,<->] (13,13) -- node[right] {Båndgap} (13,11); % Pil
     \end{scope}
     \end{tikzpicture}
