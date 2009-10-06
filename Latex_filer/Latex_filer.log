@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  6 OCT 2009 15:12
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  6 OCT 2009 15:33
 entering extended mode
 **Latex_filer.tex
 
@@ -677,31 +677,31 @@ File: pdfmark.def 2009/09/10 v6.78u Hyperref definitions for pdfmark specials
 ))
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -710,8 +710,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
@@ -719,11 +719,11 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box42
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -731,59 +731,54 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
 elle_teori.tex" [1
 
-]
-
-LaTeX Warning: Citation `streetman' on page 2 undefined on input line 75.
-
-[2]
-Overfull \hbox (7.54541pt too wide) in paragraph at lines 124--125
+] [2] [3]
+Overfull \hbox (7.54541pt too wide) in paragraph at lines 125--126
 []\T1/cmr/m/n/10.95 Det er to mekanis-mer som bidrar til trans-port av elek-tro
 ner og hull i halvledere:
  []
 
-[3]
 
-LaTeX Warning: Citation `streetman' on page 4 undefined on input line 161.
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
 
 
-Overfull \hbox (44.36595pt too wide) in paragraph at lines 188--188
+Overfull \hbox (44.36595pt too wide) in paragraph at lines 190--190
 [][]\T1/cmr/m/n/10.95 Ledningsbånd  
  []
 
 
-Overfull \hbox (32.72105pt too wide) in paragraph at lines 189--189
+Overfull \hbox (32.72105pt too wide) in paragraph at lines 191--191
 [][]\T1/cmr/m/n/10.95 Valensbånd  
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (5.71133pt too wide) in paragraph at lines 228--229
+[4]
+Overfull \hbox (5.71133pt too wide) in paragraph at lines 230--231
 \T1/cmr/m/n/10.95 sjon av elek-troner til led-nings-bån-det, $\OML/cmm/m/it/10.
 95 U[]$\T1/cmr/m/n/10.95 , pro-posjon-alt med avviket fra likevekt 
  []
 
-[4]
-Overfull \hbox (6.42833pt too wide) in paragraph at lines 235--236
+
+Overfull \hbox (6.42833pt too wide) in paragraph at lines 237--238
 \T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
 om-biner-er. Tilsvarende
  []
 
-) [5]
+)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+x_filer.bbl") [5]
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
+x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 14791 strings out of 495286
- 271550 string characters out of 3180369
- 742878 words of memory out of 3000000
+ 14794 strings out of 495286
+ 271730 string characters out of 3180369
+ 741909 words of memory out of 3000000
  17644 multiletter control sequences out of 15000+200000
- 16368 words of font info for 49 fonts, out of 3000000 for 9000
+ 16274 words of font info for 49 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,6n,58p,1011b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (5 pages, 432280 bytes).
+Output written on Latex_filer.dvi (5 pages, 433320 bytes).
