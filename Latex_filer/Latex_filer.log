@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.2)  6 OCT 2009 14:21
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  6 OCT 2009 15:06
 entering extended mode
 **Latex_filer.tex
 
@@ -554,7 +554,15 @@ File: pgflibraryshapes.multipart.code.tex 2008/01/15 v2.00 (rcs-revision 1.7)
 \pgfnodepartthirdbox=\box38
 \pgfnodepartfourthbox=\box39
 )))
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\rotating\
+rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count136
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box40
+\rot@mess@toks=\toks29
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2009/09/10 v6.78u Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
@@ -576,8 +584,8 @@ O)
 Package: xcolor-patch 2008/09/08 xcolor patch
 ))
 \@linkdim=\dimen167
-\Hy@linkcounter=\count136
-\Hy@pagecounter=\count137
+\Hy@linkcounter=\count137
+\Hy@pagecounter=\count138
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2009/09/10 v6.78u Hyperref: PDFDocEncoding definition (HO)
@@ -636,10 +644,10 @@ Package ifluatex Info: LuaTeX not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected on input line 144.
 )))
-\Fld@menulength=\count138
+\Fld@menulength=\count139
 \Field@Width=\dimen168
 \Fld@charsize=\dimen169
-\Field@toks=\toks29
+\Field@toks=\toks30
 Package hyperref Info: Hyper figures OFF on input line 4346.
 Package hyperref Info: Link nesting OFF on input line 4351.
 Package hyperref Info: Hyper index ON on input line 4354.
@@ -651,9 +659,9 @@ Package hyperref Info: PDF/A mode OFF on input line 4376.
 ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count139
-\c@Item=\count140
-\c@Hfootnote=\count141
+\Hy@abspage=\count140
+\c@Item=\count141
+\c@Hfootnote=\count142
 )
 *hyperref using default driver hdvips*
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hdvips.def"
@@ -661,61 +669,61 @@ File: hdvips.def 2009/09/10 v6.78u Hyperref driver for dvips
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pdfmark.def"
 File: pdfmark.def 2009/09/10 v6.78u Hyperref definitions for pdfmark specials
-\pdf@docset=\toks30
-\pdf@box=\box40
-\pdf@toks=\toks31
-\pdf@defaulttoks=\toks32
-\Fld@listcount=\count142
+\pdf@docset=\toks31
+\pdf@box=\box41
+\pdf@toks=\toks32
+\pdf@defaulttoks=\toks33
+\Fld@listcount=\count143
 ))
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
 \@outlinefile=\write4
-\AtBeginShipoutBox=\box41
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+\AtBeginShipoutBox=\box42
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -736,10 +744,6 @@ ner og hull i halvledere:
 [3]
 
 LaTeX Warning: Citation `streetman' on page 4 undefined on input line 161.
-
-
-LaTeX Warning: Reference `fig:indirekte' on page 4 undefined on input line 166.
-
 
 
 Overfull \hbox (44.36595pt too wide) in paragraph at lines 188--188
@@ -772,17 +776,14 @@ x_filer.aux")
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14728 strings out of 495286
- 270544 string characters out of 3180369
- 740547 words of memory out of 3000000
- 17585 multiletter control sequences out of 15000+200000
+ 14791 strings out of 495286
+ 271550 string characters out of 3180369
+ 742086 words of memory out of 3000000
+ 17644 multiletter control sequences out of 15000+200000
  16368 words of font info for 49 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,6n,58p,1011b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,6n,58p,1011b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (5 pages, 428420 bytes).
+Output written on Latex_filer.dvi (5 pages, 429952 bytes).
