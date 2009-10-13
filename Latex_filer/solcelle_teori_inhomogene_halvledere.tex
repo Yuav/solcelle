@@ -1,0 +1,53 @@
+\subsection{Solceller}
+
+En halvleder med et p-dopet og et n-dopen område som ligger inntil hvernadre kalles en pn-overgang. En slik pn-overgang har likerettende egenskaper. Det vil si at den leder strøm vesentlig bedre i den ene retningen enn den andre. Denne oppførselen definerer en diode. Siden p-siden har en konsentrasjon av elektroner i ledningsbåndet som er vesengli lavere enn n-sidens konsentrasjon av elektroner i ledningsbåndet, vil vi få en transport av ledningsbånd-elektroner fra n.siden til p-siden ved diffusjon. Det samme skjer også for hull fra p-siden til n-siden. Denne strømmen av ladnings kalles diffusjonsstrømmen. I prinsippet kan også dopantene Si, B og P diffundere mellom de to delene av krystallen, men er bare betydelig for veldig høye tempraturer, altså ikke vesengig i romtempratur.
+
+% figur fra s. 14 i kompendiet
+
+Deplesjonssjiktet er området nær grenseflaten mellom de to dopekonsentrasjonene som vil være essensielt tømt for frie ladningsbærere. Siden n-siden av deplesjonssjiktet inneholder donorer uten tilhørende elektron vil denne siden være positivt ladet, og tilsvarende vil p-siden være negativt ladet. Dette gjør at det oppstår et elektrisk felt fra n- til p-siden, eller et fall i potensial fra n-siden til p-siden. Dette feltet fører til en driftstrøm som går i motsatt retning av diffusjonsstrømmen og fører til 0 netto strøm, eller likevekt.
+
+Ved belysning genereres det minoritetsbærere i pn-overgangen utover de som genereres termisk ved at fotoner eksiterer elektroner til ledningsbåndet. Denne generingen er ofte vesentlig større enn driftstrømmen. Denne strømmen er uavhengig av potensialforskjellene i pn-overgangen. For en diode i mørke er det gitt en strøm-spenning karakteristikk gitt av:
+
+\begin{equation}
+I=|I_drift|e^{\frac{qV}{kT}-1}
+\label{eq:diodeiv}
+\end{equation}
+
+Når pn-overgangen blir belyst vil driftstrømmen øke, og forskyve strøm-spenning karakteristikken nedover
+
+% figur fra side 22 i kompendiet
+
+For solceller defineres ofte strøm ut av cellen som positiv, slik at karakteristrikken vendes om V-aksen
+
+\begin{equation}
+I=I_belysning-I_drift(e^{\frac{qV}{kT}-1)}
+\label{eq:solcelleiv}
+\end{equation}
+
+hvor $I_belysning$ er strøm generert av lys. Spenningen ved åpen krets er gitt ved:
+
+\begin{equation}
+V_OC=\frac{kT}{q}lan(\frac{I_belysning}{I_drift}+1)
+\label{eq:voc}
+\end{equation}
+
+Maks effekt som genereres av solcellen er gitt av:
+
+\begin{equation}
+P_m=I_m V_m
+\label{eq:piv}
+\end{equation}
+
+Hvor $P_m$ er maks effekt, $I_m$ er maks strøm og $V_m$ er maks spenning. Fyllfaktoren FF er gitt av faktisk effekt ut, over teoretisk maks effekt:
+
+\begin{equation}
+FF=\frac{I_m V_m}{I_belysning V_OC}
+\label{eq:fyllfaktor}
+\end{equation}
+
+Virkningsgraden til en solceller er representert ved \nu, som er gitt ved:
+
+\begin{equation}
+\nu=\frac{P_m}{P_inn}=FF \frac{I_belysning V_OC}{P_inn}
+\label{eq:virkningsgrad}
+\end{equation}
