@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  13 OCT 2009 15:37
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  21 OCT 2009 15:39
 entering extended mode
 **Latex_filer.tex
 
@@ -503,6 +503,10 @@ ules\pgfmoduledecorations.code.tex"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibrarydecorations.pathmorphing.code.tex"))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
+ntendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
+raries\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\libraries\tikzlibraryshapes.code.tex"
 File: tikzlibraryshapes.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
@@ -719,12 +723,8 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box42
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 26.
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 26.
@@ -732,27 +732,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori_inhomogene_halvledere.tex") [1
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\test
+.tex") [1
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.bbl") [2
+x_filer.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [2
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.aux")
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 14566 strings out of 495286
- 267336 string characters out of 3180369
- 368733 words of memory out of 3000000
- 17416 multiletter control sequences out of 15000+200000
- 14743 words of font info for 43 fonts, out of 3000000 for 9000
+ 14736 strings out of 495286
+ 270887 string characters out of 3180369
+ 373588 words of memory out of 3000000
+ 17571 multiletter control sequences out of 15000+200000
+ 19859 words of font info for 61 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,6n,58p,383b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,7n,61p,383b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (2 pages, 8800 bytes).
+Output written on Latex_filer.dvi (2 pages, 20316 bytes).
