@@ -2,16 +2,60 @@
 
 En halvleder med et p-dopet og et n-dopet område som ligger inntil hverandre kalles en pn-overgang. En slik pn-overgang har likerettende egenskaper. Det vil si at den leder strøm vesentlig bedre i den ene retningen enn den andre. Denne oppførselen definerer en diode. Siden p-siden har en konsentrasjon av elektroner i ledningsbåndet som er vesentlig lavere enn n-sidens konsentrasjon av elektroner i ledningsbåndet, vil vi få en transport av ledningsbånd-elektroner fra n-siden til p-siden ved diffusjon. Det samme skjer også for hull fra p-siden til n-siden. Denne strømmen av ladnings kalles diffusjonsstrømmen. I prinsippet kan også dopantene Si, B og P diffundere mellom de to delene av krystallen, men er bare betydelig for veldig høye temperaturer, altså ikke vesentlig i romtemperatur.
 
-tikz
-
 % figur fra s. 14 i kompendiet
+
+\begin{figure}[!h]%
+
+\begin{tikzpicture}
+
+	\tikzstyle{box} 	=	[rectangle, draw, thick, fill=black!10, minimum width=15em, minimum height=3cm]
+	\tikzstyle{ladning} 	=	[circle, draw, fill=black!20, minimum size=0.6cm]
+	\def\edistance{0.6cm}
+	
+	\node[box]	(p)	{p};
+	\node[box]	(n) [right of=p, node distance=15em]	{n};
+	
+	\node[ladning] (p3) [right of=p, node distance=8.35em] 	{\tiny{+}};
+	\node[ladning] (p2) [above of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p1) [above of=p2, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p4) [below of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p5) [below of=p4, node distance=\edistance] {\tiny{+}};
+	
+	\node[ladning] (n3) [left of=n, node distance=8.35em] 			{\small{-}};
+	\node[ladning] (n2) [above of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n1) [above of=n2, node distance=\edistance] {\small{-}};
+	\node[ladning] (n4) [below of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n5) [below of=n4, node distance=\edistance] {\small{-}};
+	
+	% Draw curly braces using path decoration
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (2.2,1.6) -- (3.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize $|E|>>0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (-2.8,1.6) -- (2.1,1.6)
+   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (3.6,1.6) -- (8.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
+
+	% Strømpiler
+	\draw [thick,<-] (2,-1.8) -- (3.6,-1.8) node [right=2pt]	{$I_{drift}$}; 
+	\draw [thick,->] (2,-2.3) -- (3.6,-2.3) node [left=45pt]	{$I_{diffusjon}$}; 
+
+\end{tikzpicture}
+
+\caption{Deplesjonssjiktet}%
+\label{fig:deplesjonssjiktet}%
+\end{figure}
 
 Deplesjonssjiktet er området nær grenseflaten mellom de to dopekonsentrasjonene som vil være essensielt tømt for frie ladningsbærere. Siden n-siden av deplesjonssjiktet inneholder donorer uten tilhørende elektron vil denne siden være positivt ladet, og tilsvarende vil p-siden være negativt ladet. Dette gjør at det oppstår et elektrisk felt fra n- til p-siden, eller et fall i potensial fra n-siden til p-siden. Dette feltet fører til en driftstrøm som går i motsatt retning av diffusjonsstrømmen og fører til 0 netto strøm, eller likevekt.
 
 Ved belysning genereres det minoritetsbærere i pn-overgangen utover de som genereres termisk ved at fotoner eksiterer elektroner til ledningsbåndet. Denne genereringen er ofte vesentlig større enn driftstrømmen. Denne strømmen er uavhengig av potensialforskjellene i pn-overgangen. For en diode i mørke er det gitt en strøm-spenning karakteristikk gitt av:
 
 \begin{equation}
-I=|I_drift|e^{\frac{qV}{kT}-1}
+I=|I_{drift}|e^{\frac{qV}{kT}-1}
 \label{eq:diodeiv}
 \end{equation}
 
@@ -22,14 +66,14 @@ Når pn-overgangen blir belyst vil driftstrømmen øke, og forskyve strøm-spenning 
 For solceller defineres ofte strøm ut av cellen som positiv, slik at karakteristikken vendes om V-aksen
 
 \begin{equation}
-I=I_belysning-I_drift(e^{\frac{qV}{kT}-1)}
+I=I_{belysning}-I_{drift}(e^{\frac{qV}{kT}-1})
 \label{eq:solcelleiv}
 \end{equation}
 
-hvor $I_belysning$ er strøm generert av lys. Spenningen ved åpen krets er gitt ved:
+hvor $I_{belysning}$ er strøm generert av lys. Spenningen ved åpen krets er gitt ved:
 
 \begin{equation}
-V_OC=\frac{kT}{q}lan(\frac{I_belysning}{I_drift}+1)
+V_{OC}=\frac{kT}{q}\ln(\frac{I_{belysning}}{I_{drift}}+1)
 \label{eq:voc}
 \end{equation}
 
@@ -43,15 +87,15 @@ P_m=I_m V_m
 Hvor $P_m$ er maks effekt, $I_m$ er maks strøm og $V_m$ er maks spenning. Fyllfaktoren FF er gitt av faktisk effekt ut, over teoretisk maks effekt:
 
 \begin{equation}
-FF=\frac{I_m V_m}{I_belysning V_OC}
+FF=\frac{I_m V_m}{I_{belysning} V_{OC}}
 \label{eq:fyllfaktor}
 \end{equation}
 
 % fyllfaktor figur
 
-Virkningsgraden til en solcelle er representert ved \nu, som er gitt ved:
+Virkningsgraden til en solcelle er representert ved $\nu$, som er gitt ved:
 
 \begin{equation}
-\nu=\frac{P_m}{P_inn}=FF \frac{I_belysning V_OC}{P_inn}
+\nu=\frac{P_m}{P_{inn}}=FF \frac{I_{belysning} V_{OC}}{P_{inn}}
 \label{eq:virkningsgrad}
 \end{equation}
