@@ -1,62 +1,51 @@
-\begin{tikzpicture}[xscale=4,yscale=1]
-    \tkzinit[xmax=3,ymax=3,ymin=-4];
-    \tkzgrid
-    \tkzx
-    \tkzy
-    \tkzfct[color=red](0.35..3){-3/(x*x) +4/(3*x-1)}
-    \tkzfct[color=blue](0.35..3){-3/(x*x) +27/(4*(3*x-1))}
-    \tkzfct[color=orange](0.35..3){-3/(x*x) +8/(3*x-1)}
-    \tkzfct[color=green](0.35..3){-3/(x*x) +7/(3*x-1)}
-    \node[draw,inner sep =10pt,fill=orange!30] at (2,-2)%
-        {$f(x)=-\dfrac{3}{x^2}+\dfrac{8\alpha}{3x-1}$%
-    \hspace{.5cm} avec%
-    \ $\alpha \in%
-    \left\{\dfrac{1}{2}~;~\dfrac{27}{32}~;~\dfrac{7}{8}~;~1\right\}$};
-\end{tikzpicture}%
-%
-\begin{tikzpicture}[scale=1]
-    \tkzinit[xmin=-2,xmax=3,ymax=3]
-    \tkzgrid[color=orange](-2,0)(3,3)
-    \tkzx[orig]
-    \tkzy
-    \tkzfct[label = false,%
-    samples = 200,%
-    lw = 1pt,
-    color = red](-1..2)%
-    {(x*x*x+x*x)**(0.5)}
-    \tkztg{\tkzfcta}(0)
-    \tkztxt[style = {draw},%
-    color = red,%
-    bkgcolor = orange!20](2,1)%
-    {$f(x)=\sqrt{x^3+x^2}$}
-\end{tikzpicture}\\%
-%
-%
-\begin{tikzpicture}[scale=1.4]%
-    \tkzinit[xmax=800,xstep=100,ymax=2000,ystep=400]
-    \tkzgrid[xstep=100,ystep=400](0,0)(800,2000)
-    \tkzx
-    \tkzy
-    \tkzfct[lw=0.8pt](0..800)%
-        {(1./90000)*\x*\x*\x-(1./100)*\x*\x+(113./36)*\x}
-    \tkzpt[coord](450,400){A}
-    \tkzpt(800,1800){}
-    \tkztg[color=blue,lw=.8pt,kr=300,kl=450]{\tkzfcta}(450)
-    \tkztxt[style    = draw,%
-            color    = black,%
-            bkgcolor = bistre!50]%
-        (300,1200)%
-    {$f(x)=\dfrac{1}{90000}x^3 -\dfrac{1}{{100}}x^2 +\dfrac{113}{36}x$}
-\end{tikzpicture}%
-%
-\begin{tikzpicture}%
-    \tkzinit[xmax=6,ymax=7]
-    \tkzgrid(0,0)(6,7)
-    \tkzx
-    \tkzy
-    \tkzfct[label=false](0..6){x}
-    \tkzfct[label=false](6..-0.5){log(x)}
-    \tkzairefg[color=orange!60](1..5){\tkzfctgnua}{\tkzfctgnub}
-    \rep%
-\end{tikzpicture}%
+\begin{figure}%
 
+\begin{tikzpicture}
+
+	\tikzstyle{box} 	=	[rectangle, draw, thick, fill=black!10, minimum width=15em, minimum height=3cm]
+	\tikzstyle{ladning} 	=	[circle, draw, fill=black!20, minimum size=0.6cm]
+	\def\edistance{0.6cm}
+	
+	\node[box]	(p)	{p};
+	\node[box]	(n) [right of=p, node distance=15em]	{n};
+	
+	\node[ladning] (p3) [right of=p, node distance=8.35em] 	{\tiny{+}};
+	\node[ladning] (p2) [above of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p1) [above of=p2, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p4) [below of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p5) [below of=p4, node distance=\edistance] {\tiny{+}};
+	
+	\node[ladning] (n3) [left of=n, node distance=8.35em] 			{\small{-}};
+	\node[ladning] (n2) [above of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n1) [above of=n2, node distance=\edistance] {\small{-}};
+	\node[ladning] (n4) [below of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n5) [below of=n4, node distance=\edistance] {\small{-}};
+	
+	% Draw curly braces using path decoration
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (2.2,1.6) -- (3.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize $|E|>>0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (-2.8,1.6) -- (2.1,1.6)
+   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (3.6,1.6) -- (8.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
+
+	% Strømpiler
+	\draw [thick,<-] (2,-1.8) -- (3.6,-1.8) node [right=2pt]	{$I_{drift}$}; 
+	\draw [thick,->] (2,-2.3) -- (3.6,-2.3) node [left=45pt]	{$I_{diffusjon}$}; 
+
+
+% Potensialforskjeller
+
+
+
+
+\end{tikzpicture}
+
+\caption{Deplesjonssjiktet}%
+\label{fig:deplesjonssjiktet}%
+\end{figure}

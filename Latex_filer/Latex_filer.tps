@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=7
-ActiveFrame=6
+FrameCount=6
+ActiveFrame=5
 
 [Frame0]
 Columns=1
@@ -61,7 +61,7 @@ cxCur=1011
 cxMin=10
 
 [Frame1_View0,0]
-Cursor.row=245
+Cursor.row=0
 Cursor.column=0
 TopSubLine=275
 
@@ -119,8 +119,8 @@ cxCur=1011
 cxMin=10
 
 [Frame3_View0,0]
-Cursor.row=28
-Cursor.column=43
+Cursor.row=0
+Cursor.column=0
 TopSubLine=7
 
 [Frame4]
@@ -148,40 +148,11 @@ cxCur=1011
 cxMin=10
 
 [Frame4_View0,0]
-Cursor.row=45
-Cursor.column=14
+Cursor.row=0
+Cursor.column=0
 TopSubLine=30
 
 [Frame5]
-Columns=1
-Rows=1
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-4
-MaxPos.y=-30
-NormalPos.left=110
-NormalPos.top=145
-NormalPos.right=1150
-NormalPos.bottom=570
-Class=CLatexEdit
-Document=
-
-[Frame5_Row0]
-cyCur=370
-cyMin=10
-
-[Frame5_Col0]
-cxCur=1011
-cxMin=10
-
-[Frame5_View0,0]
-Cursor.row=0
-Cursor.column=0
-TopSubLine=0
-
-[Frame6]
 Columns=1
 Rows=1
 Flags=2
@@ -197,16 +168,16 @@ NormalPos.bottom=599
 Class=CLatexEdit
 Document=tap.tex
 
-[Frame6_Row0]
+[Frame5_Row0]
 cyCur=607
 cyMin=10
 
-[Frame6_Col0]
+[Frame5_Col0]
 cxCur=1173
 cxMin=10
 
-[Frame6_View0,0]
-Cursor.row=25
-Cursor.column=71
+[Frame5_View0,0]
+Cursor.row=0
+Cursor.column=0
 TopSubLine=0
 
