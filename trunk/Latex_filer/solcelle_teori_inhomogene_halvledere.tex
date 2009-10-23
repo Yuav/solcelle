@@ -2,6 +2,8 @@
 
 En halvleder med et p-dopet og et n-dopet område som ligger inntil hverandre kalles en pn-overgang. En slik pn-overgang har likerettende egenskaper. Det vil si at den leder strøm vesentlig bedre i den ene retningen enn den andre. Denne oppførselen definerer en diode. Siden p-siden har en konsentrasjon av elektroner i ledningsbåndet som er vesentlig lavere enn n-sidens konsentrasjon av elektroner i ledningsbåndet, vil vi få en transport av ledningsbånd-elektroner fra n-siden til p-siden ved diffusjon. Det samme skjer også for hull fra p-siden til n-siden. Denne strømmen av ladnings kalles diffusjonsstrømmen. I prinsippet kan også dopantene Si, B og P diffundere mellom de to delene av krystallen, men er bare betydelig for veldig høye temperaturer, altså ikke vesentlig i romtemperatur.
 
+Deplesjonssjiktet er et område nær grenseflaten mellom de to dopekonsentrasjonene som vil være essensielt tømt for frie ladningsbærere. Siden n-siden av deplesjonssjiktet inneholder donorer uten tilhørende elektron vil denne siden være positivt ladet, og tilsvarende vil p-siden være negativt ladet. Dette gjør at det oppstår et elektrisk felt fra n- til p-siden, eller et fall i potensial fra n-siden til p-siden. Dette feltet fører til en driftstrøm som går i motsatt retning av diffusjonsstrømmen og fører til 0 netto strøm, eller likevekt.
+
 % figur fra s. 14 i kompendiet
 
 \begin{figure}[!h]%
@@ -50,8 +52,6 @@ En halvleder med et p-dopet og et n-dopet område som ligger inntil hverandre kal
 \label{fig:deplesjonssjiktet}%
 \end{figure}
 
-Deplesjonssjiktet er området nær grenseflaten mellom de to dopekonsentrasjonene som vil være essensielt tømt for frie ladningsbærere. Siden n-siden av deplesjonssjiktet inneholder donorer uten tilhørende elektron vil denne siden være positivt ladet, og tilsvarende vil p-siden være negativt ladet. Dette gjør at det oppstår et elektrisk felt fra n- til p-siden, eller et fall i potensial fra n-siden til p-siden. Dette feltet fører til en driftstrøm som går i motsatt retning av diffusjonsstrømmen og fører til 0 netto strøm, eller likevekt.
-
 Ved belysning genereres det minoritetsbærere i pn-overgangen utover de som genereres termisk ved at fotoner eksiterer elektroner til ledningsbåndet. Denne genereringen er ofte vesentlig større enn driftstrømmen. Denne strømmen er uavhengig av potensialforskjellene i pn-overgangen. For en diode i mørke er det gitt en strøm-spenning karakteristikk gitt av:
 
 \begin{equation}
@@ -62,6 +62,29 @@ I=|I_{drift}|e^{\frac{qV}{kT}-1}
 Når pn-overgangen blir belyst vil driftstrømmen øke, og forskyve strøm-spenning karakteristikken nedover
 
 % figur fra side 22 i kompendiet
+\begin{figure}[!h]
+\centering
+\begin{tikzpicture}
+
+	\draw [->] (-3,0) -- (3,0) node [right=5pt]	{V};  % Y-akse
+	\draw [->] (0,-2) -- (0,3) node [above=5pt]	{I}; % X-akse
+
+	% Diode
+	\draw [dashed,-] (-3,-0.2) -- (-1,-0.2);
+	\draw [dashed,-] (-1,-0.2) .. controls +(right:1.2cm) .. (1.5,3);
+	\draw [->, >=triangle 45] (-2.5,0.5) -- node[right] {$I_{drift}$} (-2.5,0);
+	\draw [->, >=triangle 45] (-2.5,-0.7) -- (-2.5,-0.2);
+	
+	% Solcelle
+	\draw [-] (-3,-1.8) -- (-1,-1.8);
+	\draw [-] (-1,-1.8) .. controls +(right:1.5cm) .. (1.5,2);
+	\draw [<->, >=triangle 45] (-1.7,-1.8) -- node[right] {$I_{belysning}$} (-1.7,-0.2);
+
+\end{tikzpicture}
+
+\caption{Strøm-spenningskarakterisitikken for en solcelle}%
+\label{fig:ivsolcelle}%
+\end{figure}
 
 For solceller defineres ofte strøm ut av cellen som positiv, slik at karakteristikken vendes om V-aksen
 
@@ -93,9 +116,11 @@ FF=\frac{I_m V_m}{I_{belysning} V_{OC}}
 
 % fyllfaktor figur
 
-Virkningsgraden til en solcelle er representert ved $\nu$, som er gitt ved:
+
+
+Virkningsgraden til en solcelle er representert ved $\eta$, som er gitt ved:
 
 \begin{equation}
-\nu=\frac{P_m}{P_{inn}}=FF \frac{I_{belysning} V_{OC}}{P_{inn}}
+\eta=\frac{P_m}{P_{inn}}=FF \frac{I_{belysning} V_{OC}}{P_{inn}}
 \label{eq:virkningsgrad}
 \end{equation}
