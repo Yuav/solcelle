@@ -5,6 +5,7 @@
 \usepackage{graphicx}					% For å kunne inkludere grafikk
 \usepackage{amsmath, amsfonts, amssymb} % Pakker for å skrive matte
 \usepackage[amssymb]{SIunits} % For å bruke \unit til SI-enheter
+\usepackage{float} % For å bruke H som posisjon
 
 % Tegninger, som båndgap
 \usepackage{tikz,tkz-tab}
@@ -22,13 +23,16 @@
 
 
 \begin{document}
+ \DeclareGraphicsExtensions{.pdf,.jpg,.png}
+	\graphicspath{{./bilder/}}
 \maketitle
 
-%\input{introduksjon }
-%\input{solcelle_teori}
-%\input{solcelle_teori_inhomogene_halvledere}
+%\input{introduksjon}
+\input{solcelle_teori}
+\input{solcelle_teori_inhomogene_halvledere}
+\input{tap}
 %\input(malemetode)
-\input{test}
+%\input{test}
 
 
 \clearpage

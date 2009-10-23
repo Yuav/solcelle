@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=7
-ActiveFrame=4
+FrameCount=8
+ActiveFrame=5
 
 [Frame0]
 Columns=1
@@ -61,9 +61,9 @@ cxCur=1011
 cxMin=10
 
 [Frame1_View0,0]
-Cursor.row=214
-Cursor.column=48
-TopSubLine=237
+Cursor.row=33
+Cursor.column=60
+TopSubLine=24
 
 [Frame2]
 Columns=1
@@ -90,8 +90,8 @@ cxCur=1011
 cxMin=10
 
 [Frame2_View0,0]
-Cursor.row=16
-Cursor.column=32
+Cursor.row=12
+Cursor.column=18
 TopSubLine=0
 
 [Frame3]
@@ -119,15 +119,15 @@ cxCur=1011
 cxMin=10
 
 [Frame3_View0,0]
-Cursor.row=29
-Cursor.column=3
-TopSubLine=9
+Cursor.row=27
+Cursor.column=10
+TopSubLine=0
 
 [Frame4]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -140,23 +140,23 @@ Class=CLatexEdit
 Document=solcelle_teori_inhomogene_halvledere.tex
 
 [Frame4_Row0]
-cyCur=607
+cyCur=370
 cyMin=10
 
 [Frame4_Col0]
-cxCur=1173
+cxCur=1011
 cxMin=10
 
 [Frame4_View0,0]
-Cursor.row=74
-Cursor.column=16
-TopSubLine=66
+Cursor.row=0
+Cursor.column=0
+TopSubLine=0
 
 [Frame5]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -169,16 +169,16 @@ Class=CLatexEdit
 Document=tap.tex
 
 [Frame5_Row0]
-cyCur=370
+cyCur=607
 cyMin=10
 
 [Frame5_Col0]
-cxCur=1011
+cxCur=1173
 cxMin=10
 
 [Frame5_View0,0]
-Cursor.row=19
-Cursor.column=30
+Cursor.row=16
+Cursor.column=17
 TopSubLine=0
 
 [Frame6]
@@ -208,5 +208,34 @@ cxMin=10
 [Frame6_View0,0]
 Cursor.row=14
 Cursor.column=0
+TopSubLine=0
+
+[Frame7]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-4
+MaxPos.y=-30
+NormalPos.left=0
+NormalPos.top=0
+NormalPos.right=1040
+NormalPos.bottom=425
+Class=CLatexEdit
+Document=teste_prosjekt.tex
+
+[Frame7_Row0]
+cyCur=370
+cyMin=10
+
+[Frame7_Col0]
+cxCur=1011
+cxMin=10
+
+[Frame7_View0,0]
+Cursor.row=20
+Cursor.column=1
 TopSubLine=0
 
