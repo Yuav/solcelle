@@ -1,45 +1,18 @@
-\begin{figure}%
-
+\begin{figure}[!h]
+\centering
 \begin{tikzpicture}
 
-	\tikzstyle{box} 	=	[rectangle, draw, thick, fill=black!10, minimum width=15em, minimum height=3cm]
-	\tikzstyle{ladning} 	=	[circle, draw, fill=black!20, minimum size=0.6cm]
-	\def\edistance{0.6cm}
-	
-	\node[box]	(p)	{p};
-	\node[box]	(n) [right of=p, node distance=15em]	{n};
-	
-	\node[ladning] (p3) [right of=p, node distance=8.35em] 	{\tiny{+}};
-	\node[ladning] (p2) [above of=p3, node distance=\edistance] {\tiny{+}};
-	\node[ladning] (p1) [above of=p2, node distance=\edistance] {\tiny{+}};
-	\node[ladning] (p4) [below of=p3, node distance=\edistance] {\tiny{+}};
-	\node[ladning] (p5) [below of=p4, node distance=\edistance] {\tiny{+}};
-	
-	\node[ladning] (n3) [left of=n, node distance=8.35em] 			{\small{-}};
-	\node[ladning] (n2) [above of=n3, node distance=\edistance] {\small{-}};
-	\node[ladning] (n1) [above of=n2, node distance=\edistance] {\small{-}};
-	\node[ladning] (n4) [below of=n3, node distance=\edistance] {\small{-}};
-	\node[ladning] (n5) [below of=n4, node distance=\edistance] {\small{-}};
-	
-	% Draw curly braces using path decoration
-	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
-   (2.2,1.6) -- (3.5,1.6)
-   node [black,midway,above=2pt] {\footnotesize $|E|>>0$};
+	\draw [->] (-0.3,0) -- (6,0) node [right=5pt]	{V};  % X-akse
+	\draw [->] (0,-0.3) -- (0,4) node [above=5pt]	{I}; % Y-akse
 
-	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
-   (-2.8,1.6) -- (2.1,1.6)
-   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
-
-	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
-   (3.6,1.6) -- (8.5,1.6)
-   node [black,midway,above=2pt] {\footnotesize Nøytralt, $E=0$};
-
-	% Strømpiler
-	\draw [thick,<-] (2,-1.8) -- (3.6,-1.8) node [right=2pt]	{$I_{drift}$}; 
-	\draw [thick,->] (2,-2.3) -- (3.6,-2.3) node [left=45pt]	{$I_{diffusjon}$}; 
-
+	% Faktisk kurve
+	\draw [-] (0,2.55) -- (3,2.5);
+	\draw [-] (3,2.5) .. controls +(right:1.6cm) .. (5.5,0);
+	% Fyllfaktor
+	\node [draw, rectangle,fill=black!10,minimum height=2.5cm, minimum width=1.6cm] (FF) at (1,1.25) {FF};
+	
 \end{tikzpicture}
 
-\caption{Deplesjonssjiktet}%
-\label{fig:deplesjonssjiktet}%
+\caption{Strøm-spenningskarakterisitikken for en solcelle}%
+\label{fig:ivsolcelle}%
 \end{figure}
