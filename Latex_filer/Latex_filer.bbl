@@ -1,3 +1,14 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{streetman}
+Sanjay Kumar~Banerjee Ben G.~Streetman.
+\newblock {\em Solid state electronic devices}.
+\newblock Prentice Hall, 2006.
+
+\bibitem{tarasov00}
+C.Haessler E.-U.~Reisner I.~Tarasov, S.~Ostapenko.
+\newblock Spatially resolved defect diagnostics in multicrystalline silicon for
+  solar cells.
+\newblock {\em Elsevier Science S.A}, 2000.
 
 \end{thebibliography}
