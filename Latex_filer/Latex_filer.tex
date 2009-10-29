@@ -15,7 +15,8 @@
 \usepackage{xcolor} % Farger
 \usepackage{rotating} % Rotere på stash
 
-\usepackage{hyperref} % For linker til kapitler
+\usepackage[bookmarks]{hyperref} % For linker til kapitler
+\usepackage{url}
 
 \author{Jon Skarpeteig}
 \title{Basis dokument}
@@ -31,9 +32,11 @@
 \input{solcelle_teori}
 \input{solcelle_teori_inhomogene_halvledere}
 \input{tap}
-%\input(malemetode)
+\input{maalemetode}
 %\input{test}
 
+\clearpage
+\input{vedlegg_transmisjon}
 
 \clearpage
 \bibliographystyle{plain}
