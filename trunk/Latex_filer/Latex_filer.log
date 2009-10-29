@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  23 OCT 2009 15:38
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  29 OCT 2009 14:11
 entering extended mode
 **Latex_filer.tex
 
@@ -622,6 +622,7 @@ Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
 t (HO)
 ))
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
 Package hyperref Info: Link nesting OFF on input line 2980.
 Package hyperref Info: Hyper index ON on input line 2983.
@@ -688,31 +689,31 @@ File: pdfmark.def 2009/09/10 v6.78u Hyperref definitions for pdfmark specials
 ))
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -721,8 +722,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
@@ -730,11 +731,11 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -772,28 +773,135 @@ om-biner-er. Tilsvarende
 
 )
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori_inhomogene_halvledere.tex" [5]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6] [7])
+elle_teori_inhomogene_halvledere.tex" [5] [6] [7])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\tap.
 tex"
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type eps)
- <./bilder/dislokasjonslinjer_tarasov00.png>) [8]
+ <./bilder/dislokasjonslinjer_tarasov00.png> [8])
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
+emetode.tex" [9]
+File: bilder/cryolabtap.png Graphic file (type eps)
+ <bilder/cryolabtap.png> [10
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 70.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (11.2486pt too wide) in paragraph at lines 70--71
+[][]\T1/cmr/m/n/10.95 Utstyr for å re-alis-ere dette oppset-tet kom-mer fra [][
+][][].
+ []
+
+[11]) [12]
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
+egg_transmisjon.tex"
+File: ./bilder/kameragraf.png Graphic file (type eps)
+ <./bilder/kameragraf.png>
+File: ./bilder/cryovindu.png Graphic file (type eps)
+ <./bilder/cryovindu.png>
+File: ./bilder/breamsplitter400-700nm.png Graphic file (type eps)
+
+<./bilder/breamsplitter400-700nm.png> [13
+
+]
+File: ./bilder/old_linse.png Graphic file (type eps)
+ <./bilder/old_linse.png>) [14]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.bbl") [9
+x_filer.bbl"
+Overfull \hbox (46.02255pt too wide) in paragraph at lines 9--11
+[][]\T1/cmr/m/n/10.95 Flip mount.  [][][][]. 
+ []
+
+
+Overfull \hbox (127.40216pt too wide) in paragraph at lines 13--15
+[][]\T1/cmr/m/n/10.95 Flip mount - lens hold-er.  [][][][]. 
+ []
+
+
+Overfull \hbox (130.09242pt too wide) in paragraph at lines 17--19
+[][]\T1/cmr/m/n/10.95 Mounted stain-less steel iris.  [][][][]. 
+ []
+
+
+Overfull \hbox (307.8417pt too wide) in paragraph at lines 21--25
+[][]\T1/cmr/m/n/10.95 idus in-gaas spec-troscopy ccd.  [][][][]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+[][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+[][]\T1/cmr/m/n/10.95 Uncoated uv fused sil-i-ca bi-convex lens.
+ []
+
+
+Overfull \hbox (4.94342pt too wide) in paragraph at lines 31--33
+[][][][]\T1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+[][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[][]\T1/cmr/m/n/10.95 50x mi-tu-toyo plan nir hr infinity-corrected ob-jec-tive
+.
+ []
+
+
+Overfull \hbox (106.7941pt too wide) in paragraph at lines 39--43
+[][][][]\T1/cmr/m/n/10.95 . 
+ []
+
+
+Overfull \hbox (75.54631pt too wide) in paragraph at lines 45--47
+[][]\T1/cmr/m/n/10.95 Acn127-020-b.  [][][][]. 
+ []
+
+
+Overfull \hbox (9.2722pt too wide) in paragraph at lines 49--51
+[][]\T1/cmr/m/n/10.95 Post.  [][][][]. 
+ []
+
+
+Overfull \hbox (39.04663pt too wide) in paragraph at lines 53--55
+[][]\T1/cmr/m/n/10.95 Post hold-er.  http://www.thorlabs.com/thorProduct.cfm?pa
+rtNumber=PH2/M. 
+ []
+
+
+Overfull \hbox (378.68948pt too wide) in paragraph at lines 63--67
+[][]\T1/cmr/m/n/10.95 Protected sil-ver mir-ror.  [][][][]. 
+ []
+
+
+Overfull \hbox (565.49239pt too wide) in paragraph at lines 69--73
+[][]\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  [][][][]. 
+ []
+
+) [15
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.aux") ) 
-Here is how much of TeX's memory you used:
- 15051 strings out of 495286
- 277292 string characters out of 3180369
- 745104 words of memory out of 3000000
- 17870 multiletter control sequences out of 15000+200000
- 21324 words of font info for 63 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 47i,7n,61p,1011b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+x_filer.aux")
 
-Output written on Latex_filer.dvi (9 pages, 466188 bytes).
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15114 strings out of 495286
+ 278850 string characters out of 3180369
+ 745899 words of memory out of 3000000
+ 17917 multiletter control sequences out of 15000+200000
+ 21638 words of font info for 64 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 47i,10n,61p,1011b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Latex_filer.dvi (15 pages, 496656 bytes).

@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=8
-ActiveFrame=5
+FrameCount=7
+ActiveFrame=6
 
 [Frame0]
 Columns=1
@@ -119,9 +119,9 @@ cxCur=1011
 cxMin=10
 
 [Frame3_View0,0]
-Cursor.row=27
-Cursor.column=10
-TopSubLine=0
+Cursor.row=33
+Cursor.column=17
+TopSubLine=11
 
 [Frame4]
 Columns=1
@@ -155,8 +155,8 @@ TopSubLine=0
 [Frame5]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -169,23 +169,23 @@ Class=CLatexEdit
 Document=tap.tex
 
 [Frame5_Row0]
-cyCur=607
+cyCur=370
 cyMin=10
 
 [Frame5_Col0]
-cxCur=1173
+cxCur=1011
 cxMin=10
 
 [Frame5_View0,0]
-Cursor.row=16
-Cursor.column=17
-TopSubLine=0
+Cursor.row=25
+Cursor.column=0
+TopSubLine=6
 
 [Frame6]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -198,44 +198,15 @@ Class=CLatexEdit
 Document=malemetode.tex
 
 [Frame6_Row0]
-cyCur=370
+cyCur=607
 cyMin=10
 
 [Frame6_Col0]
-cxCur=1011
+cxCur=1173
 cxMin=10
 
 [Frame6_View0,0]
-Cursor.row=14
+Cursor.row=15
 Cursor.column=0
-TopSubLine=0
-
-[Frame7]
-Columns=1
-Rows=1
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-4
-MaxPos.y=-30
-NormalPos.left=0
-NormalPos.top=0
-NormalPos.right=1040
-NormalPos.bottom=425
-Class=CLatexEdit
-Document=teste_prosjekt.tex
-
-[Frame7_Row0]
-cyCur=370
-cyMin=10
-
-[Frame7_Col0]
-cxCur=1011
-cxMin=10
-
-[Frame7_View0,0]
-Cursor.row=20
-Cursor.column=1
 TopSubLine=0
 
