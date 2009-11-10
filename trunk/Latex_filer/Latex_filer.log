@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  29 OCT 2009 14:11
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  4 NOV 2009 13:57
 entering extended mode
 **Latex_filer.tex
 
@@ -740,10 +740,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori.tex" [1
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
+oduksjon.tex"
 
-] [2] [3]
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
+
+)
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
+elle_teori.tex"
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3]
 Overfull \hbox (7.54541pt too wide) in paragraph at lines 130--131
 []\T1/cmr/m/n/10.95 Det er to mekanis-mer som bidrar til trans-port av elek-tro
 ner og hull i halvledere:
@@ -765,7 +779,7 @@ Overfull \hbox (5.71133pt too wide) in paragraph at lines 235--236
 95 U[]$\T1/cmr/m/n/10.95 , pro-posjon-alt med avviket fra likevekt 
  []
 
-
+[5]
 Overfull \hbox (6.42833pt too wide) in paragraph at lines 242--243
 \T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
 om-biner-er. Tilsvarende
@@ -773,28 +787,48 @@ om-biner-er. Tilsvarende
 
 )
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori_inhomogene_halvledere.tex" [5] [6] [7])
+elle_teori_inhomogene_halvledere.tex" [6] [7])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\tap.
-tex"
+tex" [8]
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type eps)
- <./bilder/dislokasjonslinjer_tarasov00.png> [8])
+ <./bilder/dislokasjonslinjer_tarasov00.png>)
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
+troskopi.tex"
+! Undefined control sequence.
+l.1 \subsecton
+              {Spektroskopi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
-emetode.tex" [9]
+emetode.tex"
+Overfull \hbox (5.99783pt too wide) in paragraph at lines 3--1
+[][]\T1/cmr/m/n/10.95 Spektroskopi benyt-ter seg av fo-to-lu-minisens. Når et e
+lek-tron-hull-par rekom-
+ []
+
+[9]
 File: bilder/cryolabtap.png Graphic file (type eps)
  <bilder/cryolabtap.png> [10
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 70.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (11.2486pt too wide) in paragraph at lines 70--71
+Overfull \hbox (11.2486pt too wide) in paragraph at lines 62--63
 [][]\T1/cmr/m/n/10.95 Utstyr for å re-alis-ere dette oppset-tet kom-mer fra [][
 ][][].
  []
 
-[11]) [12]
+[11])
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\test
+.tex") [12]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
 egg_transmisjon.tex"
 File: ./bilder/kameragraf.png Graphic file (type eps)
@@ -892,16 +926,19 @@ Overfull \hbox (565.49239pt too wide) in paragraph at lines 69--73
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15114 strings out of 495286
- 278850 string characters out of 3180369
- 745899 words of memory out of 3000000
- 17917 multiletter control sequences out of 15000+200000
- 21638 words of font info for 64 fonts, out of 3000000 for 9000
+ 15126 strings out of 495286
+ 279432 string characters out of 3180369
+ 751856 words of memory out of 3000000
+ 17919 multiletter control sequences out of 15000+200000
+ 22421 words of font info for 65 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,10n,61p,1011b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (15 pages, 496656 bytes).
+Output written on Latex_filer.dvi (15 pages, 502200 bytes).
