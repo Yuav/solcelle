@@ -1,7 +1,7 @@
 %set( 0, 'DefaultFigurePaperType', 'A5' );
 %set( 0, 'DefaultFigurePaperUnits', 'centimeters' );
 
-fontsize = 10;
+fontsize = 14;
 
 % Erbium referanseprøve ved 300K, pumpet med 532nm laser sendt gjennom
 % gammel veibane - 5s-1550nm-300k
@@ -21,13 +21,13 @@ figure(1);
 set(gca,'FontSize',fontsize)
 %axis([1480 1620 2000 4000]);
 plot(Ax,Ay);
-title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
+%title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_gammel' % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_gammel' % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
 
 % ############################################################
 % Erbium referanseprøve ved 300K, grating på 300 og 5 sekunder
@@ -59,13 +59,13 @@ Ay = A(:,2);
 figure(2)
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
-title('Er referanseprøve ved 300K, gjennom ny lysbane');
+%title('Er referanseprøve ved 300K, gjennom ny lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_ny'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_ny'
 
 % #########################################################################
 % Polert multikrystallinsk silisium ved 300K med integreringstid 5 sekunder
@@ -94,13 +94,13 @@ Ay = A(:,2);
 figure(3)
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
-title('Polert multikrystallinsk silisium ved 300K');
+%title('Polert multikrystallinsk silisium ved 300K');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Polert_300K'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Polert_300K'
 
 % #########################
 % Upolert sample ved 300K i 'dårlig' område
@@ -129,13 +129,13 @@ Ay = A(:,2);
 figure(4);
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
-title('Upolert sample ved 300K');
+%title('Upolert sample ved 300K');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Upolert_300K'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Upolert_300K'
 
 % ###################
 %  Cryomålinger
@@ -168,7 +168,7 @@ xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4'
 
 % ###################################################################
 % Sample 4 ved 18K i et ukjent område, belyst med 4.6mW ved 532nm, med
@@ -197,13 +197,13 @@ Ay = A(:,2);
 figure(6);
 plot(Ax,Ay);
 set(gca,'FontSize',fontsize)
-title('Sample 4 ved 18K pumpet med 4.6mW');
+%title('Sample 4 ved 18K pumpet med 4.6mW');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('2s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_1'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_1'
 
 
 % ##############################################
@@ -229,13 +229,13 @@ Ay = A(:,2);
 figure(7)
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
-title('Sample 4 ved 23K i område 2 pumpet med 15mW');
+%title('Sample 4 ved 23K i område 2 pumpet med 15mW');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_1'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_1'
 
 % ##############################################
 % Sample 4 spot2? 15mW 300grv 10s 900nm 23k 15mW
@@ -259,13 +259,13 @@ Ay = A(:,2);
 figure(8)
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
-title('Sample 4 ved 23K i område 2 pumpet med 30mW');
+%title('Sample 4 ved 23K i område 2 pumpet med 30mW');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_2'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_2'
 
 % ##########################
 % Posisjonsavhengig karakteristikk
@@ -354,22 +354,22 @@ F20y = F20(:,2);
 
 figure(9)
 set(gca,'FontSize',fontsize)
-title('Posisjonsavhengig karakteristikk');
+%title('Posisjonsavhengig karakteristikk');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 
 hold on
 
-plot (F2x,F2y,':');
-plot (F3x,F3y,':');
+plot (F2x,F2y);
+plot (F3x,F3y);
 legend('10s integrering');
-plot (F4x,F4y,':');
+plot (F4x,F4y);
 %plot (F5x,F5y,':');
-plot (F6x,F6y,':');
-plot (F7x,F7y,':');
-plot (F8x,F8y,':');
+plot (F6x,F6y);
+plot (F7x,F7y);
+plot (F8x,F8y);
 %plot (F9x,F9y,':');
-plot (F10x,F10y,':');
+plot (F10x,F10y);
 %plot (F11x,F11y,':'); % likt med 12?
 plot (F12x,F12y,'y');
 %plot (F13x,F13y,':');
@@ -383,7 +383,7 @@ plot (F1x,F1y,'r'); % Høyeste kurve
 plot (F17x,F17y,'g'); % Lavest startende kurve
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Posisjonsavhengighet'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Posisjonsavhengighet'
 
 % ##########################
 
@@ -407,13 +407,13 @@ Ay = A(:,2);
 figure(10)
 set(gca,'FontSize',fontsize)
 plot(Ax,Ay)
-title('Sample 4 i "bad spot"');
+%title('Sample 4 i "bad spot"');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('50s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_1_BAD'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_1_BAD'
 
 % ################################
 % Sample 4 SPOT 2 50s 13mW
@@ -441,4 +441,4 @@ xlabel('Bølgelengde [nm]');
 legend('50s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_2_GOOD'
+print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_2_GOOD'
