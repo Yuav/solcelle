@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.10.6)  4 NOV 2009 13:57
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.11.11)  11 NOV 2009 13:29
 entering extended mode
 **Latex_filer.tex
 
@@ -573,10 +573,32 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rotFPbot=\skip48
 \rot@float@box=\box42
 \rot@mess@toks=\toks31
+)
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\subfigure
+\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen167
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen168
+\subfiglabelskip=\skip52
+\c@subfigure=\count138
+\c@lofdepth=\count139
+\c@subtable=\count140
+\c@lotdepth=\count141
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\subfigure
+\subfigure.cfg")
+\subfig@top=\skip53
+\subfig@bottom=\skip54
 ) ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2009/09/10 v6.78u Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+ ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode not detected.
 )
@@ -594,9 +616,9 @@ O)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
 Package: xcolor-patch 2008/09/08 xcolor patch
 ))
-\@linkdim=\dimen167
-\Hy@linkcounter=\count138
-\Hy@pagecounter=\count139
+\@linkdim=\dimen169
+\Hy@linkcounter=\count142
+\Hy@pagecounter=\count143
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2009/09/10 v6.78u Hyperref: PDFDocEncoding definition (HO)
@@ -656,9 +678,9 @@ Package ifluatex Info: LuaTeX not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected on input line 144.
 )))
-\Fld@menulength=\count140
-\Field@Width=\dimen168
-\Fld@charsize=\dimen169
+\Fld@menulength=\count144
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
 \Field@toks=\toks32
 Package hyperref Info: Hyper figures OFF on input line 4346.
 Package hyperref Info: Link nesting OFF on input line 4351.
@@ -671,9 +693,9 @@ Package hyperref Info: PDF/A mode OFF on input line 4376.
 ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count141
-\c@Item=\count142
-\c@Hfootnote=\count143
+\Hy@abspage=\count145
+\c@Item=\count146
+\c@Hfootnote=\count147
 )
 *hyperref using default driver hdvips*
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hdvips.def"
@@ -685,45 +707,45 @@ File: pdfmark.def 2009/09/10 v6.78u Hyperref definitions for pdfmark specials
 \pdf@box=\box43
 \pdf@toks=\toks34
 \pdf@defaulttoks=\toks35
-\Fld@listcount=\count144
+\Fld@listcount=\count148
 ))
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 28.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count145
+\c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
@@ -731,94 +753,57 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
-oduksjon.tex"
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
-
-)
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori.tex"
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[1
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
+emetode.tex" [1
 
 ]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3]
-Overfull \hbox (7.54541pt too wide) in paragraph at lines 130--131
-[]\T1/cmr/m/n/10.95 Det er to mekanis-mer som bidrar til trans-port av elek-tro
-ner og hull i halvledere:
- []
-
-[4]
-Overfull \hbox (44.36595pt too wide) in paragraph at lines 195--195
-[][]\T1/cmr/m/n/10.95 Ledningsbånd  
- []
-
-
-Overfull \hbox (32.72105pt too wide) in paragraph at lines 196--196
-[][]\T1/cmr/m/n/10.95 Valensbånd  
- []
-
-
-Overfull \hbox (5.71133pt too wide) in paragraph at lines 235--236
-\T1/cmr/m/n/10.95 sjon av elek-troner til led-nings-bån-det, $\OML/cmm/m/it/10.
-95 U[]$\T1/cmr/m/n/10.95 , pro-posjon-alt med avviket fra likevekt 
- []
-
-[5]
-Overfull \hbox (6.42833pt too wide) in paragraph at lines 242--243
-\T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
-om-biner-er. Tilsvarende
- []
-
-)
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori_inhomogene_halvledere.tex" [6] [7])
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\tap.
-tex" [8]
-File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type eps)
- <./bilder/dislokasjonslinjer_tarasov00.png>)
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
-troskopi.tex"
-! Undefined control sequence.
-l.1 \subsecton
-              {Spektroskopi}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
-emetode.tex"
-Overfull \hbox (5.99783pt too wide) in paragraph at lines 3--1
-[][]\T1/cmr/m/n/10.95 Spektroskopi benyt-ter seg av fo-to-lu-minisens. Når et e
-lek-tron-hull-par rekom-
- []
-
-[9]
 File: bilder/cryolabtap.png Graphic file (type eps)
- <bilder/cryolabtap.png> [10
+ <bilder/cryolabtap.png>
+
+LaTeX Warning: Citation `tarasov00' on page 2 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fig:dislokasjonslinjer' on page 2 undefined on input 
+line 13.
+
+
+LaTeX Warning: Reference `eq:lysenergi' on page 2 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Objektiv' on page 2 undefined on input line 26.
+
+
+LaTeX Warning: Citation `beamsplitter' on page 2 undefined on input line 28.
+
+
+LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 34.
+
+
+LaTeX Warning: Citation `spektrometer' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `kamera' on page 2 undefined on input line 38.
+
+[2
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Overfull \hbox (11.2486pt too wide) in paragraph at lines 62--63
@@ -826,9 +811,63 @@ Overfull \hbox (11.2486pt too wide) in paragraph at lines 62--63
 ][][].
  []
 
-[11])
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\test
-.tex") [12]
+
+LaTeX Warning: Citation `new_lens' on page 3 undefined on input line 68.
+
+
+LaTeX Warning: Citation `speil' on page 3 undefined on input line 70.
+
+
+LaTeX Warning: Citation `iris' on page 3 undefined on input line 72.
+
+
+LaTeX Warning: Citation `flipmount' on page 3 undefined on input line 74.
+
+
+LaTeX Warning: Citation `beamsplitter_ny' on page 3 undefined on input line 76.
+
+
+
+LaTeX Warning: Citation `post' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `postholder' on page 3 undefined on input line 80.
+
+
+LaTeX Warning: Citation `flipmount_linse' on page 3 undefined on input line 82.
+
+
+[3]
+
+LaTeX Warning: Reference `fig:erbium_eksitasjon' on page 4 undefined on input l
+ine 99.
+
+
+LaTeX Warning: Reference `fig:erbium_absorbsjon' on page 4 undefined on input l
+ine 99.
+
+)
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\resu
+ltater.tex"
+File: ./bilder/Erbium_gammel.eps Graphic file (type eps)
+ <./bilder/Erbium_gammel.eps> [4]
+File: ./bilder/Erbium_ny.eps Graphic file (type eps)
+ <./bilder/Erbium_ny.eps>
+
+LaTeX Warning: Reference `fig:polert_sample' on page 5 undefined on input line 
+27.
+
+
+LaTeX Warning: Reference `fig:upolert' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:upolert_sample' on page 5 undefined on input line
+ 27.
+
+File: ./bilder/Polert_300K.eps Graphic file (type eps)
+<./bilder/Polert_300K.eps> [5]
+File: ./bilder/Upolert_300K.eps Graphic file (type eps)
+ <./bilder/Upolert_300K.eps>) [6]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
 egg_transmisjon.tex"
 File: ./bilder/kameragraf.png Graphic file (type eps)
@@ -837,90 +876,90 @@ File: ./bilder/cryovindu.png Graphic file (type eps)
  <./bilder/cryovindu.png>
 File: ./bilder/breamsplitter400-700nm.png Graphic file (type eps)
 
-<./bilder/breamsplitter400-700nm.png> [13
+<./bilder/breamsplitter400-700nm.png> [7
 
 ]
 File: ./bilder/old_linse.png Graphic file (type eps)
- <./bilder/old_linse.png>) [14]
+ <./bilder/old_linse.png>) [8]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.bbl"
-Overfull \hbox (46.02255pt too wide) in paragraph at lines 9--11
+Overfull \hbox (46.02255pt too wide) in paragraph at lines 4--6
 [][]\T1/cmr/m/n/10.95 Flip mount.  [][][][]. 
  []
 
 
-Overfull \hbox (127.40216pt too wide) in paragraph at lines 13--15
+Overfull \hbox (127.40216pt too wide) in paragraph at lines 8--10
 [][]\T1/cmr/m/n/10.95 Flip mount - lens hold-er.  [][][][]. 
  []
 
 
-Overfull \hbox (130.09242pt too wide) in paragraph at lines 17--19
+Overfull \hbox (130.09242pt too wide) in paragraph at lines 12--14
 [][]\T1/cmr/m/n/10.95 Mounted stain-less steel iris.  [][][][]. 
  []
 
 
-Overfull \hbox (307.8417pt too wide) in paragraph at lines 21--25
+Overfull \hbox (307.8417pt too wide) in paragraph at lines 16--20
 [][]\T1/cmr/m/n/10.95 idus in-gaas spec-troscopy ccd.  [][][][]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 [][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 [][]\T1/cmr/m/n/10.95 Uncoated uv fused sil-i-ca bi-convex lens.
  []
 
 
-Overfull \hbox (4.94342pt too wide) in paragraph at lines 31--33
+Overfull \hbox (4.94342pt too wide) in paragraph at lines 26--28
 [][][][]\T1/cmr/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 [][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 [][]\T1/cmr/m/n/10.95 50x mi-tu-toyo plan nir hr infinity-corrected ob-jec-tive
 .
  []
 
 
-Overfull \hbox (106.7941pt too wide) in paragraph at lines 39--43
+Overfull \hbox (106.7941pt too wide) in paragraph at lines 34--38
 [][][][]\T1/cmr/m/n/10.95 . 
  []
 
 
-Overfull \hbox (75.54631pt too wide) in paragraph at lines 45--47
+Overfull \hbox (75.54631pt too wide) in paragraph at lines 40--42
 [][]\T1/cmr/m/n/10.95 Acn127-020-b.  [][][][]. 
  []
 
 
-Overfull \hbox (9.2722pt too wide) in paragraph at lines 49--51
+Overfull \hbox (9.2722pt too wide) in paragraph at lines 44--46
 [][]\T1/cmr/m/n/10.95 Post.  [][][][]. 
  []
 
 
-Overfull \hbox (39.04663pt too wide) in paragraph at lines 53--55
+Overfull \hbox (39.04663pt too wide) in paragraph at lines 48--50
 [][]\T1/cmr/m/n/10.95 Post hold-er.  http://www.thorlabs.com/thorProduct.cfm?pa
 rtNumber=PH2/M. 
  []
 
 
-Overfull \hbox (378.68948pt too wide) in paragraph at lines 63--67
+Overfull \hbox (378.68948pt too wide) in paragraph at lines 58--62
 [][]\T1/cmr/m/n/10.95 Protected sil-ver mir-ror.  [][][][]. 
  []
 
 
-Overfull \hbox (565.49239pt too wide) in paragraph at lines 69--73
+Overfull \hbox (565.49239pt too wide) in paragraph at lines 64--68
 [][]\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  [][][][]. 
  []
 
-) [15
+) [9
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
@@ -933,12 +972,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15126 strings out of 495286
- 279432 string characters out of 3180369
- 751856 words of memory out of 3000000
- 17919 multiletter control sequences out of 15000+200000
- 22421 words of font info for 65 fonts, out of 3000000 for 9000
+ 14917 strings out of 495286
+ 274420 string characters out of 3180368
+ 378752 words of memory out of 3000000
+ 17726 multiletter control sequences out of 15000+200000
+ 17371 words of font info for 51 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,10n,61p,1011b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,9n,58p,899b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (15 pages, 502200 bytes).
+Output written on Latex_filer.dvi (9 pages, 39864 bytes).

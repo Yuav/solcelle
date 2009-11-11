@@ -119,9 +119,9 @@ cxCur=1011
 cxMin=10
 
 [Frame3_View0,0]
-Cursor.row=33
-Cursor.column=17
-TopSubLine=11
+Cursor.row=17
+Cursor.column=61
+TopSubLine=6
 
 [Frame4]
 Columns=1
@@ -195,7 +195,7 @@ NormalPos.top=174
 NormalPos.right=1172
 NormalPos.bottom=599
 Class=CLatexEdit
-Document=malemetode.tex
+Document=resultater.tex
 
 [Frame6_Row0]
 cyCur=607
@@ -206,7 +206,7 @@ cxCur=1173
 cxMin=10
 
 [Frame6_View0,0]
-Cursor.row=15
-Cursor.column=0
+Cursor.row=14
+Cursor.column=37
 TopSubLine=0
 

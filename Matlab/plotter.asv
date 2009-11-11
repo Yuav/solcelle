@@ -1,3 +1,8 @@
+%set( 0, 'DefaultFigurePaperType', 'A5' );
+%set( 0, 'DefaultFigurePaperUnits', 'centimeters' );
+
+
+
 % Erbium referanseprøve ved 300K, pumpet med 532nm laser sendt gjennom
 % gammel veibane - 5s-1550nm-300k
 
@@ -13,14 +18,16 @@ Ay = A(:,2);
 
 % Plotte
 figure(1);
+set(gca,'FontSize',14)
+%axis([1480 1620 2000 4000]);
 plot(Ax,Ay);
-title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
+%title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering');
 
 % Skrive til fil for bruk i latex
-print -deps Erbium_gammel % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_gammel' % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
 
 % ############################################################
 % Erbium referanseprøve ved 300K, grating på 300 og 5 sekunder
@@ -51,19 +58,18 @@ Ay = A(:,2);
 % Plotte
 figure(2)
 plot(Ax,Ay)
-title('Er referanseprøve ved 300K, gjennom ny lysbane');
+set(gca,'FontSize',14)
+%title('Er referanseprøve ved 300K, gjennom ny lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
-print -deps Erbium_ny
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_ny'
 
+% #########################################################################
 % Polert multikrystallinsk silisium ved 300K med integreringstid 5 sekunder
-figure(3)
-title('Polert multikrystallinsk silisium ved 300K');
-ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+% i 'dårlig' område
 
 f1 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-05-2009\MC_Si_polished\300grv-5s-1000nm-300k';
 f2 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-05-2009\MC_Si_polished\300grv-5s-1140nm-300k';
@@ -85,14 +91,19 @@ A = matrix_align_and_glue(A,E);
 Ax = A(:,1);
 Ay = A(:,2);
 
+figure(3)
 plot(Ax,Ay)
-
-% Upolert sample ved 300K
-figure(4);
-title('Upolert sample ved 300K');
+set(gca,'FontSize',14)
+%title('Polert multikrystallinsk silisium ved 300K');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
+legend('5s integrering')
 
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Polert_300K'
+
+% #########################
+% Upolert sample ved 300K i 'dårlig' område
 f1 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-05-2009\MC_Si_unpolished\300grv-5s-1000nm-300k';
 f2 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-05-2009\MC_Si_unpolished\300grv-5s-1140nm-300k';
 f3 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-05-2009\MC_Si_unpolished\300grv-5s-1280nm-300k';
@@ -115,15 +126,51 @@ A = matrix_align_and_glue(A,E);
 Ax = A(:,1);
 Ay = A(:,2);
 
+figure(4);
 plot(Ax,Ay)
-
-
-%Cryomålinger
-figure(5);
-title('Sample 4 ved 18K i et "bra område", belyst med 4.6mW ved 532nm, med grating på 300');
+%title('Upolert sample ved 300K');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
+legend('5s integrering')
 
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Upolert_300K'
+
+% ###################
+%  Cryomålinger
+% ###################
+
+% ##############################################
+% Sample 4 spot3? 13mW 300grv 10s 900nm 23k 15mW
+A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-900nm-23k',delimiter);
+B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1040nm-23k',delimiter);
+C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1180nm-23k',delimiter);
+D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1320nm-23k',delimiter);
+E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1460nm-23k',delimiter);
+F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1600nm-23k',delimiter);
+
+A = matrix_align_and_glue(A,B);
+A = matrix_align_and_glue(A,C);
+A = matrix_align_and_glue(A,D);
+A = matrix_align_and_glue(A,E);
+A = matrix_align_and_glue(A,F);
+
+Ax = A(:,1);
+Ay = A(:,2);
+
+figure(5)
+plot(Ax,Ay)
+%title('Sample 4 ved 23K');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+legend('10s integrering');
+
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4'
+
+% ###################################################################
+% Sample 4 ved 18K i et ukjent område, belyst med 4.6mW ved 532nm, med
+% grating på 300
 f1 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - new\300grv-2s-900nm-18k-pump-4.6mW-532nm';
 f2 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - new\300grv-2s-1040nm-18k-pump-4.6mW-532nm';
 f3 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - new\300grv-2s-1180nm-18k-pump-4.6mW-532nm';
@@ -138,8 +185,6 @@ D = dlmread(f4,delimiter);
 E = dlmread(f5,delimiter);
 
 A = matrix_align_and_glue(A,B);
-
-
 A = matrix_align_and_glue(A,C);
 A = matrix_align_and_glue(A,D);
 A = matrix_align_and_glue(A,E);
@@ -147,14 +192,78 @@ A = matrix_align_and_glue(A,E);
 Ax = A(:,1);
 Ay = A(:,2);
 
-plot(Ax,Ay)
-
-% Moving around
-figure(6)
-title('Posisjonsavhengig karakteristikk');
+figure(6);
+plot(Ax,Ay);
+%title('Sample 4 ved 18K pumpet med 4.6mW');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
+legend('2s integrering');
 
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_1'
+
+
+% ##############################################
+% Sample 4 spot2? 15mW 300grv 10s 900nm 23k 15mW - samme som røde på figure
+% 9 med moving around
+
+A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-900nm-23k-15mW',delimiter);
+B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1040nm-23k-15mW',delimiter);
+C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1180nm-23k-15mW',delimiter);
+D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1320nm-23k-15mW',delimiter);
+E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1460nm-23k-15mW',delimiter);
+F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1600nm-23k-15mW',delimiter);
+
+A = matrix_align_and_glue(A,B);
+A = matrix_align_and_glue(A,C);
+A = matrix_align_and_glue(A,D);
+A = matrix_align_and_glue(A,E);
+A = matrix_align_and_glue(A,F);
+
+Ax = A(:,1);
+Ay = A(:,2);
+
+figure(7)
+plot(Ax,Ay)
+%title('Sample 4 ved 23K i område 2 pumpet med 15mW');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+legend('10s integrering');
+
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_1'
+
+% ##############################################
+% Sample 4 spot2? 15mW 300grv 10s 900nm 23k 15mW
+
+A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-900nm-23k-30mW',delimiter);
+B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1040nm-23k-30mW',delimiter);
+C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1180nm-23k-30mW',delimiter);
+D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1320nm-23k-30mW',delimiter);
+E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1460nm-23k-30mW',delimiter);
+F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1600nm-23k-30mW',delimiter);
+
+A = matrix_align_and_glue(A,B);
+A = matrix_align_and_glue(A,C);
+A = matrix_align_and_glue(A,D);
+A = matrix_align_and_glue(A,E);
+A = matrix_align_and_glue(A,F);
+
+Ax = A(:,1);
+Ay = A(:,2);
+
+figure(8)
+plot(Ax,Ay)
+%title('Sample 4 ved 23K i område 2 pumpet med 30mW');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+legend('5s integrering');
+
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_2_2'
+
+% ##########################
+% Posisjonsavhengig karakteristikk
 f1 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - moving around\300grv-10s-1270nm-23k-13mW-move1';
 f2 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - moving around\300grv-10s-1270nm-23k-13mW-move2';
 f3 = 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - moving around\300grv-10s-1270nm-23k-13mW-move3';
@@ -238,10 +347,16 @@ F19y = F19(:,2);
 F20x = F20(:,1);
 F20y = F20(:,2);
 
+figure(9)
+%title('Posisjonsavhengig karakteristikk');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+
 hold on
 
 plot (F2x,F2y,':');
 plot (F3x,F3y,':');
+legend('10s integrering');
 plot (F4x,F4y,':');
 %plot (F5x,F5y,':');
 plot (F6x,F6y,':');
@@ -261,11 +376,12 @@ plot (F12x,F12y,'y');
 plot (F1x,F1y,'r'); % Høyeste kurve
 plot (F17x,F17y,'g'); % Lavest startende kurve
 
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Posisjonsavhengighet'
 
-
+% ##########################
 
 % Sample 4 SPOT 1 50s 13mW
-figure(7)
 A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 1 - 13mW\300grv-50s-900nm-19k-SPOT1-13mW',delimiter);
 B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 1 - 13mW\300grv-50s-1040nm-19k-SPOT1-13mW',delimiter);
 C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 1 - 13mW\300grv-50s-1180nm-19k-SPOT1-13mW',delimiter);
@@ -282,11 +398,19 @@ A = matrix_align_and_glue(A,F);
 Ax = A(:,1);
 Ay = A(:,2);
 
+figure(10)
 plot(Ax,Ay)
+%title('Sample 4 i "bad spot"');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+legend('50s integrering');
 
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_1_BAD'
 
+% ################################
 % Sample 4 SPOT 2 50s 13mW
-figure(8)
+figure(11)
 A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-900nm-19k-SPOT2-13mW',delimiter);
 B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-1040nm-19k-SPOT2-13mW',delimiter);
 C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-1180nm-19k-SPOT2-13mW',delimiter);
@@ -304,65 +428,10 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 plot(Ax,Ay)
+%title('Sample 4 i "good spot"');
+ylabel('Intensitet');
+xlabel('Bølgelengde [nm]');
+legend('50s integrering');
 
-
-% Sample 4 spot2? 15mW 300grv 10s 900nm 23k 15mW
-figure(9)
-A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-900nm-23k-15mW',delimiter);
-B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1040nm-23k-15mW',delimiter);
-C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1180nm-23k-15mW',delimiter);
-D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1320nm-23k-15mW',delimiter);
-E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1460nm-23k-15mW',delimiter);
-F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-15mW\spot2-300grv-10s-1600nm-23k-15mW',delimiter);
-
-A = matrix_align_and_glue(A,B);
-A = matrix_align_and_glue(A,C);
-A = matrix_align_and_glue(A,D);
-A = matrix_align_and_glue(A,E);
-A = matrix_align_and_glue(A,F);
-
-Ax = A(:,1);
-Ay = A(:,2);
-
-plot(Ax,Ay)
-
-% Sample 4 spot2? 15mW 300grv 10s 900nm 23k 15mW
-figure(10)
-A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-900nm-23k-30mW',delimiter);
-B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1040nm-23k-30mW',delimiter);
-C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1180nm-23k-30mW',delimiter);
-D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1320nm-23k-30mW',delimiter);
-E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1460nm-23k-30mW',delimiter);
-F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\sample 4 - spot2 (same-dunno)-30mW\spot2-300grv-5s-1600nm-23k-30mW',delimiter);
-
-A = matrix_align_and_glue(A,B);
-A = matrix_align_and_glue(A,C);
-A = matrix_align_and_glue(A,D);
-A = matrix_align_and_glue(A,E);
-A = matrix_align_and_glue(A,F);
-
-Ax = A(:,1);
-Ay = A(:,2);
-
-plot(Ax,Ay)
-
-
-% Sample 4 spot3? 13mW 300grv 10s 900nm 23k 15mW
-figure(10)
-A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-5s-900nm-23k',delimiter);
-B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1040nm-23k',delimiter);
-C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1180nm-23k',delimiter);
-D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1320nm-23k',delimiter);
-E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1460nm-23k',delimiter);
-F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\300grv-10s-1600nm-23k',delimiter);
-
-A = matrix_align_and_glue(A,B);
-A = matrix_align_and_glue(A,C);
-A = matrix_align_and_glue(A,D);
-A = matrix_align_and_glue(A,E);
-A = matrix_align_and_glue(A,F);
-
-Ax = A(:,1);
-Ay = A(:,2);
-
-plot(Ax,Ay)
+% Skrive til fil for bruk i latex
+print -deps 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_2_GOOD'
