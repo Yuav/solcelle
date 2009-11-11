@@ -16,6 +16,7 @@
 \usepackage{rotating} % Rotere på stash
 
 \usepackage{subfigure} % Sette figurer ved siden av hverandre
+\usepackage{epstopdf} % For at .eps figurer skal funke
 
 \usepackage[bookmarks]{hyperref} % For linker til kapitler
 \usepackage{url}
@@ -26,15 +27,15 @@
 
 
 \begin{document}
- \DeclareGraphicsExtensions{.pdf,.jpg,.png}
+ \DeclareGraphicsExtensions{.pdf,.jpg,.png,.eps}
 	\graphicspath{{./bilder/}}
 \maketitle
 
-%\input{introduksjon}
-%\input{solcelle_teori}
-%\input{solcelle_teori_inhomogene_halvledere}
-%\input{spektroskopi}
-%\input{tap}
+\input{introduksjon}
+\input{solcelle_teori}
+\input{solcelle_teori_inhomogene_halvledere}
+\input{spektroskopi}
+\input{tap}
 \input{maalemetode}
 \input{resultater}
 %\input{test}
