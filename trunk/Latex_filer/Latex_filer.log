@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.11.11)  11 NOV 2009 17:05
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  11 NOV 2009 17:28
 entering extended mode
-**Latex_filer.tex
+**C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/Late
+x_filer.tex
 
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
+("C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/Late
 x_filer.tex"
 LaTeX2e <2005/12/01>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -79,10 +80,11 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 90.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\dvips.def"
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -107,13 +109,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count89
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count90
+\leftroot@=\count91
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count92
+\DOTSCASE@=\count93
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -122,15 +124,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
 \tag@help=\toks18
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
 \andhelp@=\toks19
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
@@ -169,7 +171,7 @@ Iunits.cfg")
 Option `amssymb' provided!
 ) ("C:\Program Files\MiKTeX 2.8\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count100
+\c@float@type=\count101
 \float@exts=\toks22
 \float@box=\box28
 \@float@everytoks=\toks23
@@ -214,25 +216,24 @@ lities\pgfkeys.code.tex"
 \pgf@yb=\dimen120
 \pgf@xc=\dimen121
 \pgf@yc=\dimen122
-\c@pgf@counta=\count101
-\c@pgf@countb=\count102
-\c@pgf@countc=\count103
-\c@pgf@countd=\count104
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgf.cfg"
 File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 885.
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
-temlayer\pgfsys-dvips.def"
-File: pgfsys-dvips.def 2007/12/12  (rcs-revision 1.19)
+temlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
-temlayer\pgfsys-common-postscript.def"
-File: pgfsys-common-postscript.def 2008/02/07  (rcs-revision 1.18)
-\pgf@objectcount=\count105
+temlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
 )))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgfsyssoftpath.code.tex"
@@ -250,8 +251,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
  ("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -596,11 +598,52 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigure.cfg")
 \subfig@top=\skip53
 \subfig@bottom=\skip54
-) ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2009/07/16 v2.2 Conversion with epstopdf on the fly (HO)
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2009/07/16 v2.2 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2009/04/10 v0.4 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected on input line 144.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 429.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2009/09/10 v6.78u Hypertext links for LaTeX
- ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode not detected.
+Package ifpdf Info: pdfTeX in pdf mode detected.
 )
 ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
@@ -623,27 +666,9 @@ Package: xcolor-patch 2008/09/08 xcolor patch
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2009/09/10 v6.78u Hyperref: PDFDocEncoding definition (HO)
 )
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
 Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
 Package hyperref Info: Link nesting OFF on input line 2980.
@@ -667,17 +692,7 @@ Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
 )
 ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2009/04/10 v0.4 LuaTeX support for pdfTeX utility functions
- (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected on input line 144.
-)))
+))
 \Fld@menulength=\count144
 \Field@Width=\dimen170
 \Fld@charsize=\dimen171
@@ -697,55 +712,61 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 \c@Item=\count146
 \c@Hfootnote=\count147
 )
-*hyperref using default driver hdvips*
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hdvips.def"
-File: hdvips.def 2009/09/10 v6.78u Hyperref driver for dvips
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pdfmark.def"
-File: pdfmark.def 2009/09/10 v6.78u Hyperref definitions for pdfmark specials
-\pdf@docset=\toks33
-\pdf@box=\box43
-\pdf@toks=\toks34
-\pdf@defaulttoks=\toks35
+*hyperref using default driver hpdftex*
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2009/09/10 v6.78u Hyperref driver for pdfTeX
 \Fld@listcount=\count148
-))
+)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
+("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count149
+\scratchdimen=\dimen172
+\scratchbox=\box43
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen173
+\MPnumerator=\count153
+\everyMPtoPDFconversion=\toks34
+)
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count149
+\c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
@@ -753,184 +774,414 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
-emetode.tex" [1
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
+oduksjon.tex"
 
-]
-File: bilder/cryolabtap.png Graphic file (type eps)
- <bilder/cryolabtap.png>
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
 
-LaTeX Warning: Reference `fig:dislokasjonslinjer' on page 2 undefined on input 
-line 13.
-
-
-LaTeX Warning: Reference `eq:lysenergi' on page 2 undefined on input line 13.
-
-[2
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
- ("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (11.2486pt too wide) in paragraph at lines 62--63
-[][]\T1/cmr/m/n/10.95 Utstyr for å re-alis-ere dette oppset-tet kom-mer fra [][
-][][].
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
+elle_teori.tex" [1
+
+{C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
+x/config/pdftex.map}] [2] [3]
+Overfull \hbox (7.54541pt too wide) in paragraph at lines 130--131
+\T1/cmr/m/n/10.95 Det er to mekanis-mer som bidrar til trans-port av elek-trone
+r og hull i halvledere:
  []
 
-[3]
+[4]
+Overfull \hbox (44.36595pt too wide) in paragraph at lines 195--195
+[]\T1/cmr/m/n/10.95 Ledningsbånd  
+ []
 
-LaTeX Warning: Reference `fig:erbium_eksitasjon' on page 4 undefined on input l
-ine 99.
+
+Overfull \hbox (32.72105pt too wide) in paragraph at lines 196--196
+[]\T1/cmr/m/n/10.95 Valensbånd  
+ []
 
 
-LaTeX Warning: Reference `fig:erbium_absorbsjon' on page 4 undefined on input l
-ine 99.
+Overfull \hbox (5.71133pt too wide) in paragraph at lines 235--236
+\T1/cmr/m/n/10.95 sjon av elek-troner til led-nings-bån-det, $\OML/cmm/m/it/10.
+95 U[]$\T1/cmr/m/n/10.95 , pro-posjon-alt med avviket fra likevekt 
+ []
+
+[5]
+Overfull \hbox (6.42833pt too wide) in paragraph at lines 242--243
+\T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
+om-biner-er. Tilsvarende
+ []
+
+)
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
+elle_teori_inhomogene_halvledere.tex" [6] [7])
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
+troskopi.tex"
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 6.
+
+<./bilder/luminisence.png, id=145, 307.1475pt x 265.99374pt>
+File: ./bilder/luminisence.png Graphic file (type png)
+
+<use ./bilder/luminisence.png> [8])
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\tap.
+tex" [9 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_fil
+er/bilder/luminisence.png>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 19.
+
+<./bilder/dislokasjonslinjer_tarasov00.png, id=165, 513.92pt x 298.11375pt>
+File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
+
+<use ./bilder/dislokasjonslinjer_tarasov00.png>)
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
+emetode.tex" [10 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/
+Latex_filer/bilder/dislokasjonslinjer_tarasov00.png (PNG copy)>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 8.
+
+<bilder/cryolabtap.png, id=173, 333.245pt x 275.0275pt>
+File: bilder/cryolabtap.png Graphic file (type png)
+
+<use bilder/cryolabtap.png> [11
+
+ <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
+er/cryolabtap.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [12]
+
+LaTeX Warning: Reference `fig:erbium_eksitasjon' on page 13 undefined on input 
+line 99.
+
+
+LaTeX Warning: Reference `fig:erbium_absorbsjon' on page 13 undefined on input 
+line 99.
 
 )
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\resu
 ltater.tex"
-File: ./bilder/Erbium_gammel.eps Graphic file (type eps)
- <./bilder/Erbium_gammel.eps> [4]
-File: ./bilder/Erbium_ny.eps Graphic file (type eps)
- <./bilder/Erbium_ny.eps>
+Package epstopdf Info: Source file: <./bilder/Erbium_gammel.eps>
+(epstopdf)                    date: 2009-11-11 17:01:44
+(epstopdf)                    size: 16905 bytes
+(epstopdf)             Output file: <./bilder/Erbium_gammel-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2009-11-11 17:23:56
+(epstopdf)                    size: 8878 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Erbium_gammel-eps-
+converted-to.pdf ./bilder/Erbium_gammel.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig:polert_sample' on page 5 undefined on input line 
-27.
+<./bilder/Erbium_gammel-eps-converted-to.pdf, id=219, 524.96124pt x 401.5pt>
+File: ./bilder/Erbium_gammel-eps-converted-to.pdf Graphic file (type pdf)
 
+<use ./bilder/Erbium_gammel-eps-converted-to.pdf> [13]
+Package epstopdf Info: Source file: <./bilder/Erbium_ny.eps>
+(epstopdf)                    date: 2009-11-11 17:01:45
+(epstopdf)                    size: 39621 bytes
+(epstopdf)             Output file: <./bilder/Erbium_ny-eps-converted-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:23:56
+(epstopdf)                    size: 25181 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Erbium_ny-eps-conv
+erted-to.pdf ./bilder/Erbium_ny.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig:upolert_sample' on page 5 undefined on input line
- 27.
+<./bilder/Erbium_ny-eps-converted-to.pdf, id=236, 513.92pt x 415.5525pt>
+File: ./bilder/Erbium_ny-eps-converted-to.pdf Graphic file (type pdf)
 
-File: ./bilder/Polert_300K.eps Graphic file (type eps)
-<./bilder/Polert_300K.eps> [5]
-File: ./bilder/Upolert_300K.eps Graphic file (type eps)
- <./bilder/Upolert_300K.eps>
-File: ./bilder/Sample_4.eps Graphic file (type eps)
+<use ./bilder/Erbium_ny-eps-converted-to.pdf>
 
-<./bilder/Sample_4.eps> [6]
-File: ./bilder/Sample_4.eps Graphic file (type eps)
- <./bilder/Sample_4.eps>
-File: ./bilder/Sample_4_2_1.eps Graphic file (type eps)
+LaTeX Warning: Reference `fig:upolert' on page 14 undefined on input line 27.
 
-<./bilder/Sample_4_2_1.eps> [7]
-File: ./bilder/Sample_4_2_2.eps Graphic file (type eps)
- <./bilder/Sample_4_2_2.eps>
-File: ./bilder/Posisjonsavhengighet.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <./bilder/Polert_300K.eps>
+(epstopdf)                    date: 2009-11-11 17:01:45
+(epstopdf)                    size: 44686 bytes
+(epstopdf)             Output file: <./bilder/Polert_300K-eps-converted-to.pdf>
 
-<./bilder/Posisjonsavhengighet.eps> [8]
-File: ./bilder/sample_4_edited.png Graphic file (type eps)
- <./bilder/sample_4_edited.png>
+(epstopdf)                    date: 2009-11-11 17:23:57
+(epstopdf)                    size: 26135 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Polert_300K-eps-co
+nverted-to.pdf ./bilder/Polert_300K.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+<./bilder/Polert_300K-eps-converted-to.pdf, id=240, 524.96124pt x 401.5pt>
+File: ./bilder/Polert_300K-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Polert_300K-eps-converted-to.pdf> [14 <C:/Documents and Settings/
+Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Erbium_gammel-eps-convert
+ed-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_
+filer/bilder/Erbium_ny-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./bilder/Upolert_300K.eps>
+(epstopdf)                    date: 2009-11-11 17:01:46
+(epstopdf)                    size: 44606 bytes
+(epstopdf)             Output file: <./bilder/Upolert_300K-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2009-11-11 17:23:57
+(epstopdf)                    size: 26668 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Upolert_300K-eps-c
+onverted-to.pdf ./bilder/Upolert_300K.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Upolert_300K-eps-converted-to.pdf, id=255, 524.96124pt x 401.5pt>
+File: ./bilder/Upolert_300K-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Upolert_300K-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
+(epstopdf)                    date: 2009-11-11 17:01:46
+(epstopdf)                    size: 46056 bytes
+(epstopdf)             Output file: <./bilder/Sample_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:23:58
+(epstopdf)                    size: 28382 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4-eps-conve
+rted-to.pdf ./bilder/Sample_4.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Sample_4-eps-converted-to.pdf, id=258, 513.92pt x 415.5525pt>
+File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Sample_4-eps-converted-to.pdf> [15 <C:/Documents and Settings/Jon
+/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Polert_300K-eps-converted-to
+.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer
+/bilder/Upolert_300K-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
+(epstopdf)                    date: 2009-11-11 17:01:46
+(epstopdf)                    size: 46056 bytes
+(epstopdf)             Output file: <./bilder/Sample_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:23:58
+(epstopdf)                    size: 28382 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4-eps-conve
+rted-to.pdf ./bilder/Sample_4.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Sample_4-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <./bilder/Sample_4_2_1.eps>
+(epstopdf)                    date: 2009-11-11 17:01:47
+(epstopdf)                    size: 45664 bytes
+(epstopdf)             Output file: <./bilder/Sample_4_2_1-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2009-11-11 17:23:58
+(epstopdf)                    size: 27066 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_2_1-eps-c
+onverted-to.pdf ./bilder/Sample_4_2_1.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=273, 513.92pt x 415.5525pt>
+File: ./bilder/Sample_4_2_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [16 <C:/Documents and Settings
+/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <./bilder/Sample_4_2_2.eps>
+(epstopdf)                    date: 2009-11-11 17:01:48
+(epstopdf)                    size: 45809 bytes
+(epstopdf)             Output file: <./bilder/Sample_4_2_2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2009-11-11 17:23:59
+(epstopdf)                    size: 26839 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_2_2-eps-c
+onverted-to.pdf ./bilder/Sample_4_2_2.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=284, 513.92pt x 415.5525pt>
+File: ./bilder/Sample_4_2_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./bilder/Sample_4_2_2-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <./bilder/Posisjonsavhengighet.eps>
+(epstopdf)                    date: 2009-11-11 17:01:48
+(epstopdf)                    size: 218672 bytes
+(epstopdf)             Output file: <./bilder/Posisjonsavhengighet-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:24:00
+(epstopdf)                    size: 146332 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Posisjonsavhengigh
+et-eps-converted-to.pdf ./bilder/Posisjonsavhengighet.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=285, 524.96124pt x 401.
+5pt>
+File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf> [17 <C:/Documents and
+ Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_2_1-ep
+s-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcel
+le/Latex_filer/bilder/Sample_4_2_2-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 93.
+
+<./bilder/sample_4_edited.png, id=298, 1162.3425pt x 496.85625pt>
+File: ./bilder/sample_4_edited.png Graphic file (type png)
+
+<use ./bilder/sample_4_edited.png>
 Overfull \hbox (66.79134pt too wide) in paragraph at lines 93--94
- [][][] 
+ [][] 
  []
 
-File: ./bilder/Sample_4_SPOT_1_BAD.eps Graphic file (type eps)
-<./bilder/Sample_4_SPOT_1_BAD.eps> [9]
-File: ./bilder/Sample_4_SPOT_2_GOOD.eps Graphic file (type eps)
- <./bilder/Sample_4_SPOT_2_GOOD.eps>)
-[10]
+Package epstopdf Info: Source file: <./bilder/Sample_4_SPOT_1_BAD.eps>
+(epstopdf)                    date: 2009-11-11 17:01:49
+(epstopdf)                    size: 40900 bytes
+(epstopdf)             Output file: <./bilder/Sample_4_SPOT_1_BAD-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:24:00
+(epstopdf)                    size: 26489 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_SPOT_1_BA
+D-eps-converted-to.pdf ./bilder/Sample_4_SPOT_1_BAD.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=299, 501.875pt x 415.552
+5pt>
+File: ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> [18 <C:/Documents and 
+Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Posisjonsavhengi
+ghet-eps-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt
+/solcelle/Latex_filer/bilder/sample_4_edited.png (PNG copy)>]
+Package epstopdf Info: Source file: <./bilder/Sample_4_SPOT_2_GOOD.eps>
+(epstopdf)                    date: 2009-11-11 17:01:49
+(epstopdf)                    size: 41210 bytes
+(epstopdf)             Output file: <./bilder/Sample_4_SPOT_2_GOOD-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2009-11-11 17:24:01
+(epstopdf)                    size: 26710 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_SPOT_2_GO
+OD-eps-converted-to.pdf ./bilder/Sample_4_SPOT_2_GOOD.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=311, 501.875pt x 415.55
+25pt>
+File: ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>) [19 <C:/Documents an
+d Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_SPOT_
+1_BAD-eps-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjek
+t/solcelle/Latex_filer/bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
 egg_transmisjon.tex"
-File: ./bilder/kameragraf.png Graphic file (type eps)
- <./bilder/kameragraf.png>
-File: ./bilder/cryovindu.png Graphic file (type eps)
- <./bilder/cryovindu.png>
-File: ./bilder/breamsplitter400-700nm.png Graphic file (type eps)
 
-<./bilder/breamsplitter400-700nm.png> [11
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 6.
 
-]
-File: ./bilder/old_linse.png Graphic file (type eps)
- <./bilder/old_linse.png>) [12]
+<./bilder/kameragraf.png, id=328, 737.75626pt x 592.2125pt>
+File: ./bilder/kameragraf.png Graphic file (type png)
+
+<use ./bilder/kameragraf.png>
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 13.
+
+<./bilder/cryovindu.png, id=329, 1072.005pt x 650.43pt>
+File: ./bilder/cryovindu.png Graphic file (type png)
+
+<use ./bilder/cryovindu.png>
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 22.
+
+<./bilder/breamsplitter400-700nm.png, id=330, 909.3975pt x 572.1375pt>
+File: ./bilder/breamsplitter400-700nm.png Graphic file (type png)
+
+<use ./bilder/breamsplitter400-700nm.png> [20
+
+ <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
+er/kameragraf.png (PNG copy)> <C:/Documents and Settings/Jon/My Documents/Prosj
+ekt/solcelle/Latex_filer/bilder/cryovindu.png (PNG copy)>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 29.
+
+<./bilder/old_linse.png, id=336, 635.37375pt x 215.80624pt>
+File: ./bilder/old_linse.png Graphic file (type png)
+
+<use ./bilder/old_linse.png>) [21 <C:/Documents and Settings/Jon/My Documents/P
+rosjekt/solcelle/Latex_filer/bilder/breamsplitter400-700nm.png (PNG copy)> <C:/
+Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/ol
+d_linse.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.bbl"
-Overfull \hbox (46.02255pt too wide) in paragraph at lines 4--6
-[][]\T1/cmr/m/n/10.95 Flip mount.  [][][][]. 
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+[]\T1/cmr/m/n/10.95 Flip mount.  []$\T1/cmtt/m/n/10.95 http : / / www . thorlab
+s . com / thorProduct . cfm ?
  []
 
 
-Overfull \hbox (127.40216pt too wide) in paragraph at lines 8--10
-[][]\T1/cmr/m/n/10.95 Flip mount - lens hold-er.  [][][][]. 
+Underfull \hbox (badness 3343) in paragraph at lines 39--43
+[]\T1/cmr/m/n/10.95 50x mi-tu-toyo plan nir hr infinity-corrected ob-jec-tive. 
+ []$\T1/cmtt/m/n/10.95 http :
  []
 
 
-Overfull \hbox (130.09242pt too wide) in paragraph at lines 12--14
-[][]\T1/cmr/m/n/10.95 Mounted stain-less steel iris.  [][][][]. 
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+\T1/cmtt/m/n/10.95 / / www . edmundoptics . com / uk / onlinecatalog / displayp
+roduct .
  []
 
 
-Overfull \hbox (307.8417pt too wide) in paragraph at lines 16--20
-[][]\T1/cmr/m/n/10.95 idus in-gaas spec-troscopy ccd.  [][][][]. 
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+[]\T1/cmr/m/n/10.95 Acn127-020-b.  []$\T1/cmtt/m/n/10.95 http : / / www . thorl
+abs . de / NewGroupPage11 . cfm ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-[][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\T1/cmr/m/n/10.95 Post.  []$\T1/cmtt/m/n/10.95 http : / / www . thorlabs . de
+ / thorProduct . cfm ? partNumber =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-[][]\T1/cmr/m/n/10.95 Uncoated uv fused sil-i-ca bi-convex lens.
+Overfull \hbox (39.04663pt too wide) in paragraph at lines 53--55
+[]\T1/cmr/m/n/10.95 Post hold-er.  http://www.thorlabs.com/thorProduct.cfm?part
+Number=PH2/M. 
  []
 
 
-Overfull \hbox (4.94342pt too wide) in paragraph at lines 26--28
-[][][][]\T1/cmr/m/n/10.95 . 
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+\T1/cmtt/m/n/10.95 cfm ? ObjectGroup _ ID = 903&pn = PF10-[]03-[]P01-[]10&CFID 
+=
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-[][]\T1/cmr/m/n/10.95 Broadband non-polarizing beam split-ter cube.
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+[]\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  []$\T1/cmtt/m/n/10.95 htt
+p : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
-[][]\T1/cmr/m/n/10.95 50x mi-tu-toyo plan nir hr infinity-corrected ob-jec-tive
-.
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+\T1/cmtt/m/n/10.95 www . horiba . com / us / en / scientific / products /
  []
 
 
-Overfull \hbox (106.7941pt too wide) in paragraph at lines 34--38
-[][][][]\T1/cmr/m/n/10.95 . 
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+\T1/cmtt/m/n/10.95 optical-[]spectroscopy / spectrometers-[]monochromators / ih
+r /
  []
 
-
-Overfull \hbox (75.54631pt too wide) in paragraph at lines 40--42
-[][]\T1/cmr/m/n/10.95 Acn127-020-b.  [][][][]. 
- []
-
-
-Overfull \hbox (9.2722pt too wide) in paragraph at lines 44--46
-[][]\T1/cmr/m/n/10.95 Post.  [][][][]. 
- []
-
-
-Overfull \hbox (39.04663pt too wide) in paragraph at lines 48--50
-[][]\T1/cmr/m/n/10.95 Post hold-er.  http://www.thorlabs.com/thorProduct.cfm?pa
-rtNumber=PH2/M. 
- []
-
-
-Overfull \hbox (378.68948pt too wide) in paragraph at lines 58--62
-[][]\T1/cmr/m/n/10.95 Protected sil-ver mir-ror.  [][][][]. 
- []
-
-
-Overfull \hbox (565.49239pt too wide) in paragraph at lines 64--68
-[][]\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  [][][][]. 
- []
-
-) [13
+) [22
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
@@ -938,17 +1189,48 @@ x_filer.aux")
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14940 strings out of 495286
- 274883 string characters out of 3180368
- 378752 words of memory out of 3000000
- 17742 multiletter control sequences out of 15000+200000
- 17371 words of font info for 51 fonts, out of 3000000 for 9000
+ 15901 strings out of 495285
+ 292205 string characters out of 3180345
+ 626444 words of memory out of 3000000
+ 18559 multiletter control sequences out of 15000+200000
+ 22421 words of font info for 65 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,10n,58p,899b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,9n,61p,1084b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\Jon\Lo
+cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ect
+t1095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
+\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Documents and Settings
+\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
+600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
+\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Documents and S
+ettings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applicati
+on Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Document
+s and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\Jon\Local Settings\Ap
+plication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\D
+ocuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Sett
+ings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
+m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.
+8/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/t
+ype1/public/amsfonts/euler/eurm10.pfb>
+Output written on Latex_filer.pdf (22 pages, 1754085 bytes).
+PDF statistics:
+ 743 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Latex_filer.dvi (13 pages, 51252 bytes).
