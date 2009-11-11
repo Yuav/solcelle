@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.11.11)  11 NOV 2009 13:29
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2009.11.11)  11 NOV 2009 17:05
 entering extended mode
 **Latex_filer.tex
 
@@ -769,35 +769,11 @@ emetode.tex" [1
 File: bilder/cryolabtap.png Graphic file (type eps)
  <bilder/cryolabtap.png>
 
-LaTeX Warning: Citation `tarasov00' on page 2 undefined on input line 13.
-
-
 LaTeX Warning: Reference `fig:dislokasjonslinjer' on page 2 undefined on input 
 line 13.
 
 
 LaTeX Warning: Reference `eq:lysenergi' on page 2 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Objektiv' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Citation `beamsplitter' on page 2 undefined on input line 28.
-
-
-LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 30.
-
-
-LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 32.
-
-
-LaTeX Warning: Citation `old_lens' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Citation `spektrometer' on page 2 undefined on input line 36.
-
-
-LaTeX Warning: Citation `kamera' on page 2 undefined on input line 38.
 
 [2
 
@@ -810,32 +786,6 @@ Overfull \hbox (11.2486pt too wide) in paragraph at lines 62--63
 [][]\T1/cmr/m/n/10.95 Utstyr for å re-alis-ere dette oppset-tet kom-mer fra [][
 ][][].
  []
-
-
-LaTeX Warning: Citation `new_lens' on page 3 undefined on input line 68.
-
-
-LaTeX Warning: Citation `speil' on page 3 undefined on input line 70.
-
-
-LaTeX Warning: Citation `iris' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `flipmount' on page 3 undefined on input line 74.
-
-
-LaTeX Warning: Citation `beamsplitter_ny' on page 3 undefined on input line 76.
-
-
-
-LaTeX Warning: Citation `post' on page 3 undefined on input line 78.
-
-
-LaTeX Warning: Citation `postholder' on page 3 undefined on input line 80.
-
-
-LaTeX Warning: Citation `flipmount_linse' on page 3 undefined on input line 82.
-
 
 [3]
 
@@ -858,16 +808,37 @@ LaTeX Warning: Reference `fig:polert_sample' on page 5 undefined on input line
 27.
 
 
-LaTeX Warning: Reference `fig:upolert' on page 5 undefined on input line 27.
-
-
 LaTeX Warning: Reference `fig:upolert_sample' on page 5 undefined on input line
  27.
 
 File: ./bilder/Polert_300K.eps Graphic file (type eps)
 <./bilder/Polert_300K.eps> [5]
 File: ./bilder/Upolert_300K.eps Graphic file (type eps)
- <./bilder/Upolert_300K.eps>) [6]
+ <./bilder/Upolert_300K.eps>
+File: ./bilder/Sample_4.eps Graphic file (type eps)
+
+<./bilder/Sample_4.eps> [6]
+File: ./bilder/Sample_4.eps Graphic file (type eps)
+ <./bilder/Sample_4.eps>
+File: ./bilder/Sample_4_2_1.eps Graphic file (type eps)
+
+<./bilder/Sample_4_2_1.eps> [7]
+File: ./bilder/Sample_4_2_2.eps Graphic file (type eps)
+ <./bilder/Sample_4_2_2.eps>
+File: ./bilder/Posisjonsavhengighet.eps Graphic file (type eps)
+
+<./bilder/Posisjonsavhengighet.eps> [8]
+File: ./bilder/sample_4_edited.png Graphic file (type eps)
+ <./bilder/sample_4_edited.png>
+Overfull \hbox (66.79134pt too wide) in paragraph at lines 93--94
+ [][][] 
+ []
+
+File: ./bilder/Sample_4_SPOT_1_BAD.eps Graphic file (type eps)
+<./bilder/Sample_4_SPOT_1_BAD.eps> [9]
+File: ./bilder/Sample_4_SPOT_2_GOOD.eps Graphic file (type eps)
+ <./bilder/Sample_4_SPOT_2_GOOD.eps>)
+[10]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
 egg_transmisjon.tex"
 File: ./bilder/kameragraf.png Graphic file (type eps)
@@ -876,11 +847,11 @@ File: ./bilder/cryovindu.png Graphic file (type eps)
  <./bilder/cryovindu.png>
 File: ./bilder/breamsplitter400-700nm.png Graphic file (type eps)
 
-<./bilder/breamsplitter400-700nm.png> [7
+<./bilder/breamsplitter400-700nm.png> [11
 
 ]
 File: ./bilder/old_linse.png Graphic file (type eps)
- <./bilder/old_linse.png>) [8]
+ <./bilder/old_linse.png>) [12]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.bbl"
 Overfull \hbox (46.02255pt too wide) in paragraph at lines 4--6
@@ -959,7 +930,7 @@ Overfull \hbox (565.49239pt too wide) in paragraph at lines 64--68
 [][]\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  [][][][]. 
  []
 
-) [9
+) [13
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
@@ -972,12 +943,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 14917 strings out of 495286
- 274420 string characters out of 3180368
+ 14940 strings out of 495286
+ 274883 string characters out of 3180368
  378752 words of memory out of 3000000
- 17726 multiletter control sequences out of 15000+200000
+ 17742 multiletter control sequences out of 15000+200000
  17371 words of font info for 51 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,9n,58p,899b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,10n,58p,899b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Latex_filer.dvi (9 pages, 39864 bytes).
+Output written on Latex_filer.dvi (13 pages, 51252 bytes).
