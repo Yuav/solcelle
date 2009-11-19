@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{erbium}
+C.~W. Pitta T. Shimizu-Iwayamab D. E. Holec N.~Sharmad A.~J.~Kenyon, C.
+  E.~Chryssoua and C.~J. Humphreysd.
+\newblock Broad-band and flashlamp pumping of 1.53 \micro m emission from
+  erbium-doped silicon nanocrystals.
+\newblock 2001.
+
 \bibitem{streetman}
 Sanjay Kumar~Banerjee Ben G.~Streetman.
 \newblock {\em Solid state electronic devices}.
@@ -12,6 +19,12 @@ Flip mount.
 \bibitem{flipmount_linse}
 Flip mount - lens holder.
 \newblock \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=1447}.
+
+\bibitem{tarasov00}
+C.Haessler E.-U.~Reisner I.~Tarasov S.~Ostapenko.
+\newblock Spatially resolved defect diagnostics in multicrystalline silicon for
+  solar cells.
+\newblock {\em Elsevier Science S.A}, 2000.
 
 \bibitem{iris}
 Mounted stainless steel iris.
@@ -52,12 +65,6 @@ Post.
 \bibitem{postholder}
 Post holder.
 \newblock http://www.thorlabs.com/thorProduct.cfm?partNumber=PH2/M.
-
-\bibitem{tarasov00}
-I.~Tarasov S. Ostapenko C.Haessler E.-U. Reisner.
-\newblock Spatially resolved defect diagnostics in multicrystalline silicon for
-  solar cells.
-\newblock {\em Elsevier Science S.A}, 2000.
 
 \bibitem{speil}
 Protected silver mirror.

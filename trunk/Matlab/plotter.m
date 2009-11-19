@@ -1,3 +1,4 @@
+clear, clc,close all % clear all variables, window, and close all windows
 %set( 0, 'DefaultFigurePaperType', 'A5' );
 %set( 0, 'DefaultFigurePaperUnits', 'centimeters' );
 
@@ -16,18 +17,44 @@ A = dlmread(filnavn,delimiter);
 Ax = A(:,1);
 Ay = A(:,2);
 
+
 % Plotte
-figure(1);
-set(gca,'FontSize',fontsize)
-%axis([1480 1620 2000 4000]);
+fig1 = figure(1);
+
+axes1 = axes('Parent',fig1,'FontSize',fontsize);
+box(axes1,'on');
+hold(axes1,'all');
+hold on;
+
 plot(Ax,Ay);
 %title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
-legend('5s integrering');
+
+
+
+% Create new axes
+%axes2 = axes('Parent',fig1,'YAxisLocation','right','XAxisLocation','top',...
+%    'FontSize',14);
+%box(axes2,'on');
+%hold(axes2,'all');
+
+% Create plot
+
+%h = 4.135667273e-15;
+%c = 299792458;
+%Ax2 = (h*c)./(Ax*10^-9);
+
+%plot(Ax2,Ay);
+%plot(Ax2,Ay,'Parent',axes2,'DisplayName','5s integrering');
+
+% Create xlabel
+%xlabel({'Energi [eV]'},'VerticalAlignment','bottom','FontSize',14);
+
 
 % Skrive til fil for bruk i latex
 print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_gammel' % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
+
 
 % ############################################################
 % Erbium referanseprøve ved 300K, grating på 300 og 5 sekunder
@@ -406,7 +433,7 @@ Ay = A(:,2);
 
 figure(10)
 set(gca,'FontSize',fontsize)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 %title('Sample 4 i "bad spot"');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
@@ -434,10 +461,12 @@ A = matrix_align_and_glue(A,F);
 Ax = A(:,1);
 Ay = A(:,2);
 set(gca,'FontSize',fontsize)
+Ax = nm_to_ev(Ax);
 plot(Ax,Ay)
 %title('Sample 4 i "good spot"');
 ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('50s integrering');
 
 % Skrive til fil for bruk i latex
