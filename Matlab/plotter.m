@@ -119,11 +119,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(3)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Polert multikrystallinsk silisium ved 300K');
 ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
@@ -154,11 +155,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(4);
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Upolert sample ved 300K');
 ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
@@ -191,6 +193,7 @@ plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K');
 ylabel('Intensitet');
+xlabel('Energi [eV]');
 xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
@@ -226,6 +229,7 @@ plot(Ax,Ay);
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 18K pumpet med 4.6mW');
 ylabel('Intensitet');
+xlabel('Energi [eV]');
 xlabel('Bølgelengde [nm]');
 legend('2s integrering');
 
@@ -258,6 +262,7 @@ plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 15mW');
 ylabel('Intensitet');
+xlabel('Energi [eV]');
 xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
@@ -288,6 +293,7 @@ plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 30mW');
 ylabel('Intensitet');
+xlabel('Energi [eV]');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering');
 
@@ -383,6 +389,7 @@ figure(9)
 set(gca,'FontSize',fontsize)
 %title('Posisjonsavhengig karakteristikk');
 ylabel('Intensitet');
+xlabel('Energi [eV]');
 xlabel('Bølgelengde [nm]');
 
 hold on
@@ -437,6 +444,7 @@ plot(nm_to_ev(Ax),Ay)
 %title('Sample 4 i "bad spot"');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('50s integrering');
 
 % Skrive til fil for bruk i latex
