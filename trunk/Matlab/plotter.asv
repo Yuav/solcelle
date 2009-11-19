@@ -21,49 +21,36 @@ Ay = A(:,2);
 % Plotte
 fig1 = figure(1);
 
-axes1 = axes('Parent',figure1,'FontSize',fontsize);
+axes1 = axes('Parent',fig1,'FontSize',fontsize);
 box(axes1,'on');
 hold(axes1,'all');
+hold on;
 
 plot(Ax,Ay);
 %title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
 
-x2 = axes(); % create new axis
-set(gca,'FontSize',fontsize)
-set(gca,'XAxisLocation','bottom')
 
 
-% Create axes
-axes2 = axes('Parent',figure1,'YAxisLocation','right','XAxisLocation','top',...
-    'FontSize',14);
-box(axes2,'on');
-hold(axes2,'all');
+% Create new axes
+%axes2 = axes('Parent',fig1,'YAxisLocation','right','XAxisLocation','top',...
+%    'FontSize',14);
+%box(axes2,'on');
+%hold(axes2,'all');
 
 % Create plot
-plot(X2,Y1,'Parent',axes2,'DisplayName','5s integrering');
+
+%h = 4.135667273e-15;
+%c = 299792458;
+%Ax2 = (h*c)./(Ax*10^-9);
+
+%plot(Ax2,Ay);
+%plot(Ax2,Ay,'Parent',axes2,'DisplayName','5s integrering');
 
 % Create xlabel
-xlabel({'Energi [eV]'},'VerticalAlignment','bottom','FontSize',14);
+%xlabel({'Energi [eV]'},'VerticalAlignment','bottom','FontSize',14);
 
-
-
-
-
-
-
-
-
-
-h = 4.135667273e-15;
-c = 299792458;
-Ax2 = (h*c)./(Ax*10^-9);
-plot(Ax2,Ay);
-
-xlabel('Energi [eV]');
-
-legend('5s integrering');
 
 % Skrive til fil for bruk i latex
 print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Erbium_gammel' % Prints to eps file named 'Erbium_300grv-5s-1550nm-300k' for use in latex
@@ -132,7 +119,7 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(3)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Polert multikrystallinsk silisium ved 300K');
 ylabel('Intensitet');
@@ -167,11 +154,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(4);
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Upolert sample ved 300K');
 ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('5s integrering')
 
 % Skrive til fil for bruk i latex
@@ -446,7 +434,7 @@ Ay = A(:,2);
 
 figure(10)
 set(gca,'FontSize',fontsize)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 %title('Sample 4 i "bad spot"');
 ylabel('Intensitet');
 xlabel('Bølgelengde [nm]');
@@ -474,10 +462,12 @@ A = matrix_align_and_glue(A,F);
 Ax = A(:,1);
 Ay = A(:,2);
 set(gca,'FontSize',fontsize)
+Ax = nm_to_ev(Ax);
 plot(Ax,Ay)
 %title('Sample 4 i "good spot"');
 ylabel('Intensitet');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
+xlabel('Energi [eV]');
 legend('50s integrering');
 
 % Skrive til fil for bruk i latex
