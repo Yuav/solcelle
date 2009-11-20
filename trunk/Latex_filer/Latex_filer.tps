@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=9
-ActiveFrame=6
+FrameCount=10
+ActiveFrame=9
 
 [Frame0]
 Columns=1
@@ -90,8 +90,8 @@ cxCur=1011
 cxMin=10
 
 [Frame2_View0,0]
-Cursor.row=12
-Cursor.column=18
+Cursor.row=10
+Cursor.column=13
 TopSubLine=0
 
 [Frame3]
@@ -184,8 +184,8 @@ TopSubLine=6
 [Frame6]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -198,17 +198,17 @@ Class=CLatexEdit
 Document=resultater.tex
 
 [Frame6_Row0]
-cyCur=607
+cyCur=370
 cyMin=10
 
 [Frame6_Col0]
-cxCur=1173
+cxCur=1011
 cxMin=10
 
 [Frame6_View0,0]
-Cursor.row=26
-Cursor.column=56
-TopSubLine=20
+Cursor.row=32
+Cursor.column=25
+TopSubLine=22
 
 [Frame7]
 Columns=1
@@ -235,9 +235,9 @@ cxCur=1011
 cxMin=10
 
 [Frame7_View0,0]
-Cursor.row=7
-Cursor.column=0
-TopSubLine=0
+Cursor.row=92
+Cursor.column=11
+TopSubLine=80
 
 [Frame8]
 Columns=1
@@ -267,4 +267,33 @@ cxMin=10
 Cursor.row=0
 Cursor.column=9
 TopSubLine=0
+
+[Frame9]
+Columns=1
+Rows=1
+Flags=2
+ShowCmd=3
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-4
+MaxPos.y=-30
+NormalPos.left=22
+NormalPos.top=29
+NormalPos.right=1062
+NormalPos.bottom=454
+Class=CLatexEdit
+Document=diskusjon.tex
+
+[Frame9_Row0]
+cyCur=607
+cyMin=10
+
+[Frame9_Col0]
+cxCur=1173
+cxMin=10
+
+[Frame9_View0,0]
+Cursor.row=51
+Cursor.column=0
+TopSubLine=33
 

@@ -189,12 +189,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(5)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K');
 ylabel('Intensitet');
 xlabel('Energi [eV]');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
@@ -225,12 +225,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(6);
-plot(Ax,Ay);
+plot(nm_to_ev(Ax),Ay);
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 18K pumpet med 4.6mW');
 ylabel('Intensitet');
 xlabel('Energi [eV]');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
 legend('2s integrering');
 
 % Skrive til fil for bruk i latex
@@ -258,12 +258,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(7)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 15mW');
 ylabel('Intensitet');
 xlabel('Energi [eV]');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
@@ -289,12 +289,12 @@ Ax = A(:,1);
 Ay = A(:,2);
 
 figure(8)
-plot(Ax,Ay)
+plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 30mW');
 ylabel('Intensitet');
 xlabel('Energi [eV]');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
 legend('5s integrering');
 
 % Skrive til fil for bruk i latex
@@ -390,22 +390,21 @@ set(gca,'FontSize',fontsize)
 %title('Posisjonsavhengig karakteristikk');
 ylabel('Intensitet');
 xlabel('Energi [eV]');
-xlabel('Bølgelengde [nm]');
+%xlabel('Bølgelengde [nm]');
 
 hold on
-
-plot (F2x,F2y);
-plot (F3x,F3y);
+plot (nm_to_ev(F2x),F2y);
+plot (nm_to_ev(F3x),F3y);
 legend('10s integrering');
-plot (F4x,F4y);
+plot (nm_to_ev(F4x),F4y);
 %plot (F5x,F5y,':');
-plot (F6x,F6y);
-plot (F7x,F7y);
-plot (F8x,F8y);
+plot (nm_to_ev(F6x),F6y);
+plot (nm_to_ev(F7x),F7y);
+plot (nm_to_ev(F8x),F8y);
 %plot (F9x,F9y,':');
-plot (F10x,F10y);
+plot (nm_to_ev(F10x),F10y);
 %plot (F11x,F11y,':'); % likt med 12?
-plot (F12x,F12y,'y');
+plot (nm_to_ev(F12x),F12y,'y');
 %plot (F13x,F13y,':');
 %plot (F14x,F14y,':');
 %plot (F15x,F15y,':');
@@ -413,8 +412,8 @@ plot (F12x,F12y,'y');
 %plot (F18x,F18y,':');
 %plot (F19x,F19y,':');
 %plot (F20x,F20y,':');
-plot (F1x,F1y,'r'); % Høyeste kurve
-plot (F17x,F17y,'g'); % Lavest startende kurve
+plot (nm_to_ev(F1x),F1y,'r'); % Høyeste kurve
+plot (nm_to_ev(F17x),F17y,'g'); % Lavest startende kurve
 
 % Skrive til fil for bruk i latex
 print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Posisjonsavhengighet'
