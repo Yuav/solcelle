@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  20 NOV 2009 17:27
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  7 DEC 2009 14:28
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/Late
 x_filer.tex
@@ -784,11 +784,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
-oduksjon.tex"
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
-
-)
+oduksjon.tex")
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
 elle_teori.tex" [1
 
@@ -825,86 +821,54 @@ om-biner-er. Tilsvarende
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
 elle_teori_inhomogene_halvledere.tex" [6] [7])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
-troskopi.tex"
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 6.
-
-<./bilder/luminisence.png, id=149, 307.1475pt x 265.99374pt>
+troskopi.tex" <./bilder/luminisence.png, id=158, 307.1475pt x 265.99374pt>
 File: ./bilder/luminisence.png Graphic file (type png)
 
 <use ./bilder/luminisence.png> [8])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\tap.
 tex" [9 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_fil
 er/bilder/luminisence.png>]
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 19.
-
-<./bilder/dislokasjonslinjer_tarasov00.png, id=169, 513.92pt x 298.11375pt>
+<./bilder/dislokasjonslinjer_tarasov00.png, id=179, 513.92pt x 298.11375pt>
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
 
 <use ./bilder/dislokasjonslinjer_tarasov00.png>)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
 emetode.tex" [10 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/
 Latex_filer/bilder/dislokasjonslinjer_tarasov00.png (PNG copy)>]
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 8.
-
-<bilder/cryolabtap.png, id=177, 333.245pt x 275.0275pt>
+<bilder/cryolabtap.png, id=187, 333.245pt x 275.0275pt>
 File: bilder/cryolabtap.png Graphic file (type png)
 
-<use bilder/cryolabtap.png> [11
+<use bilder/cryolabtap.png>
+<./bilder/dlinjerjakt.png, id=188, 803.0pt x 602.25pt>
+File: ./bilder/dlinjerjakt.png Graphic file (type png)
+
+<use ./bilder/dlinjerjakt.png> [11
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
-er/cryolabtap.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
+er/cryolabtap.png (PNG copy)>] [12 <C:/Documents and Settings/Jon/My Documents/
+Prosjekt/solcelle/Latex_filer/bilder/dlinjerjakt.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [12]
-
-LaTeX Warning: Reference `fig:erbium_eksitasjon' on page 13 undefined on input 
-line 99.
-
-
-LaTeX Warning: Reference `fig:erbium_absorbsjon' on page 13 undefined on input 
-line 99.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.102 erbium_
-             absorbsjon.png
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.103 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.105 erbium_
-             emisjon.png
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.106 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 )
+[13] <./bilder/erbium_absorbsjon.png, id=252, 418.56375pt x 266.9975pt>
+File: ./bilder/erbium_absorbsjon.png Graphic file (type png)
+
+<use ./bilder/erbium_absorbsjon.png>
+Overfull \hbox (66.79134pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+<./bilder/erbium_emisjon.png, id=253, 354.32375pt x 282.05376pt>
+File: ./bilder/erbium_emisjon.png Graphic file (type png)
+
+<use ./bilder/erbium_emisjon.png>
+Overfull \hbox (66.79134pt too wide) in paragraph at lines 121--122
+ [][] 
+ []
+
+[14 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
+ilder/erbium_absorbsjon.png (PNG copy)>])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\resu
 ltater.tex"
 Package epstopdf Info: Source file: <./bilder/Erbium_gammel.eps>
@@ -912,113 +876,88 @@ Package epstopdf Info: Source file: <./bilder/Erbium_gammel.eps>
 (epstopdf)                    size: 16213 bytes
 (epstopdf)             Output file: <./bilder/Erbium_gammel-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2009-11-19 13:30:54
+(epstopdf)                    date: 2009-11-20 17:27:35
 (epstopdf)                    size: 8691 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Erbium_gammel-eps-
 converted-to.pdf ./bilder/Erbium_gammel.eps>
 (epstopdf)             \includegraphics on input line 12.
-runsystem(epstopdf --outfile=./bilder/Erbium_gammel-eps-converted-to.pdf ./bild
-er/Erbium_gammel.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Erbium_gammel-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2009-11-20 17:27:35
-(epstopdf)                    size: 8691 bytes.
-
-<./bilder/Erbium_gammel-eps-converted-to.pdf, id=224, 524.96124pt x 401.5pt>
+<./bilder/Erbium_gammel-eps-converted-to.pdf, id=264, 524.96124pt x 401.5pt>
 File: ./bilder/Erbium_gammel-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Erbium_gammel-eps-converted-to.pdf> [13]
+<use ./bilder/Erbium_gammel-eps-converted-to.pdf> [15 <C:/Documents and Setting
+s/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/erbium_emisjon.png (PNG
+ copy)>]
 Package epstopdf Info: Source file: <./bilder/Erbium_ny.eps>
 (epstopdf)                    date: 2009-11-20 14:39:10
 (epstopdf)                    size: 39617 bytes
 (epstopdf)             Output file: <./bilder/Erbium_ny-eps-converted-to.pdf>
-(epstopdf)                    date: 2009-11-19 13:30:55
+(epstopdf)                    date: 2009-11-20 17:27:35
 (epstopdf)                    size: 25204 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Erbium_ny-eps-conv
 erted-to.pdf ./bilder/Erbium_ny.eps>
 (epstopdf)             \includegraphics on input line 19.
-runsystem(epstopdf --outfile=./bilder/Erbium_ny-eps-converted-to.pdf ./bilder/E
-rbium_ny.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Erbium_ny-eps-converted-to.pdf>
-(epstopdf)                    date: 2009-11-20 17:27:35
-(epstopdf)                    size: 25204 bytes.
-
-<./bilder/Erbium_ny-eps-converted-to.pdf, id=242, 513.92pt x 415.5525pt>
+<./bilder/Erbium_ny-eps-converted-to.pdf, id=272, 513.92pt x 415.5525pt>
 File: ./bilder/Erbium_ny-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Erbium_ny-eps-converted-to.pdf>
+<use ./bilder/Erbium_ny-eps-converted-to.pdf> [16 <C:/Documents and Settings/Jo
+n/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Erbium_gammel-eps-converted
+-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_fi
+ler/bilder/Erbium_ny-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./bilder/Polert_300K.eps>
 (epstopdf)                    date: 2009-11-20 14:39:10
 (epstopdf)                    size: 48588 bytes
 (epstopdf)             Output file: <./bilder/Polert_300K-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2009-11-19 13:30:56
-(epstopdf)                    size: 26143 bytes
+(epstopdf)                    date: 2009-11-20 17:27:36
+(epstopdf)                    size: 25707 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Polert_300K-eps-co
 nverted-to.pdf ./bilder/Polert_300K.eps>
 (epstopdf)             \includegraphics on input line 31.
-runsystem(epstopdf --outfile=./bilder/Polert_300K-eps-converted-to.pdf ./bilder
-/Polert_300K.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Polert_300K-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2009-11-20 17:27:36
-(epstopdf)                    size: 25707 bytes.
-
-<./bilder/Polert_300K-eps-converted-to.pdf, id=247, 518.93875pt x 401.5pt>
+<./bilder/Polert_300K-eps-converted-to.pdf, id=289, 518.93875pt x 401.5pt>
 File: ./bilder/Polert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Polert_300K-eps-converted-to.pdf> [14 <C:/Documents and Settings/
-Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Erbium_gammel-eps-convert
-ed-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_
-filer/bilder/Erbium_ny-eps-converted-to.pdf>]
+<use ./bilder/Polert_300K-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <./bilder/Upolert_300K.eps>
 (epstopdf)                    date: 2009-11-20 14:39:11
 (epstopdf)                    size: 48508 bytes
 (epstopdf)             Output file: <./bilder/Upolert_300K-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2009-11-19 13:30:56
-(epstopdf)                    size: 26679 bytes
+(epstopdf)                    date: 2009-11-20 17:27:37
+(epstopdf)                    size: 26165 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Upolert_300K-eps-c
 onverted-to.pdf ./bilder/Upolert_300K.eps>
 (epstopdf)             \includegraphics on input line 38.
-runsystem(epstopdf --outfile=./bilder/Upolert_300K-eps-converted-to.pdf ./bilde
-r/Upolert_300K.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Upolert_300K-eps-converted-to.pdf
->
-(epstopdf)                    date: 2009-11-20 17:27:37
-(epstopdf)                    size: 26165 bytes.
-
-<./bilder/Upolert_300K-eps-converted-to.pdf, id=262, 518.93875pt x 401.5pt>
+<./bilder/Upolert_300K-eps-converted-to.pdf, id=290, 518.93875pt x 401.5pt>
 File: ./bilder/Upolert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Upolert_300K-eps-converted-to.pdf>
+<use ./bilder/Upolert_300K-eps-converted-to.pdf> [17 <C:/Documents and Settings
+/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Polert_300K-eps-converte
+d-to.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
 (epstopdf)                    date: 2009-11-20 14:39:11
 (epstopdf)                    size: 50446 bytes
 (epstopdf)             Output file: <./bilder/Sample_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2009-11-19 13:30:57
-(epstopdf)                    size: 28362 bytes
+(epstopdf)                    date: 2009-11-20 17:27:37
+(epstopdf)                    size: 27996 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4-eps-conve
 rted-to.pdf ./bilder/Sample_4.eps>
 (epstopdf)             \includegraphics on input line 50.
-runsystem(epstopdf --outfile=./bilder/Sample_4-eps-converted-to.pdf ./bilder/Sa
-mple_4.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Sample_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2009-11-20 17:27:37
-(epstopdf)                    size: 27996 bytes.
-
-<./bilder/Sample_4-eps-converted-to.pdf, id=265, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4-eps-converted-to.pdf, id=302, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Sample_4-eps-converted-to.pdf> [15 <C:/Documents and Settings/Jon
-/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Polert_300K-eps-converted-to
-.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer
-/bilder/Upolert_300K-eps-converted-to.pdf>]
+<use ./bilder/Sample_4-eps-converted-to.pdf> [18 <C:/Documents and Settings/Jon
+/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Upolert_300K-eps-converted-t
+o.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
 (epstopdf)                    date: 2009-11-20 14:39:11
 (epstopdf)                    size: 50446 bytes
@@ -1030,30 +969,23 @@ rted-to.pdf ./bilder/Sample_4.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./bilder/Sample_4-eps-converted-to.pdf>
+ <use ./bilder/Sample_4-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <./bilder/Sample_4_2_1.eps>
 (epstopdf)                    date: 2009-11-20 14:39:12
 (epstopdf)                    size: 50063 bytes
 (epstopdf)             Output file: <./bilder/Sample_4_2_1-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2009-11-19 13:30:57
-(epstopdf)                    size: 27088 bytes
+(epstopdf)                    date: 2009-11-20 17:27:38
+(epstopdf)                    size: 26519 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_2_1-eps-c
 onverted-to.pdf ./bilder/Sample_4_2_1.eps>
 (epstopdf)             \includegraphics on input line 66.
-runsystem(epstopdf --outfile=./bilder/Sample_4_2_1-eps-converted-to.pdf ./bilde
-r/Sample_4_2_1.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Sample_4_2_1-eps-converted-to.pdf
->
-(epstopdf)                    date: 2009-11-20 17:27:38
-(epstopdf)                    size: 26519 bytes.
-
-<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=278, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=312, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [16 <C:/Documents and Settings
+<use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [19 <C:/Documents and Settings
 /Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4-eps-converted-t
 o.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4_2_2.eps>
@@ -1061,20 +993,14 @@ Package epstopdf Info: Source file: <./bilder/Sample_4_2_2.eps>
 (epstopdf)                    size: 50219 bytes
 (epstopdf)             Output file: <./bilder/Sample_4_2_2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2009-11-19 13:30:58
-(epstopdf)                    size: 26867 bytes
+(epstopdf)                    date: 2009-11-20 17:27:38
+(epstopdf)                    size: 26341 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_2_2-eps-c
 onverted-to.pdf ./bilder/Sample_4_2_2.eps>
 (epstopdf)             \includegraphics on input line 75.
-runsystem(epstopdf --outfile=./bilder/Sample_4_2_2-eps-converted-to.pdf ./bilde
-r/Sample_4_2_2.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Sample_4_2_2-eps-converted-to.pdf
->
-(epstopdf)                    date: 2009-11-20 17:27:38
-(epstopdf)                    size: 26341 bytes.
-
-<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=288, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=323, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_2-eps-converted-to.pdf>
@@ -1083,36 +1009,26 @@ Package epstopdf Info: Source file: <./bilder/Posisjonsavhengighet.eps>
 (epstopdf)                    size: 89276 bytes
 (epstopdf)             Output file: <./bilder/Posisjonsavhengighet-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2009-11-19 13:30:58
-(epstopdf)                    size: 51880 bytes
+(epstopdf)                    date: 2009-11-20 17:27:39
+(epstopdf)                    size: 51698 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Posisjonsavhengigh
 et-eps-converted-to.pdf ./bilder/Posisjonsavhengighet.eps>
 (epstopdf)             \includegraphics on input line 84.
-runsystem(epstopdf --outfile=./bilder/Posisjonsavhengighet-eps-converted-to.pdf
- ./bilder/Posisjonsavhengighet.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Posisjonsavhengighet-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2009-11-20 17:27:39
-(epstopdf)                    size: 51698 bytes.
-
-<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=289, 522.95375pt x 401.
+<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=324, 522.95375pt x 401.
 5pt>
 File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
 )
- <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf> [17 <C:/Documents and
+ <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf> [20 <C:/Documents and
  Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_2_1-ep
 s-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcel
 le/Latex_filer/bilder/Sample_4_2_2-eps-converted-to.pdf>]
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 93.
-
-<./bilder/sample_4_edited.png, id=300, 1162.3425pt x 496.85625pt>
+<./bilder/sample_4_edited.png, id=335, 1162.3425pt x 496.85625pt>
 File: ./bilder/sample_4_edited.png Graphic file (type png)
 
 <use ./bilder/sample_4_edited.png>
-Overfull \hbox (66.79134pt too wide) in paragraph at lines 93--94
+Overfull \hbox (66.79134pt too wide) in paragraph at lines 94--95
  [][] 
  []
 
@@ -1121,24 +1037,18 @@ Package epstopdf Info: Source file: <./bilder/Sample_4_SPOT_1_BAD.eps>
 (epstopdf)                    size: 45080 bytes
 (epstopdf)             Output file: <./bilder/Sample_4_SPOT_1_BAD-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2009-11-19 13:30:59
-(epstopdf)                    size: 26400 bytes
+(epstopdf)                    date: 2009-11-20 17:27:39
+(epstopdf)                    size: 25775 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_SPOT_1_BA
 D-eps-converted-to.pdf ./bilder/Sample_4_SPOT_1_BAD.eps>
-(epstopdf)             \includegraphics on input line 102.
-runsystem(epstopdf --outfile=./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf 
-./bilder/Sample_4_SPOT_1_BAD.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Sample_4_SPOT_1_BAD-eps-converted
--to.pdf>
-(epstopdf)                    date: 2009-11-20 17:27:39
-(epstopdf)                    size: 25775 bytes.
-
-<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=301, 495.8525pt x 415.55
+<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=336, 495.8525pt x 415.55
 25pt>
 File: ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf Graphic file (type pdf)
 
- <use ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> [18 <C:/Documents and 
+ <use ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> [21 <C:/Documents and 
 Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Posisjonsavhengi
 ghet-eps-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt
 /solcelle/Latex_filer/bilder/sample_4_edited.png (PNG copy)>]
@@ -1147,180 +1057,149 @@ Package epstopdf Info: Source file: <./bilder/Sample_4_SPOT_2_GOOD.eps>
 (epstopdf)                    size: 45375 bytes
 (epstopdf)             Output file: <./bilder/Sample_4_SPOT_2_GOOD-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2009-11-19 13:30:59
-(epstopdf)                    size: 26661 bytes
+(epstopdf)                    date: 2009-11-20 17:27:40
+(epstopdf)                    size: 25999 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bilder/Sample_4_SPOT_2_GO
 OD-eps-converted-to.pdf ./bilder/Sample_4_SPOT_2_GOOD.eps>
-(epstopdf)             \includegraphics on input line 110.
-runsystem(epstopdf --outfile=./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf
- ./bilder/Sample_4_SPOT_2_GOOD.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <./bilder/Sample_4_SPOT_2_GOOD-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2009-11-20 17:27:40
-(epstopdf)                    size: 25999 bytes.
-
-<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=312, 495.8525pt x 415.5
+<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=347, 495.8525pt x 415.5
 525pt>
 File: ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\disk
-usjon.tex") [19 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/L
-atex_filer/bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> <C:/Documents and S
-ettings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_SPOT_2_G
-OOD-eps-converted-to.pdf>] [20]
+usjon.tex" [22 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/La
+tex_filer/bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> <C:/Documents and Se
+ttings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_SPOT_2_GO
+OD-eps-converted-to.pdf>] [23]) [24] [25]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
 egg_transmisjon.tex"
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 6.
-
-<./bilder/kameragraf.png, id=331, 737.75626pt x 592.2125pt>
+<./bilder/kameragraf.png, id=407, 737.75626pt x 592.2125pt>
 File: ./bilder/kameragraf.png Graphic file (type png)
 
 <use ./bilder/kameragraf.png>
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 13.
-
-<./bilder/cryovindu.png, id=332, 1072.005pt x 650.43pt>
+<./bilder/cryovindu.png, id=408, 1072.005pt x 650.43pt>
 File: ./bilder/cryovindu.png Graphic file (type png)
 
 <use ./bilder/cryovindu.png>
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 22.
-
-<./bilder/breamsplitter400-700nm.png, id=333, 909.3975pt x 572.1375pt>
-File: ./bilder/breamsplitter400-700nm.png Graphic file (type png)
-
-<use ./bilder/breamsplitter400-700nm.png> [21
+File: ./bilder/cryovindu.png Graphic file (type png)
+ <use ./bilder/cryovindu.png> [26
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/kameragraf.png (PNG copy)> <C:/Documents and Settings/Jon/My Documents/Prosj
 ekt/solcelle/Latex_filer/bilder/cryovindu.png (PNG copy)>]
-
-Package pdftex.def Warning: Option `bb' does not make sense,
-(pdftex.def)                using `viewport' instead on input line 29.
-
-<./bilder/old_linse.png, id=339, 635.37375pt x 215.80624pt>
+<./bilder/old_linse.png, id=414, 635.37375pt x 215.80624pt>
 File: ./bilder/old_linse.png Graphic file (type png)
 
-<use ./bilder/old_linse.png>) [22 <C:/Documents and Settings/Jon/My Documents/P
-rosjekt/solcelle/Latex_filer/bilder/breamsplitter400-700nm.png (PNG copy)> <C:/
-Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/ol
-d_linse.png (PNG copy)>]
+<use ./bilder/old_linse.png>) [27 <C:/Documents and Settings/Jon/My Documents/P
+rosjekt/solcelle/Latex_filer/bilder/old_linse.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.bbl"
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 []\T1/cmr/m/n/10.95 Flip mount.  []$\T1/cmtt/m/n/10.95 http : / / www . thorlab
 s . com / thorProduct . cfm ?
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 52--56
+Underfull \hbox (badness 3343) in paragraph at lines 56--60
 []\T1/cmr/m/n/10.95 50x mi-tu-toyo plan nir hr infinity-corrected ob-jec-tive. 
  []$\T1/cmtt/m/n/10.95 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
 \T1/cmtt/m/n/10.95 / / www . edmundoptics . com / uk / onlinecatalog / displayp
 roduct .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 []\T1/cmr/m/n/10.95 Acn127-020-b.  []$\T1/cmtt/m/n/10.95 http : / / www . thorl
 abs . de / NewGroupPage11 . cfm ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 []\T1/cmr/m/n/10.95 Post.  []$\T1/cmtt/m/n/10.95 http : / / www . thorlabs . de
  / thorProduct . cfm ? partNumber =
  []
 
 
-Overfull \hbox (39.04663pt too wide) in paragraph at lines 66--68
+Overfull \hbox (39.04663pt too wide) in paragraph at lines 70--72
 []\T1/cmr/m/n/10.95 Post hold-er.  http://www.thorlabs.com/thorProduct.cfm?part
 Number=PH2/M. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
 \T1/cmtt/m/n/10.95 cfm ? ObjectGroup _ ID = 903&pn = PF10-[]03-[]P01-[]10&CFID 
 =
  []
 
+[28
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+]
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 []\T1/cmr/m/n/10.95 ihr550 imag-ing spec-trom-e-ter.  []$\T1/cmtt/m/n/10.95 htt
 p : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \T1/cmtt/m/n/10.95 www . horiba . com / us / en / scientific / products /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \T1/cmtt/m/n/10.95 optical-[]spectroscopy / spectrometers-[]monochromators / ih
 r /
  []
 
-[23
-
-]) [24]
+) [29]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 15908 strings out of 495285
- 292416 string characters out of 3180345
- 626473 words of memory out of 3000000
- 18559 multiletter control sequences out of 15000+200000
- 22421 words of font info for 65 fonts, out of 3000000 for 9000
+ 15938 strings out of 495285
+ 292907 string characters out of 3180345
+ 626871 words of memory out of 3000000
+ 18573 multiletter control sequences out of 15000+200000
+ 21638 words of font info for 64 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,9n,61p,1084b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\Jon\Lo
-cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ect
-t1095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
-\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Documents and Settings
-\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
-\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Documents and S
-ettings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applicati
-on Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Document
-s and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\Jon\Local Settings\Ap
-plication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\D
-ocuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Sett
-ings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
-><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
-gram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
-es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
-X 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
-public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
-m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
-MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.
-8/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/t
-ype1/public/amsfonts/euler/eurm10.pfb>
-Output written on Latex_filer.pdf (24 pages, 1660212 bytes).
+ 47i,9n,61p,1437b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Documents and Settings\Jon\Local Settings\Application Data\
+MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Se
+ttings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\
+ec\dpi600\ectt1095.pk> <C:\Documents and Settings\Jon\Local Settings\Applicatio
+n Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Documents
+ and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local Settings\App
+lication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Do
+cuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\lj
+four\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Local Setti
+ngs\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk>
+ <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\font
+s\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\Jon\Loca
+l Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
+200.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2
+.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.8/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/euler/eur
+m10.pfb>
+Output written on Latex_filer.pdf (29 pages, 1669873 bytes).
 PDF statistics:
- 753 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 839 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
