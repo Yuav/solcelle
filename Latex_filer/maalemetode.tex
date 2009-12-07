@@ -12,15 +12,22 @@ En av utfordningene er å få til et laboppsett som kan måle og karakterisere ulik
 \end{figure}
 
 \begin{figure}[H]
+\centering
 \includegraphics[width=10cm]{dlinjerjakt.png}%
-\caption{Fotoluminisensspekter ved 20K ved D-linjer energier}%
+\caption{Fotoluminisensspekter ved 20K forskjellige steder på prøven}%
 \label{fig:dlinjerjakt}%
 \end{figure}
 
 Publikasjoner som~\cite{tarasov00} (figur \ref{fig:dislokasjonslinjer}) viser et spekter rundt 0,7-1 eV som ikke er synlig på målinger gjort tidligere på cryolab. (figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt}) Grunnen til det er ikke kjent, men antas og være et resultat av tap i utstyr som linser og beamsplittere. 1eV tilsvarer 1240nm bølgelengde fra ~\ref{eq:lysenergi}, som betyr at spekteret som antas å forsvinne har bølgelengde 1100-1700nm.
 
-\subsection{Laboppsett}
+\subsection{Eksisterende laboppsett}
 % laboppsett figur her
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{laboppsett_gammelt}%
+\caption{Tidligere laboppsett}%
+\label{fig:laboppsett_gammelt}%
+\end{figure}
 
 Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende komponenter:
 
@@ -60,11 +67,17 @@ Dette viser tydelig at beamsplitteren og linsene som er brukt i oppsettet er sto
 
 %Hvordan løse problemet?
 
-Det er tydelig at objektivet, beamsplitteren og linsene er kilder til store tap i systemet. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for de bølgelengdene som er interessante. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
+Det er tydelig at objektivet, beamsplitteren og linsene er kilder til store tap i systemet. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for de bølgelengdene som er interessante. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp en beamsplitter og speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
 
 Forslag til oppsett for parallell optisk vei:
 
 % tegning av parallell veibane
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{laboppsett_nytt}%
+\caption{Parallell veibane for 1\micro m-1,5\micro m}%
+\label{fig:oppsett_nytt}%
+\end{figure}
 
 Utstyr for å realisere dette oppsettet kommer fra \url{http://www.thorlabs.de}. Følgende komponenter er valgt ut:
 
@@ -110,7 +123,7 @@ For å teste det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium s
 % Er absorbsjon figur
 \begin{figure}[H]
 \centering
-	\includegraphics[width=15cm]{erbium_absorbsjon.png}%
+	\includegraphics[width=10cm]{erbium_absorbsjon.png}%
 \caption{Erbium prøve referanseverdig for absorbsjon}%
 \label{fig:erbium_absorbsjon}%
 \end{figure}
@@ -118,7 +131,7 @@ For å teste det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium s
 % Er eksitasjonfigur
 \begin{figure}[H]
 \centering
-	\includegraphics[width=15cm]{erbium_emisjon.png}%
+	\includegraphics[width=10cm]{erbium_emisjon.png}%
 \caption{Erbium prøve referanseverdig for eksitasjon}%
 \label{fig:erbium_eksitasjon}%
 \end{figure}

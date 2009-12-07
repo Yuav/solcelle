@@ -2,12 +2,37 @@
 
 Spektroskopi benytter seg av fotoluminisens. Når et elektronhullpar rekombinerer sendes energien som blir frigitt ut som et foton. Ved å måle energien til fotonet kommer det fram hvor mye energi som ble frigitt under rekombinering. Dette sier noe om båndgapet til materialet, som igjen er en beskrivelse av hva slags materiale det er. Ved å belyse en prøve med lys som har høy energi og intensitet, vil det eksiteres lys til alle tilgjengelige tilstander. Når disse tilstandene rekombinerer vil det sendes lys ut av prøven som kan fanges opp av et kamera og analyseres av en datamaskin for å få ut et spekter av ulike bølgelengder. For enkrystallinsk silisium er båndgapet 1.1eV, som fører til høy intensitet av lys med 1.1eV energi.
 
-\begin{figure}%
+\subsubsection{Spektrometer}
+
+\begin{figure}[H]
 \centering
 %\includegraphics[width=10cm,bb=0 0 306 265]{luminisence.png}%
-\includegraphics[width=10cm]{luminisence.png}%
+\includegraphics[width=10cm]{luminisence}%
 \caption{Eksitasjon og rekombinering}%
 \label{fig:luminisens}%
 \end{figure}
 
 Figur \ref{fig:luminisens} viser inkommende lys med høy energi som eksiterer et elektron hullpar i $a$, som etter meget kort tid faller ned til en lavere energitilstand i $b$. I $c$ rekombinerer elektronet og det sendes ut et foton med energi lik $E_c$. Det andre elektronet som eksiteres i $d$ havner i en såkalt "`trap"' state, hvor det kan befinne seg forurensninger eller defekter i en krystallstruktur. Når dette elektronet rekombinerer sendes det ut et foton med lavere energi enn i $c$. Ved å se på lyset som kommer ut fra en slik trap state kan det lokaliseres blant annet forurensninger. 
+
+For å kunne analysere ulike bølgelengder må man spre bølgelengdene slik at de kan detekteres hver for seg. Dette kan gjøre ved hjelp av et spektrometer. Dette har en såkalt diffraksjons-grating som fører til diffraksjon av lyset gitt ved:
+
+\begin{equation}
+d\sin(\theta _m)=m\lambda
+\label{eq:grating_equation}
+\end{equation}
+
+Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til lyset, $m$ er et heltall for diffraksjonsordenen og $\lambda$ er bølgelengden.
+
+\begin{figure}[H]
+\centering
+%\includegraphics[width=10cm,bb=0 0 306 265]{luminisence.png}%
+\includegraphics[width=10cm]{PL}%
+\caption{Fotoluminisens}%
+\label{fig:pl}%
+\end{figure}
+
+De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Intensiteten til de ulike bølgelengdene registreres, og kan sendes til en datamaskin som behandler dem som vist i  figur \ref{fig:pl}.
+
+\subsubsection{Lavtempratur}
+
+%OBS OBS, VIKTIG - FIKS masse referanser.
