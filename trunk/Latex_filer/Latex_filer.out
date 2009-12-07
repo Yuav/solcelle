@@ -1,9 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduksjon}{}
 \BOOKMARK [1][-]{section.2}{Solcelle teori}{}
-\BOOKMARK [2][-]{subsection.2.1}{Doping}{section.2}
-\BOOKMARK [2][-]{subsection.2.2}{Transport- og rekombinasjons-prosesser}{section.2}
-\BOOKMARK [2][-]{subsection.2.3}{Solceller}{section.2}
-\BOOKMARK [2][-]{subsection.2.4}{Spektroskopi}{section.2}
+\BOOKMARK [2][-]{subsection.2.1}{B\345ndgap}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Doping}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Transport- og rekombinasjons-prosesser}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Eksitasjon og rekombinasjon}{section.2}
+\BOOKMARK [2][-]{subsection.2.5}{Solceller}{section.2}
+\BOOKMARK [2][-]{subsection.2.6}{Spektroskopi}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Luminisens-spekter}{subsection.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Lavtempratur}{subsection.2.6}
 \BOOKMARK [1][-]{section.3}{Tap}{}
 \BOOKMARK [2][-]{subsection.3.1}{Dislokasjonslinjer}{section.3}
 \BOOKMARK [1][-]{section.4}{M\345lemetode og Instrumentering}{}
@@ -13,6 +17,8 @@
 \BOOKMARK [2][-]{subsection.5.1}{M\345linger i romtemperatur}{section.5}
 \BOOKMARK [2][-]{subsection.5.2}{M\345linger ved lavtemperatur}{section.5}
 \BOOKMARK [1][-]{section.6}{Diskusjon}{}
-\BOOKMARK [2][-]{subsection.6.1}{Referansepr\370ve}{section.6}
-\BOOKMARK [2][-]{subsection.6.2}{Pr\370ver fra tidligere}{section.6}
+\BOOKMARK [2][-]{subsection.6.1}{Resultatene fra romtempratur}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Erbium dopet referansepr\370ve}{subsection.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Upolert og polert pr\370ve}{subsection.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Sample4 ved lavtempratur}{subsection.6.1}
 \BOOKMARK [1][-]{appendix.A}{Transmisjonskurver}{}
