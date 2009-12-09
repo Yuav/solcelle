@@ -3,6 +3,10 @@
 
 En av utfordningene er å få til et laboppsett som kan måle og karakterisere ulike former for tap, slik som dislokasjonslinjer, forurensninger, og korngrenser. Dette er viktig for å kunne forstå årsakene til tap, og for å kunne analysere hvilke framstillingsprosesser som gir et gunstig resultat.
 
+\subsection{Tap i systemet}
+
+Tidligere målinger gjort av Sintef er gjort på en polert, og to upolerte prøver. Disse er navngitt sampe1, sample2 og sample3. Nye målinger er gjort på prøven avbildet i figur \ref{fig:sample4}, som her er kalt for Sample 4.
+
 \begin{figure}[H]%
 \centering
 	%\includegraphics[width=10cm,bb=0 0 332 274]{bilder/cryolabtap.png}%
@@ -18,14 +22,17 @@ En av utfordningene er å få til et laboppsett som kan måle og karakterisere ulik
 \label{fig:dlinjerjakt}%
 \end{figure}
 
-Publikasjoner som~\cite{tarasov00} (figur \ref{fig:dislokasjonslinjer}) viser et spekter rundt 0,7-1 eV som ikke er synlig på målinger gjort tidligere på cryolab. (figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt}) Grunnen til det er ikke kjent, men antas og være et resultat av tap i utstyr som linser og beamsplittere. 1eV tilsvarer 1240nm bølgelengde fra ~\ref{eq:lysenergi}, som betyr at spekteret som antas å forsvinne har bølgelengde 1100-1700nm.
+Publikasjoner som~\cite{tarasov00} (figur \ref{fig:dislokasjonslinjer}) viser et spekter rundt 0,7-1 eV som ikke er synlig på målinger gjort tidligere på cryolab. (figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt}) Grunnen til det er ikke kjent, men antas og være et resultat av tap i utstyr som linser og beamsplittere. 1eV tilsvarer 1240nm bølgelengde fra (~\ref{eq:lysenergi}), som betyr at spekteret som antas å forsvinne har bølgelengde 1100-1700nm.
 
-\subsection{Eksisterende laboppsett}
+\subsection{Laboppsett}
+
+Laboppsettet som ble brukt på tidligere målinger er optimalisert for bølgelengder mellom 400-700nm, og til å måle på mikrostrukturer. Det er montert to forskjellige kamera på spektrometeret. For målinger gjort på multikrystallinsk silisium er det InGaAs kamera spesifisert til å kunne håndtere bølgelengdene 900 til 1700nm.
+
 % laboppsett figur her
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm]{laboppsett_gammelt}%
-\caption{Tidligere laboppsett}%
+\caption{Laboppsett brukt på tidligere målinger}%
 \label{fig:laboppsett_gammelt}%
 \end{figure}
 
@@ -33,23 +40,23 @@ Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende kompon
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|p{2cm}|p{6cm}|}
 \hline
-1 & Vindu på cryostaten & &  \\
+1 & Vindu på cryostaten & & \\
 \hline
-2 & Objektiv & NT46-405 & \cite{Objektiv} \\
+2 & Objektiv & NT46-405 & \url{http://www.edmundoptics.com/uk/onlinecatalog/displayproduct.cfm?productID=1950} \\
 \hline
-3 & Beam splitter & BS017 & \cite{beamsplitter} \\
+3 & Beam splitter & BS017 & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=BS017} \\
 \hline
-4 & Linse & ACN127-020-B & \cite{old_lens} \\
+4 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259} \\
 \hline
-5 & Linse & ACN127-020-B & \cite{old_lens} \\
+5 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}v\\
 \hline
-6 & Linse & ACN127-020-B & \cite{old_lens} \\
+6 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}v\\
 \hline
-7 & Spektrometer & iHR550 Imaging Spectrometer & \cite{spektrometer} \\
+7 & Spektrometer & iHR550 Imaging Spectrometer & \url{http://www.horiba.com/us/en/scientific/products/optical-spectroscopy/spectrometers-monochromators/ihr/ihr550-imaging-spectrometer-200/} \\
 \hline
-8 & Kamera & InGaAs Spectroscopy CCD & \cite{kamera} \\
+8 & Kamera & InGaAs Spectroscopy CCD & \url{http://www.andor.com/scientific_cameras/idus-ingaas/models/default.aspx?iProductCodeID=27} \\
 \hline
 \end{tabular}
 \caption{Eksisterende lab oppsett på cryolab}
@@ -57,9 +64,9 @@ Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende kompon
 \end{table}
 
 
-Det antas at det er flere kilder til tap blant komponentene som lyset skal gjennom før det når kameraet. Hoveddelen av tap kommer av refleksjoner, da de optiske komponentene ikke har vesentlig absorbsjon av lyset. Kameraet er oppgitt til å kunne håndtere 900 til 1700nm.
+Det antas at det er flere kilder til tap blant komponentene som lyset skal gjennom før det når kameraet. Hoveddelen av tap kommer av refleksjoner, da de optiske komponentene ikke har vesentlig absorbsjon av lyset. 
 
-Den første komponenten lyset skal gjennom er vinduet i kryostaten, det er oppgitt til å slippe gjennom over 90\% av lyset for bølgelengder mellom 200nm og nesten helt opp til 2000nm. (Se figur \ref{fig:cryovindu} under vedlegg) Objektivet har en transmisjonfaktor på rundt 60\% for bølgelengder mellom 500 og 1800nm. Beamsplitteren er oppgitt til å dele strålen 50:50, med mindre enn 1\% refleksjon (tap) for bølgelengdene 400-700nm. Men ut ifra figur \ref{fig:beamsplitter400-700nm} er det eksponensielt økende for bølgelengder over 700nm. I tillegg forsvinner 50\% av lyset i selve split prosessen. Linsene er oppgitt til å ha under 1\% refleksjon for bølgelengder mellom 650nm og 1050nm, mens for bølgelengder utenfor er det eksponensielt økende refleksjon. Spektrometeret er oppgitt til å ha spektralt spekter fra 150 til 1500nm. 
+Den første komponenten lyset skal gjennom er vinduet i kryostaten, det er oppgitt til å slippe gjennom over 90\% av lyset for bølgelengder mellom 200nm og nesten helt opp til 2000nm. (Se figur \ref{fig:cryovindu} under vedlegg) Objektivet har en transmisjonfaktor på rundt 60\% for bølgelengder mellom 500 og 1800nm (figur \ref{fig:objektiv}). Beamsplitteren er oppgitt til å dele strålen 50:50, med mindre enn 1\% refleksjon (tap) for bølgelengdene 400-700nm. Men ut ifra figur \ref{fig:beamsplitter400-700nm} ser det ut til å være eksponensielt økende for bølgelengder over 700nm (figur \ref{fig:beamsplitter400-700nm}). I tillegg forsvinner 50\% av lyset i selve split prosessen. Linsene er oppgitt til å ha under 1\% refleksjon for bølgelengder mellom 650nm og 1050nm, mens for bølgelengder utenfor er det økende refleksjon. Spektrometeret er oppgitt til å ha spektralt spekter fra 150 til 1500nm. (Figur \ref{fig:kameragraf})
 
 Dette viser tydelig at beamsplitteren og linsene som er brukt i oppsettet er store kilder til tap, og bør byttes ut for målinger med bølgelengder over 700nm.
 
@@ -67,14 +74,14 @@ Dette viser tydelig at beamsplitteren og linsene som er brukt i oppsettet er sto
 
 %Hvordan løse problemet?
 
-Det er tydelig at objektivet, beamsplitteren og linsene er kilder til store tap i systemet. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for de bølgelengdene som er interessante. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp en beamsplitter og speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
+Det er tydelig at objektivet, beamsplitteren og linsene er kilder til store tap i systemet. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for bølgelengdene som er interessante med tanke på dårlige områder. Dette for å kunne karaketisere kilder til tap, som dislokasjoner. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp en beamsplitter og speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
 
 Forslag til oppsett for parallell optisk vei:
 
 % tegning av parallell veibane
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm]{laboppsett_nytt}%
+\includegraphics[width=7cm]{laboppsett_nytt}%
 \caption{Parallell veibane for 1\micro m-1,5\micro m}%
 \label{fig:oppsett_nytt}%
 \end{figure}
@@ -83,32 +90,32 @@ Utstyr for å realisere dette oppsettet kommer fra \url{http://www.thorlabs.de}. 
 
 \begin{table}[H]%
 \centering
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|p{2cm}|p{6cm}|}
 \hline
-Linse & LB4330 & \cite{new_lens} \\
+Linse & LB4330 & \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=126} \\
 \hline
-Speil & PF10-03-P01-10 & \cite{speil} \\
+Speil & PF10-03-P01-10 & \url{http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=903&pn=PF10-03-P01-10&CFID=807318&CFTOKEN=81881983} \\
 \hline
-Iris & ID12SS/M & \cite{iris} \\
+Iris & ID12SS/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=ID12SS/M} \\
 \hline
-Flip mount (for speil) & FM90/M & \cite{flipmount} \\
+Flip mount (for speil) & FM90/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=FM90/M} \\
 \hline
-Beam Splitter & BS018 & \cite{beamsplitter_ny} \\
+Beam Splitter & BS018 & \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=BS018} \\
 \hline
-Post (bordskrue) & TR75/M & \cite{post} \\
+Post (bordskrue) & TR75/M & \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=TR75/M} \\
 \hline
-Post holder & PH2/M & \cite{postholder} \\
+Post holder & PH2/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=PH2/M} \\
 \hline
-Flip mount (for linse) & TRF90/M & \cite{flipmount_linse} \\
+Flip mount (for linse) & TRF90/M & \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=1447} \\
 \hline
 \end{tabular}
 \caption{Utstyr til parallell lysbane}
 \label{t:nytt_utstyr}
 \end{table}
 
-Linsa som er valgt ut skal i følge datablad klare over 90\% transmisjon helt opp til 2\micro m i motsetning til det forrige oppsettet. Da målingene som skal gjøres kan gjøres over et relativt stort område på prøven er det ikke så farlig om det belyste området ikke holder 100\% fokus, slik at et avvik på noen grader i strålebanen ikke er kritisk for resultatet. Det kun trengs en linse på den parallelle banen for å fokusere inn til spektrometeret som alene gjør at det blir mindre tap. Beamsplitteren er oppgitt til å ha mindre enn 0.3\% refleksjon for bølgelengdene 1.1 til 1.6\micro m. Det vil fortsatt forvinne 50\% intensitet her på grunn av at lyset splittes, men det frekvensavhengige tapet er i følge datablad mye mindre for disse bølgelengdene. % legge til appendix / referere til figurer?
+Linsa som er valgt ut skal i følge datablad (figur \ref{fig:linsetrans_ny}) klare over 90\% transmisjon helt opp til 2\micro m i motsetning til den forrige linsa som er optimalisert for bølgelengder 650nm-1050nm (figur \ref{fig:linsetrans}). Da målingene som skal gjøres kan gjøres over et relativt stort område på prøven er det ikke så farlig om det belyste området ikke holder 100\% fokus, slik at et avvik på noen grader i strålebanen ikke er kritisk for resultatet. Det trengs kun en linse på den parallelle banen for å fokusere inn til spektrometeret som alene gjør at det blir mindre tap. Beamsplitteren er oppgitt til å ha mindre enn 0.3\% refleksjon for bølgelengdene 1.1 til 1.6\micro m (figur \ref{fig:beamsplitter1100-1600nm}). Det vil fortsatt forsvinne 50\% intensitet her på grunn av at lyset splittes, men det frekvensavhengige tapet for disse bølgelengdene er minimalisert ved at den er optimalisert for de bølgelengdene som er mest interessante for multikrystallinsk silisium.
 
-% laser bølgelengde? for høy intensitet til at tapet har så mye å si?
+Laseren har bølgelengde 532nm og vil ha mye tap i beamsplitteren som er optimalisert for 1100-1600nm. Dette tapet er uvesentlig da laseren har så høy intensitet at tapet ikke påvirker resultatet.
 
 Speil monteres på en såkalt 'flip mount', slik at det kan skrus fast i det optiske bordet i en bestemt posisjon, og vippes 90 grader inn eller ut av strålebanen, slik at det blir en parallell optisk bane for lyset å følge når målinger som antas å ligge over 1000nm skal gjøres.
 
@@ -118,13 +125,13 @@ Speil monteres på en såkalt 'flip mount', slik at det kan skrus fast i det optis
 
 %Prøven s071016 er med doping nivå 1%Er og 1%Yb so up-konvertering effekt er ikke veldig sterk (se spektrum i vedlegg). Films tykkelsen er 2um
 
-For å teste det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium som i følge \cite{erbium} skal lyse opp rundt 1550 (se fig. \ref{fig:erbium_eksitasjon}). Denne prøven har et absorbsjonsspekter som vist i figur \ref{fig:erbium_absorbsjon} som gjør grønn laser på 532nm særdeles godt egnet som pumpelys.
+For å verifisere det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium som i følge \cite{erbium} skal lyse opp rundt 1550 (se fig. \ref{fig:erbium_eksitasjon}). Denne prøven har et absorbsjonsspekter som vist i figur \ref{fig:erbium_absorbsjon} som gjør grønn laser på 532nm særdeles godt egnet som pumpelys.
 
 % Er absorbsjon figur
 \begin{figure}[H]
 \centering
 	\includegraphics[width=10cm]{erbium_absorbsjon.png}%
-\caption{Erbium prøve referanseverdig for absorbsjon}%
+\caption{Erbium prøve referanseverdi for absorbsjon}%
 \label{fig:erbium_absorbsjon}%
 \end{figure}
 
@@ -132,8 +139,25 @@ For å teste det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium s
 \begin{figure}[H]
 \centering
 	\includegraphics[width=10cm]{erbium_emisjon.png}%
-\caption{Erbium prøve referanseverdig for eksitasjon}%
+\caption{Erbium prøve referanseverdi for eksitasjon}%
 \label{fig:erbium_eksitasjon}%
 \end{figure}
 
-For måle på prøven brukes grating 300, som gir et intervall på 140nm. Så settes en senterfrekvens målingene skal gjøres rundt, før målingen tas. Ved neste måling flyttes senterfrekvensen 140nm for å måte neste intervall og så videre.
+Til å måle på prøven brukes grating 300 i spektrometeret, som gir et intervall på 140nm som er detekterbart i kameraet. Så settes en senterfrekvens målingene skal gjøres rundt, før målingen tas. Ved neste måling flyttes senterfrekvensen 140nm for å måte neste intervall og så videre. Dette må gjøres manuelt, men et forslag til forbedring er å automatisere prosessen ved å programmere denne funksjonaliteten inn i labview.
+
+\subsection{Lavtemperatur}
+
+Lave temperaturer er viktig for å kunne se individuelle topper, slik at de ikke forsvinner i termisk støy som følge av fonon interaksjon med de dominerende karakteristikkene. For å oppnå dette tas det i bruk flytende helium for å kjøle ned prøven. Prøven monteres i cryostaten, som så pumpes fri for luft til vakum. Flytende helium føres inn i cryostaten hvor det fordamper. Hadde det vært luft i systemet ved innføring av helium ville eventuell vanndamp ha fryst til is og blokkert flyten av helium.
+
+Forventende resultater for intrinsikk silisium kommer fra \cite{davies88}:
+
+\begin{figure}[H]%
+\centering
+\includegraphics[width=10cm]{intrinsikk_silisium}%
+\caption{Spekter for intrinsikk silisium}%
+\label{fig:intrinsikk_si}%
+\end{figure}
+
+Disse målingene er gjort ved 28K med 4 ulike grating verdier mellom 100\micro m og 1000 \micro m. Labelene refererer til ulike fonon interaksjoner og modi.
+
+For et dårlig område forventes det at det kommer fram såkalte D-linjer (se figur \ref{fig:dislokasjonslinjer}

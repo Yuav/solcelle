@@ -26,7 +26,7 @@ Et fritt elektron i vakuum vil kunne innta en hvilken som helst energi. Et elekt
 
 Det øverste båndet kalles ledningsbåndet. Energibåndet umiddelbart under ledningsbåndet, kalles valensbåndet. De ikke tillatte tilstandene mellom valensbåndet og ledningsbåndet kalles båndgapet. Dette båndgapet er veldig viktig i forbindelse med solceller og oppgis ofte i elektronvolt (eV). % Legg til krøllstash på figur
 
-For at elektronet skal kunne flytte på seg må det befinne seg i ledningsbåndet. Et elektron må ha nok energi til å kunne eksiteres fra valensbåndet. Eksitasjon vil si at et elektron forflytter seg fra valensbåndet til ledningsbåndet. Dette kan skje ved at elektronet får høy nok energi til å forflytte seg over båndgapet ved termisk energi, eller annen energi tilført utenfra, som fra lys. Dette gir økt ledningsevne til materialet. Samtidig blir det en ledig plass i valensbåndet, som gjør at andre elektroner i valsensbåndet kan få høyere kinetisk energi på grunn av færre kollisjoner. Dette påvirker også materialet slik at det får høyere ledningsevne. Energien til lys ved elektronvolt er gitt av:
+For at elektronet skal kunne flytte på seg må det befinne seg i ledningsbåndet. Da må elektronet ha nok energi til å kunne eksiteres fra valensbåndet. Eksitasjon vil si at et elektron forflytter seg i energi fra valensbåndet til ledningsbåndet. Dette kan skje ved at elektronet får høy nok energi til å forflytte seg over båndgapet ved termisk energi, eller annen energi tilført utenfra, som fra lys. Dette gir økt ledningsevne til materialet. Samtidig blir det en ledig plass i valensbåndet, som gjør at andre elektroner i valsensbåndet kan få høyere kinetisk energi på grunn av færre kollisjoner. Dette påvirker også materialet slik at det får høyere ledningsevne. Energien til lys ved elektronvolt er gitt av:
 
 \begin{equation}
 E=h\nu =\frac{hc}{\lambda}
@@ -80,7 +80,7 @@ der E er energi i elektronvolt, h er Plancks konstant, $\nu$ er frekvens, og c e
 \end{figure}
 \vspace{30mm}
 
-Typisk båndgap for halvleder silisium er 1.1eV, sammenlignet med 5eV for diamant som er en isolator. ~\cite[Kapittel 3]{streetman}
+Typisk båndgap for halvleder silisium er $E_g$=1.1eV, sammenlignet med 5eV for diamant som er en isolator. ~\cite[Kapittel 3]{streetman}
 
 Hull er en beskrivelse for fravær av elektroner i valensbåndet. Et hull vil oppstå når et elektron eksiteres fra valensbåndet til ledningsbåndet. Lite båndgap, og høy temperatur vil gi vesentlig flere elektroner i ledningsbåndet, enn for lave temperaturer og stort båndgap. Dette beskrives med massevirkningsloven:
 
@@ -89,7 +89,7 @@ np=N_cN_ve^{-\frac{E_g}{kT}}
 \label{eq:massevirkningsloven}
 \end{equation}
 
-der $n$ er antall elektroner, $p$ er antall hull, $N_c$ og $N_v$ er konstanter for gitte materialer. $E_g$ er båndgapet, $k$ er Boltzmanns konstant og $T$ er temperaturen i Kelvin. For en intrinsikk halvleder, det vil si en halvleder uten noe form for doping, for eksempel ren silisium, kan massevirkningsloven skrives:
+der $n$ er antall elektroner, $p$ er antall hull, $N_c$ og $N_v$ er konstanter for gitte materialer. $E_g$ er båndgapet, $k$ er Boltzmanns konstant og $T$ er temperaturen i Kelvin. $E_g$ er en avgjørende faktor for om en krystall kan sies å være en halvleder eller ikke. For en intrinsikk halvleder, det vil si en halvleder uten noe form for doping, for eksempel ren silisium, kan massevirkningsloven skrives:
 
 \begin{equation}
 np=n_i^2
@@ -103,12 +103,10 @@ n_i=\sqrt{N_c N_v}e^{-\frac{E_g}{2kT}}
 \label{eq:intrinsikk}
 \end{equation}
 
-Fra massevirkningsloven kommer det av $E_g$ er en avgjørende faktor for om en krystall kan sies å være en halvleder eller ikke. 
-
 
 \subsection{Doping}
 
-Ved å sette inn andre atomer i en krystallstruktur, med en annerledes elektronfordeling er det mulig å øke elektroner i ledningsbåndet uten å endre konsentrasjonen av hull i valensbåndet. Dette kalles donor-doping. Et eksempel på donor-doping er å tilsette fosfor i en silisiumkrystall. Dette vil føre til flere elektroner i ledningsbåndet, da fosfor har et valenselektron mer enn silisium og valensbåndet er tilnærmet fullt. Fosfor vil i dette tilfellet kalles donor i denne donor-dopingen. Doping konsentrasjonen er vanligvis så liten at båndstrukturen ikke forstyrres vesentlig. Hvis en for eksempel setter inn bor istedenfor fosfor, vil silisium krystallen bli akseptor-dopet. Bor har et mindre elektron i valensbåndet enn silisium, og vil derfor tilføre et hull ekstra i valensbåndet. Som regel er donorkonsentrasjonen av hull og elektroner i henholdsvis valens- og ledningsbånd vesentlig høyere enn den intrinsikke, slik at det er en god tilnærming å sette
+Ved å sette inn andre atomer i en krystallstruktur, med en annerledes elektronfordeling er det mulig å øke antall elektroner i ledningsbåndet uten å endre konsentrasjonen av hull i valensbåndet. Dette kalles donor-doping. Et eksempel på donor-doping er å tilsette fosfor i en silisiumkrystall. Dette vil føre til flere elektroner i ledningsbåndet, da fosfor har et valenselektron mer enn silisium og valensbåndet er tilnærmet fullt. Fosfor vil i dette tilfellet kalles donor i denne donor-dopingen. Doping konsentrasjonen er vanligvis så liten at båndstrukturen ikke forstyrres vesentlig. Hvis en for eksempel setter inn bor istedenfor fosfor, vil silisium krystallen bli akseptor-dopet. Bor har et mindre elektron i valensbåndet enn silisium, og vil derfor tilføre et hull ekstra i valensbåndet. Som regel er donorkonsentrasjonen av hull og elektroner i henholdsvis valens- og ledningsbånd vesentlig høyere enn den intrinsikke, slik at det er en god tilnærming å sette
 
 \begin{equation}
 n \approx N_d
@@ -124,7 +122,7 @@ n \approx N_a
 
 for akspetordoping. Der $N_d$ er donorkonsentrasjonen, og $N_a$ er akseptorkonsentrasjonen.
 
-En dopet halvleder omtales generelt som ekstrinsikk. Hvis en halvleder er dopet med overtall av donor atomer, har den overtall av elektroner, og kalles n-dopet. For akseptordoping omtales halvlederen som p-dopet, da den har overtall av hull. Den dominerende ladningsbærertypen kalles for majoritetsbæreren. Majoritetsbærerene vil være de som i hovedsak sørger for strømtransporten gjennom halvlederen.
+En dopet halvleder omtales generelt som ekstrinsikk \cite{streetman}. Hvis en halvleder er dopet med overtall av donor atomer, har den overtall av elektroner, og kalles n-dopet. For akseptordoping omtales halvlederen som p-dopet, da den har overtall av hull. Den dominerende ladningsbærertypen kalles for majoritetsbæreren. Majoritetsbærerene vil være de som i hovedsak sørger for strømtransporten gjennom en halvleder.
 
 
 \subsection{Transport- og rekombinasjons-prosesser}
@@ -230,9 +228,15 @@ Elektronet kan gå fra det ene båndet til det andre direkte eller indirekte. Ved 
 \end{figure}
 
 
-I halvledere med direkte båndgap, som GaAs, vil begge prosessene kunne opptre. Silisium har indirekte båndgap, og vil ikke få en direkte prosess uten deltagelse av gittervibrasjoner (fononer). Dette er mindre sannsynlig enn indirekte generasjon og rekombinasjon, og indirekte generasjon og rekombinasjon vil derfor dominere. Elektronet antas å bevege seg som en planar bølge med propageringskonstanten $\vec{k}$, også kalt bølgevektor.
+I halvledere med direkte båndgap, som GaAs, vil begge prosessene kunne opptre. I halvledere med indirekte båndgap som silisium, vil ikke en direkte prosess kunne foregå uten deltagelse av gittervibrasjoner (fononer), noe som gjør prosessen mindre sannsynlig. I halvledere med indirekte båndgap vil derfor indirekte generasjon og rekombinasjon dominere. Dette er en av årsakene til at konsentrasjonen av forurensninger er en viktig parameter ved framstilling av solceller. Elektronet i en slik prosess antas å bevege seg som en planar bølge med propageringskonstanten $\vec{k}$, også kalt bølgevektor.
 
-% Figur fra side 69 streetman
+% Indirekte båndbap figur
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{fononassistert}%
+\caption{Direkte og indirekte rekombinering (figur hentet fra \cite{aps}})%
+\label{fig:indirekte_direkte}%
+\end{figure}
 
 Generasjons- og rekombinasjonsprosesser kan beskrives ved nettoproduksjon av elektroner til ledningsbåndet, $U_n$, proposjonalt med avviket fra likevekt
 

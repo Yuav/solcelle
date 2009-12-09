@@ -1,8 +1,6 @@
 \subsection{Spektroskopi}
 
-Spektroskopi benytter seg av fotoluminisens. Når et elektronhullpar rekombinerer sendes energien som blir frigitt ut som et foton. Ved å måle energien til fotonet kommer det fram hvor mye energi som ble frigitt under rekombinering. Dette sier noe om båndgapet til materialet, som igjen er en beskrivelse av hva slags materiale det er. Ved å belyse en prøve med lys som har høy energi og intensitet, vil det eksiteres lys til alle tilgjengelige tilstander. Når disse tilstandene rekombinerer vil det sendes lys ut av prøven som kan fanges opp av et kamera og analyseres av en datamaskin for å få ut et spekter av ulike bølgelengder. For enkrystallinsk silisium er båndgapet 1.1eV, som fører til høy intensitet av lys med 1.1eV energi.
-
-\subsubsection{Spektrometer}
+Spektroskopi benytter seg av fotoluminescens. Når et elektronhullpar rekombinerer sendes energien som blir frigitt ut som et foton. Ved å måle energien til fotonet kommer det fram hvor mye energi som ble frigitt under rekombinering. Dette sier noe om båndgapet til materialet, som igjen er en beskrivelse av hva slags materiale det er. Ved å belyse en prøve, med lys som har høy nok energi og intensitet, vil det eksiteres lys til alle tilgjengelige tilstander. Når disse tilstandene rekombinerer vil det sendes lys ut av prøven som kan fanges opp av et kamera og analyseres av en datamaskin for å få ut et spekter av ulike bølgelengder. For enkrystallinsk silisium er båndgapet 1.1eV, som fører til høy intensitet av lys med 1.1eV energi.
 
 \begin{figure}[H]
 \centering
@@ -14,6 +12,8 @@ Spektroskopi benytter seg av fotoluminisens. Når et elektronhullpar rekombinerer
 
 Figur \ref{fig:luminisens} viser inkommende lys med høy energi som eksiterer et elektron hullpar i $a$, som etter meget kort tid faller ned til en lavere energitilstand i $b$. I $c$ rekombinerer elektronet og det sendes ut et foton med energi lik $E_c$. Det andre elektronet som eksiteres i $d$ havner i en såkalt "`trap"' state, hvor det kan befinne seg forurensninger eller defekter i en krystallstruktur. Når dette elektronet rekombinerer sendes det ut et foton med lavere energi enn i $c$. Ved å se på lyset som kommer ut fra en slik trap state kan det lokaliseres blant annet forurensninger. 
 
+\subsubsection{Spektrometer}
+
 For å kunne analysere ulike bølgelengder må man spre bølgelengdene slik at de kan detekteres hver for seg. Dette kan gjøre ved hjelp av et spektrometer. Dette har en såkalt diffraksjons-grating som fører til diffraksjon av lyset gitt ved:
 
 \begin{equation}
@@ -21,7 +21,7 @@ d\sin(\theta _m)=m\lambda
 \label{eq:grating_equation}
 \end{equation}
 
-Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til lyset, $m$ er et heltall for diffraksjonsordenen og $\lambda$ er bølgelengden.
+Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til lyset, $m$ er et heltall for diffraksjonsordenen og $\lambda$ er bølgelengden. I et spektrometer er det ofte mulig å bytte mellom flere ulike spalter. Spredningen er ofte begrensen, avhengig av hvor god oppløsning man trenger. Dette fører til at en måling kun er innenfor et gitt intervall med en gitt senterbølgelengde. For å få ut et helt spekter, må det gjøres flere målinger med ulike senterfrekvenser.
 
 \begin{figure}[H]
 \centering
@@ -31,8 +31,18 @@ Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til l
 \label{fig:pl}%
 \end{figure}
 
-De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Intensiteten til de ulike bølgelengdene registreres, og kan sendes til en datamaskin som behandler dem som vist i  figur \ref{fig:pl}.
+De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Intensiteten til de ulike bølgelengdene registreres, og kan sendes til en datamaskin som behandler dem som vist i figur \ref{fig:pl}. Kameraet består av en endimensjonal rekke av detektorer, eller piksler, som fanger opp hver sin bølgelengde avhengig av hvilke bølgelengder som treffer hvilke piksler. Intensiteten og bølgelengden til lyset registreres og lagres i en tabell som sendes til en datamaskin.
 
-\subsubsection{Lavtempratur}
+\subsubsection{Fotoluminisens}
 
-%OBS OBS, VIKTIG - FIKS masse referanser.
+Ved å se på spekteret som fanges opp av kameraet er det mulig å relatere spekteret til fysiske egenskaper. Eksempelvis er spekteret for intrinsikk silisium kjent fra \cite{davies88}. For et såkalt dårlig område er det ifølge \cite{tarasov00} fire tydelige spekter som kommer til syne på multikrystallinsk silisium; D1, D2, D3 og D4 (se figur \ref{fig:dislokasjonslinjer})
+
+\begin{figure}[H]
+	\centering
+			%\includegraphics[width=10cm,bb=0 0 512 297]{dislokasjonslinjer_tarasov00}
+			\includegraphics[width=10cm]{dislokasjonslinjer_tarasov00}
+		\caption{D-linjer}
+	\label{fig:dislokasjonslinjer}
+\end{figure}
+
+Disse dårlige områdene er antatt å være relatert til dislokasjonslinjer \cite{tarasov00} \cite{d-linje-temp} \cite{dislokasjoner85}. Hvilke energi disse linjene har, og hvor høy intensitet som kommer ut er avhengig av tempetratur \cite{d-linje-temp}. Ved akustisk fonon-foton interaksjon i romtempratur blir det et bredere spekter som følge av ulike energier blant fononene som inngår \cite{spekterbredning}. For å få fram tydelige topper, gjøres målinger ved temperaturer under -150$^\circ$C. Veldig lave temperaturer kan oppnås ved å bruke flytende helium som fordamper ved 4K. En billigere løsning er flytende nitrogen hvor en kan oppnå temperaturer ned mot 77K, avhenig av hvor kritist temperatur er for målingen.
