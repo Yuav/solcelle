@@ -2,6 +2,34 @@
 
 %%INCOMPLETE - mangler masse + stash er feil
 
-Solceller er antatt å dominere energisektoren de neste hundre år. For at dette skal bli tilfelle trengs det billige og effektive solceller. Multikrystallinsk silisium er materialet som har mest potensiale for å oppnå dette. Det er billig å produsere, men har også relativt lav utnyttelse av solenergien. Derfor er det viktig å nøyaktig kunne identifisere kilder til tap, og forstå virkemåten til slike materialer. 
+Solceller er og blir en viktig fornybar energikilde. Solenergi har potensiale til å løse utfordringer i forbindelse med fornybar energi i klimaspørsmålet. En prognose framstilt av Bundesverband Solarwirtschaft for tysk solcelleindustri antyder at solenergi vil dominere energisektoren i år 2100 (figur \ref{fig:energimix}). For at dette skal realiseres trengs det større volumer, og bedre utnyttelse av solenergien. Solcelleindustrien er i dag dominert av multikrystallinsk silisium. Dette gir kostandseffektive solceller, men har lav virkningsgrad. Den lave virkningsgraden utgjør et stort potensiale for forbedring. For å kunne øke effektiviteten er det viktig å forstå hvordan en solcelle fungerer, og kunne effektivt karakterisere egenskaper. 
 
-Det er oppdrettet et laboratorium for å kunne gjøre målinger på slike celler ved hjelp av fotoluminisens på ekstremt lave temperaturer. Tidligere målinger av multikrystallinsk silisium på dette laboratoriet viser deler av et spekter som er å finne på tilsvarende målinger (f.eks \cite{tarasov00}), men deler av tapsspekteret som var forventet dukket ikke opp. Dette prosjektet fokuserer på hva som er årsaken til dette avviket, og hvordan det kan utbedres. I tillegg til det er det fokusert på virkemåte til solceller, og kilder til tap i multikrystallinsk silisium.
+\begin{figure}[H]%
+\centering
+\includegraphics[width=\columnwidth]{energiemix_no}%
+\caption{Prognose for årlig energiproduksjon i exajoule/år ($10^18$[J/år])}%
+\label{fig:energimix}%
+\end{figure}
+
+Dette prosjektet tar for seg karakterisering basert på fotoluminiscens ved lavtemperatur. Ved å belyse en prøve med for eksempel multikrystallinsk silisium, er det mulig å hente ut informasjon om prøven på bakgrunn av det eksiterte lyset som kommer ut av prøven. Om en belyser et dårlig område på en prøve med multikrystallinsk silisium kommer det til syne såkalte d-linjer. Disse relateres ofte til dislokasjonslinjer, eller defekter i krystallen \cite{tarasov00}. 
+
+Sintef har tidligere gjort forsøk på slike prøver uten å kunne observere d-linjer. Årsaken til dette er ikke kjent, men antas å være relatert til tap i selve labutstyret å gjøre. I løpet av dette prosjektet utbedres kilder til tap i laboppsettet, samt gjør forsøk som får fram enkelte karakteristikker forbundet med tap i solceller.
+
+Tidligere målinger gjort av Sintef er gjort på en polert, og to upolerte prøver. Disse er navngitt sampe1, sample2 og sample3. Nye målinger er gjort på prøven avbildet i figur \ref{fig:sample4}, som her er kalt for Sample 4.
+
+\begin{figure}[H]%
+\centering
+	%\includegraphics[width=10cm,bb=0 0 332 274]{bilder/cryolabtap.png}%
+	\includegraphics[width=10cm]{bilder/cryolabtap.png}%
+	\caption{Fotoluminisensspekter ved 20K i cryolab}%
+	\label{fig:cryolabtap}%
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{dlinjerjakt.png}%
+\caption{Fotoluminisensspekter ved 20K forskjellige steder på prøven}%
+\label{fig:dlinjerjakt}%
+\end{figure}
+
+Publikasjoner som~\cite{tarasov00} (figur \ref{fig:dislokasjonslinjer}) viser et spekter rundt 0,7-1 eV som ikke er synlig på målinger gjort tidligere på cryolab. (figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt}) Grunnen til det er ikke kjent, men antas og være et resultat av tap i utstyr som linser og beamsplittere. 1eV tilsvarer 1240nm bølgelengde fra (~\ref{eq:lysenergi}), som betyr at spekteret som antas å forsvinne har bølgelengde 1100-1700nm. Med tanke på å karakterisere tap er det disse bølgelengdene som er mest interesante på grunn av D-linjene som er relatert til dislokasjonslinjer \cite{sugimoto07}.

@@ -31,9 +31,9 @@ Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til l
 \label{fig:pl}%
 \end{figure}
 
-De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Intensiteten til de ulike bølgelengdene registreres, og kan sendes til en datamaskin som behandler dem som vist i figur \ref{fig:pl}. Kameraet består av en endimensjonal rekke av detektorer, eller piksler, som fanger opp hver sin bølgelengde avhengig av hvilke bølgelengder som treffer hvilke piksler. Intensiteten og bølgelengden til lyset registreres og lagres i en tabell som sendes til en datamaskin.
+De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Kameraet består av en endimensjonal rekke av detektorer, eller piksler, som fanger opp hver sin bølgelengde avhengig av hvilke bølgelengder som treffer hvilke piksler. Intensiteten og bølgelengden til lyset registreres og lagres i en tabell som sendes til en datamaskin.
 
-\subsubsection{Fotoluminisens}
+\subsubsection{Forventet spekter for multikrystallinsk silisium}
 
 Ved å se på spekteret som fanges opp av kameraet er det mulig å relatere spekteret til fysiske egenskaper. Eksempelvis er spekteret for intrinsikk silisium kjent fra \cite{davies88}. For et såkalt dårlig område er det ifølge \cite{tarasov00} fire tydelige spekter som kommer til syne på multikrystallinsk silisium; D1, D2, D3 og D4 (se figur \ref{fig:dislokasjonslinjer})
 
@@ -45,4 +45,61 @@ Ved å se på spekteret som fanges opp av kameraet er det mulig å relatere spekter
 	\label{fig:dislokasjonslinjer}
 \end{figure}
 
-Disse dårlige områdene er antatt å være relatert til dislokasjonslinjer \cite{tarasov00} \cite{d-linje-temp} \cite{dislokasjoner85}. Hvilke energi disse linjene har, og hvor høy intensitet som kommer ut er avhengig av tempetratur \cite{d-linje-temp}. Ved akustisk fonon-foton interaksjon i romtempratur blir det et bredere spekter som følge av ulike energier blant fononene som inngår \cite{spekterbredning}. For å få fram tydelige topper, gjøres målinger ved temperaturer under -150$^\circ$C. Veldig lave temperaturer kan oppnås ved å bruke flytende helium som fordamper ved 4K. En billigere løsning er flytende nitrogen hvor en kan oppnå temperaturer ned mot 77K, avhenig av hvor kritist temperatur er for målingen.
+Disse dårlige områdene er antatt å være relatert til dislokasjonslinjer \cite{tarasov00} \cite{d-linje-temp} \cite{dislokasjoner85}. Hvilke energi disse linjene har, og hvor høy intensitet som kommer ut er avhengig av tempetratur \cite{d-linje-temp}. Ved akustisk fonon-foton interaksjon i romtempratur blir det et bredere spekter som følge av ulike energier blant fononene som inngår \cite{spekterbredning}. For å få fram tydelige topper, gjøres målinger ved temperaturer under -150$^\circ$C. Lave temperaturer er viktig for å kunne se individuelle topper, slik at de ikke forsvinner i termisk støy som følge av fonon interaksjon med de dominerende karakteristikkene. 
+
+\begin{figure}[H]%
+\centering
+\includegraphics[width=10cm]{intrinsikk_silisium}%
+\caption{Spekter for intrinsikk silisium fra \cite{davies88}}%
+\label{fig:intrinsikk_si}%
+\end{figure}
+
+Disse målingene er gjort ved 28K med 4 ulike grating verdier mellom 100\micro m og 1000 \micro m. Labelene refererer til ulike fonon interaksjoner og modi.
+
+\begin{table}[H]%
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Energi & Årsak & Referanse \\
+\hline
+0.98eV & To fonon interaksjon (TA+2G) & \cite{davies88} \\
+\hline
+1.04eV & En-fonon interaksjon (TA+G) & \cite{davies88} \\
+\hline
+1.10eV & Transversal Optisk Mode (TO) & \cite{davies88} \\
+\hline
+1.14eV & Transversal Akustisk Mode (TA) & \cite{davies88} \\
+\hline
+1.16eV & Null-fonon komponent & \cite{davies88} \\
+\hline
+\end{tabular}
+\caption{Forventede topper for et bra område ved lavtempratur}
+\label{tab:bra_omrade}
+\end{table}
+
+Transversal optisk mode ved ~1.125eV er båndgapet til silisium (ved 0K \cite{davies88}). Dette er hvor båndgapet til silisium ligger, og vil derfor dominere spekteret med tanke på intensitet. 0.98eV og 1.04eV er kopier av den transversale optiske linja med henholdsvis to og ett fonon ekstra som assisterer rekombineringen. Transversal akustisk fonon-assisert rekombinering forventes ved 1.14eV. Ideelt sett skal det ikke være noe null-fonon komponent, men eksperimentelt kan dette observeres ved 1.16eV.
+
+\begin{table}[H]%
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+0.8eV & D1 & \cite{mater08} \cite{sugimoto07} \cite{tarasov00} \\
+\hline
+0.9eV & D2 & \cite{mater08} \cite{sugimoto07} \cite{tarasov00} \\
+\hline
+0.95eV & D3 & \cite{mater08} \cite{sugimoto07} \cite{tarasov00} \\
+\hline
+1.00eV & D4 & \cite{mater08} \cite{sugimoto07} \cite{tarasov00} \\
+\hline
+1.04eV & En-fonon interaksjon (TO+G) & \cite{davies88} \\
+\hline
+1.1eV & Bånd til bånd rekombinering (TO) & \cite{arguirov} \\
+\hline
+1.14eV & Transversal Akustisk Mode (TA) & \cite{davies88} \\
+\hline
+\end{tabular}
+\caption{Forventede topper for et dårlig område ved lavtempratur}
+\label{tab:bad_omrade}
+\end{table}
+
+D1-4 er dislokasjonsrelaterte linjer \cite{sugimoto07}. Disse er kun tilstede i et dårlig område. 1.1eV er fortsatt tilstede i et dårlig område, men med betydelig mindre intensitet enn et bra område \cite{arguirov}. Det samme gjelder transversal optisk og akustisk fonon assisterte linjer ved 1.1eV og 1.14eV.

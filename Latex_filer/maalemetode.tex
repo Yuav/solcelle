@@ -3,28 +3,7 @@
 
 En av utfordningene er å få til et laboppsett som kan måle og karakterisere ulike former for tap, slik som dislokasjonslinjer, forurensninger, og korngrenser. Dette er viktig for å kunne forstå årsakene til tap, og for å kunne analysere hvilke framstillingsprosesser som gir et gunstig resultat.
 
-\subsection{Tap i systemet}
-
-Tidligere målinger gjort av Sintef er gjort på en polert, og to upolerte prøver. Disse er navngitt sampe1, sample2 og sample3. Nye målinger er gjort på prøven avbildet i figur \ref{fig:sample4}, som her er kalt for Sample 4.
-
-\begin{figure}[H]%
-\centering
-	%\includegraphics[width=10cm,bb=0 0 332 274]{bilder/cryolabtap.png}%
-	\includegraphics[width=10cm]{bilder/cryolabtap.png}%
-	\caption{Fotoluminisensspekter ved 20K i cryolab}%
-	\label{fig:cryolabtap}%
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=10cm]{dlinjerjakt.png}%
-\caption{Fotoluminisensspekter ved 20K forskjellige steder på prøven}%
-\label{fig:dlinjerjakt}%
-\end{figure}
-
-Publikasjoner som~\cite{tarasov00} (figur \ref{fig:dislokasjonslinjer}) viser et spekter rundt 0,7-1 eV som ikke er synlig på målinger gjort tidligere på cryolab. (figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt}) Grunnen til det er ikke kjent, men antas og være et resultat av tap i utstyr som linser og beamsplittere. 1eV tilsvarer 1240nm bølgelengde fra (~\ref{eq:lysenergi}), som betyr at spekteret som antas å forsvinne har bølgelengde 1100-1700nm.
-
-\subsection{Laboppsett}
+\subsection{Tidligere oppsett}
 
 Laboppsettet som ble brukt på tidligere målinger er optimalisert for bølgelengder mellom 400-700nm, og til å måle på mikrostrukturer. Det er montert to forskjellige kamera på spektrometeret. For målinger gjort på multikrystallinsk silisium er det InGaAs kamera spesifisert til å kunne håndtere bølgelengdene 900 til 1700nm.
 
@@ -36,27 +15,25 @@ Laboppsettet som ble brukt på tidligere målinger er optimalisert for bølgelengde
 \label{fig:laboppsett_gammelt}%
 \end{figure}
 
-Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende komponenter:
+Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende komponenter i det gamle oppsettet:
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|p{2cm}|p{6cm}|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-1 & Vindu på cryostaten & & \\
+1 & Vindu på cryostaten & Janis ST-500 & Janis Research Company & \cite{cryostat} \\
 \hline
-2 & Objektiv & NT46-405 & \url{http://www.edmundoptics.com/uk/onlinecatalog/displayproduct.cfm?productID=1950} \\
+2 & Objektiv & NT46-405 & Edmund Optics & \cite{objektiv} \\
 \hline
-3 & Beam splitter & BS017 & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=BS017} \\
+3 & Beam splitter & BS017 & Thorlabs & \cite{beamsplitter} \\
 \hline
-4 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259} \\
+4 6 7 & Linse & ACN127-020-B & Thorlabs & \cite{old_lens} \\
 \hline
-5 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}v\\
+5 & Pin hull & ID12SS/M & Thorlabs & \cite{iris} \\
 \hline
-6 & Linse & ACN127-020-B & \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}v\\
+8 & Spektrometer & iHR550 Imaging Spectrometer & Horiba Scientific & \cite{spektrometer} \\
 \hline
-7 & Spektrometer & iHR550 Imaging Spectrometer & \url{http://www.horiba.com/us/en/scientific/products/optical-spectroscopy/spectrometers-monochromators/ihr/ihr550-imaging-spectrometer-200/} \\
-\hline
-8 & Kamera & InGaAs Spectroscopy CCD & \url{http://www.andor.com/scientific_cameras/idus-ingaas/models/default.aspx?iProductCodeID=27} \\
+9 & Kamera & InGaAs Spectroscopy CCD & Andor Technology & \cite{kamera} \\
 \hline
 \end{tabular}
 \caption{Eksisterende lab oppsett på cryolab}
@@ -86,27 +63,21 @@ Forslag til oppsett for parallell optisk vei:
 \label{fig:oppsett_nytt}%
 \end{figure}
 
-Utstyr for å realisere dette oppsettet kommer fra \url{http://www.thorlabs.de}. Følgende komponenter er valgt ut:
+Utstyr for å realisere dette oppsettet:
 
 \begin{table}[H]%
 \centering
-\begin{tabular}{|c|p{2cm}|p{6cm}|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-Linse & LB4330 & \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=126} \\
+1 2 4 5 & Speil & PF10-03-P01-10 & Thorlabs & \cite{speil} \\ 
 \hline
-Speil & PF10-03-P01-10 & \url{http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=903&pn=PF10-03-P01-10&CFID=807318&CFTOKEN=81881983} \\
+1 4 & Flip mount (for speil) & FM90/M & Thorlabs & \cite{flipmount} \\
 \hline
-Iris & ID12SS/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=ID12SS/M} \\
+3 & Beam Splitter & BS018 & Thorlabs & \cite{beamsplitter_ny} \\
 \hline
-Flip mount (for speil) & FM90/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=FM90/M} \\
+6 & Linse & LB4330 & Thorlabs & \cite{new_lens} \\
 \hline
-Beam Splitter & BS018 & \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=BS018} \\
-\hline
-Post (bordskrue) & TR75/M & \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=TR75/M} \\
-\hline
-Post holder & PH2/M & \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=PH2/M} \\
-\hline
-Flip mount (for linse) & TRF90/M & \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=1447} \\
+6 & Flip mount (for linse) & TRF90/M & Thorlabs & \cite{flipmount_linse} \\
 \hline
 \end{tabular}
 \caption{Utstyr til parallell lysbane}
@@ -145,19 +116,12 @@ For å verifisere det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erb
 
 Til å måle på prøven brukes grating 300 i spektrometeret, som gir et intervall på 140nm som er detekterbart i kameraet. Så settes en senterfrekvens målingene skal gjøres rundt, før målingen tas. Ved neste måling flyttes senterfrekvensen 140nm for å måte neste intervall og så videre. Dette må gjøres manuelt, men et forslag til forbedring er å automatisere prosessen ved å programmere denne funksjonaliteten inn i labview.
 
-\subsection{Lavtemperatur}
+Kameraet er effektivt for bølgelengder mellom 900nm og 1700nm (se figur \ref{fig:kameragraf}) Kameraet gir ut en verdi i form av et tall som sier noe om hvor mye lys de ulike bølgelengdene har i form av intensitet, og kan sendes til en datamaskin som behandler dem som vist i figur \ref{fig:pl}.
 
-Lave temperaturer er viktig for å kunne se individuelle topper, slik at de ikke forsvinner i termisk støy som følge av fonon interaksjon med de dominerende karakteristikkene. For å oppnå dette tas det i bruk flytende helium for å kjøle ned prøven. Prøven monteres i cryostaten, som så pumpes fri for luft til vakum. Flytende helium føres inn i cryostaten hvor det fordamper. Hadde det vært luft i systemet ved innføring av helium ville eventuell vanndamp ha fryst til is og blokkert flyten av helium.
+\subsection{Lavtempratur målinger i cryostat}
 
-Forventende resultater for intrinsikk silisium kommer fra \cite{davies88}:
+For å oppnå lave temperaturer tas det i bruk en Janis ST-500 kryostat. Med denne er det mulig å opere fra 3.5K til 375K. Flytende helium brukes til å kjøle ned prøven. Veldig lave temperaturer kan oppnås ved å bruke flytende helium som fordamper ved 4K. En billigere løsning er flytende nitrogen hvor en kan oppnå temperaturer ned mot 77K, avhengig av hvor kritist temperatur er for målingen. Prøven monteres i cryostaten, som så pumpes fri for luft til vakum. Flytende helium føres inn i cryostaten hvor det fordamper. Hadde det vært luft i systemet ved innføring av helium ville eventuell vanndamp ha fryst til is og blokkert flyten av helium.
+% mer stash her
 
-\begin{figure}[H]%
-\centering
-\includegraphics[width=10cm]{intrinsikk_silisium}%
-\caption{Spekter for intrinsikk silisium}%
-\label{fig:intrinsikk_si}%
-\end{figure}
-
-Disse målingene er gjort ved 28K med 4 ulike grating verdier mellom 100\micro m og 1000 \micro m. Labelene refererer til ulike fonon interaksjoner og modi.
-
-For et dårlig område forventes det at det kommer fram såkalte D-linjer (se figur \ref{fig:dislokasjonslinjer}
+% hvor dypt går laseren?
+532nm laser har en inntrengningsdybde på 9,5 \micro m i krystallinsk silisum \cite{laserdybde}. Det vil si at defekter som dislokasjoner som ligger dypere enn det ikke er mulig å observere her.
