@@ -1,0 +1,31 @@
+\select@language {norsk}
+\contentsline {section}{\numberline {1}Introduksjon}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Mangelfulle tidligere resultater}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Nye m\r alinger}{5}{subsection.1.2}
+\contentsline {section}{\numberline {2}Solcelle teori}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}B\r andgap}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Doping}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Transport- og rekombinasjons-prosesser}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Eksitasjon og rekombinasjon}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Solceller}{11}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Spektroskopi}{13}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Spektrometer}{14}{subsubsection.2.6.1}
+\contentsline {subsection}{\numberline {2.7}Forventede verdier p\r a referansepr\IeC {\o }ve}{15}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Forventet spekter for multikrystallinsk silisium}{15}{subsubsection.2.7.1}
+\contentsline {section}{\numberline {3}M\r alemetode og Instrumentering}{18}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tidligere oppsett}{18}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Forslag til nytt oppsett}{19}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Teste nytt oppsett}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Lavtempratur m\r alinger i cryostat}{23}{subsection.3.4}
+\contentsline {section}{\numberline {4}Resultater}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}M\r alinger i romtemperatur}{24}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Referansepr\IeC {\o }ve i romtempratur}{24}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}M\r alinger ved lavtemperatur}{28}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskusjon}{32}{section.5}
+\contentsline {subsubsection}{\numberline {5.0.1}Erbium dopet referansepr\IeC {\o }ve}{32}{subsubsection.5.0.1}
+\contentsline {subsubsection}{\numberline {5.0.2}Upolert og polert pr\IeC {\o }ve}{32}{subsubsection.5.0.2}
+\contentsline {subsection}{\numberline {5.1}Sample 4 i romtempratur}{33}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Sample4 ved lavtempratur}{34}{subsection.5.2}
+\contentsline {section}{\numberline {A}Transmisjonskurver}{38}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}F\IeC {\o }rste veibane}{40}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Andre veibane}{41}{subsection.A.2}

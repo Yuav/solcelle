@@ -11,24 +11,17 @@ Tz~Arguirov, W~Seifert, and M~Kittlerand~J Reif.
   current recombination behaviour of extended defects in solar grade silicon.
 \newblock {\em J. Phys: Condens}, 2002.
 
-\bibitem{cryostat}
-Cryostat janis st-500.
-\newblock
-  \url{http://www.janis.com/products/productsoverview/SuperTranContinuousFlowC%
-ryostatSystems/ST-500MicroscopyCryostat.aspx#}.
-
 \bibitem{davies88}
 Gordon Davies.
 \newblock The optical properties of luminescence centres in silicon.
 \newblock 1988.
 
-\bibitem{flipmount}
-Flip mount.
-\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=FM90/M}.
-
-\bibitem{flipmount_linse}
-Flip mount - lens holder.
-\newblock \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=1447}.
+\bibitem{cryostat}
+Janis Research~Company Inc.
+\newblock Cryostat janis st-500.
+\newblock
+  \url{http://www.janis.com/products/productsoverview/SuperTranContinuousFlowC%
+ryostatSystems/ST-500MicroscopyCryostat.aspx#}.
 
 \bibitem{mater08}
 M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura.
@@ -36,20 +29,10 @@ M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura.
   photoluminescence in multicrystalline silicon wafers.
 \newblock {\em Mater Electron}, 2008.
 
-\bibitem{iris}
-Mounted stainless steel iris.
-\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=ID12SS/M}.
-
 \bibitem{aps}
 Bahram Jalali.
 \newblock Physics and technology forefronts - silicon lasers.
 \newblock {\em American Physical Society}, 2006.
-
-\bibitem{kamera}
-idus ingaas spectroscopy ccd.
-\newblock
-  \url{http://www.andor.com/scientific_cameras/idus-ingaas/models/default.aspx%
-?iProductCodeID=27}.
 
 \bibitem{erbium}
 A.~J. Kenyon, C.~E. Chryssoua, C.~W. Pitta, T.~Shimizu-Iwayamab, D.~E. Holec,
@@ -70,46 +53,32 @@ K.~Leosson, J.R. Jensen, J.M. Hvam, and W.~Langbein.
   lines.
 \newblock 2000.
 
-\bibitem{beamsplitter_ny}
-Broadband non-polarizing beam splitter cube.
-\newblock \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=BS018}.
-
-\bibitem{new_lens}
-Uncoated uv fused silica bi-convex lens.
-\newblock \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=126}.
-
-\bibitem{beamsplitter}
-Broadband non-polarizing beam splitter cube.
-\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=BS017}.
-
 \bibitem{objektiv}
 50x mitutoyo plan nir hr infinity-corrected objective.
 \newblock
   \url{http://www.edmundoptics.com/uk/onlinecatalog/displayproduct.cfm?product%
 ID=1950}.
 
-\bibitem{old_lens}
-Linse acn127-020-b.
-\newblock \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}.
-
 \bibitem{laserdybde}
 E.D. Palik.
 \newblock {\em Handbook of optical constatns of solids}.
 \newblock 2001.
+
+\bibitem{kamera}
+Andor~Technology plc.
+\newblock idus ingaas spectroscopy ccd.
+\newblock
+  \url{http://www.andor.com/scientific_cameras/idus-ingaas/models/default.aspx%
+?iProductCodeID=27}.
 
 \bibitem{dislokasjoner85}
 R.~Sauer, J.~Weber, , and J.~Stolz.
 \newblock Dislocation-related photoluminescence in silicon.
 \newblock 1985.
 
-\bibitem{speil}
-Protected silver mirror.
-\newblock
-  \url{http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=903&pn=PF10-03-%
-P01-10&CFID=807318&CFTOKEN=81881983}.
-
 \bibitem{spektrometer}
-ihr550 imaging spectrometer.
+Horiba Scientific.
+\newblock ihr550 imaging spectrometer.
 \newblock
   \url{http://www.horiba.com/us/en/scientific/products/optical-spectroscopy/sp%
 ectrometers-monochromators/ihr/ihr550-imaging-spectrometer-200/}.
@@ -131,5 +100,47 @@ I.~Tarasov, S.~Ostapenko, C.Haessler, and E.-U. Reisner.
 \newblock Spatially resolved defect diagnostics in multicrystalline silicon for
   solar cells.
 \newblock {\em Elsevier Science S.A}, 2000.
+
+\bibitem{beamsplitter}
+Thorlabs.
+\newblock Broadband non-polarizing beam splitter cube.
+\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=BS017}.
+
+\bibitem{beamsplitter_ny}
+Thorlabs.
+\newblock Broadband non-polarizing beam splitter cube.
+\newblock \url{http://www.thorlabs.de/thorProduct.cfm?partNumber=BS018}.
+
+\bibitem{flipmount}
+Thorlabs.
+\newblock Flip mount.
+\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=FM90/M}.
+
+\bibitem{flipmount_linse}
+Thorlabs.
+\newblock Flip mount - lens holder.
+\newblock \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=1447}.
+
+\bibitem{old_lens}
+Thorlabs.
+\newblock Linse acn127-020-b.
+\newblock \url{http://www.thorlabs.de/NewGroupPage11.cfm?ObjectGroup_ID=259}.
+
+\bibitem{iris}
+Thorlabs.
+\newblock Mounted stainless steel iris.
+\newblock \url{http://www.thorlabs.com/thorProduct.cfm?partNumber=ID12SS/M}.
+
+\bibitem{speil}
+Thorlabs.
+\newblock Protected silver mirror.
+\newblock
+  \url{http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=903&pn=PF10-03-%
+P01-10&CFID=807318&CFTOKEN=81881983}.
+
+\bibitem{new_lens}
+Thorlabs.
+\newblock Uncoated uv fused silica bi-convex lens.
+\newblock \url{http://www.thorlabs.com/NewGroupPage9.cfm?ObjectGroup_ID=126}.
 
 \end{thebibliography}
