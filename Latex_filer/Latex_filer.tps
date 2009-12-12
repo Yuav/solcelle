@@ -4,8 +4,8 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=10
-ActiveFrame=9
+FrameCount=12
+ActiveFrame=6
 
 [Frame0]
 Columns=1
@@ -90,9 +90,9 @@ cxCur=1011
 cxMin=10
 
 [Frame2_View0,0]
-Cursor.row=10
-Cursor.column=13
-TopSubLine=0
+Cursor.row=103
+Cursor.column=103
+TopSubLine=104
 
 [Frame3]
 Columns=1
@@ -184,8 +184,8 @@ TopSubLine=6
 [Frame6]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -198,17 +198,17 @@ Class=CLatexEdit
 Document=resultater.tex
 
 [Frame6_Row0]
-cyCur=370
+cyCur=607
 cyMin=10
 
 [Frame6_Col0]
-cxCur=1011
+cxCur=1173
 cxMin=10
 
 [Frame6_View0,0]
-Cursor.row=32
-Cursor.column=25
-TopSubLine=22
+Cursor.row=30
+Cursor.column=18
+TopSubLine=12
 
 [Frame7]
 Columns=1
@@ -235,9 +235,9 @@ cxCur=1011
 cxMin=10
 
 [Frame7_View0,0]
-Cursor.row=92
-Cursor.column=11
-TopSubLine=80
+Cursor.row=155
+Cursor.column=227
+TopSubLine=192
 
 [Frame8]
 Columns=1
@@ -264,15 +264,15 @@ cxCur=1011
 cxMin=10
 
 [Frame8_View0,0]
-Cursor.row=0
-Cursor.column=9
-TopSubLine=0
+Cursor.row=37
+Cursor.column=0
+TopSubLine=32
 
 [Frame9]
 Columns=1
 Rows=1
-Flags=2
-ShowCmd=3
+Flags=0
+ShowCmd=1
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
@@ -285,15 +285,73 @@ Class=CLatexEdit
 Document=diskusjon.tex
 
 [Frame9_Row0]
-cyCur=607
+cyCur=370
 cyMin=10
 
 [Frame9_Col0]
-cxCur=1173
+cxCur=1011
 cxMin=10
 
 [Frame9_View0,0]
-Cursor.row=51
-Cursor.column=0
-TopSubLine=33
+Cursor.row=54
+Cursor.column=245
+TopSubLine=46
+
+[Frame10]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-4
+MaxPos.y=-30
+NormalPos.left=44
+NormalPos.top=58
+NormalPos.right=1084
+NormalPos.bottom=483
+Class=CLatexEdit
+Document=introduksjon.tex
+
+[Frame10_Row0]
+cyCur=370
+cyMin=10
+
+[Frame10_Col0]
+cxCur=1011
+cxMin=10
+
+[Frame10_View0,0]
+Cursor.row=40
+Cursor.column=460
+TopSubLine=28
+
+[Frame11]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-4
+MaxPos.y=-30
+NormalPos.left=66
+NormalPos.top=87
+NormalPos.right=1106
+NormalPos.bottom=512
+Class=CLatexEdit
+Document=vedlegg_transmisjon.tex
+
+[Frame11_Row0]
+cyCur=370
+cyMin=10
+
+[Frame11_Col0]
+cxCur=1011
+cxMin=10
+
+[Frame11_View0,0]
+Cursor.row=69
+Cursor.column=64
+TopSubLine=51
 
