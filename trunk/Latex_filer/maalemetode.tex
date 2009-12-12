@@ -41,17 +41,15 @@ Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende kompon
 \end{table}
 
 
-Det antas at det er flere kilder til tap blant komponentene som lyset skal gjennom før det når kameraet. Hoveddelen av tap kommer av refleksjoner, da de optiske komponentene ikke har vesentlig absorbsjon av lyset. 
+Det antas at det er flere kilder til tap blant komponentene som lyset skal gjennom før det når kameraet. Den første komponenten lyset skal gjennom er vinduet i kryostaten, det er oppgitt til å slippe gjennom over 90\% av lyset for bølgelengder mellom 200nm og nesten helt opp til 2000nm. (Se figur \ref{fig:cryovindu} under vedlegg) Objektivet har en transmisjonfaktor på rundt 60\% for bølgelengder mellom 500 og 1800nm (figur \ref{fig:objektiv}). Beamsplitteren er oppgitt til å dele strålen 50:50, med mellom 40\% og 50\% transmisjon for 400-700nm. Men ut ifra figur \ref{fig:beamsplitter400-700nm} ser det ut til å være økende tap for bølgelengder over 700nm (figur \ref{fig:beamsplitter400-700nm}). På grunn av split prosessen forsvinner 50\% av lyset uansett. Linsene er oppgitt til å ha under 1\% refleksjon for bølgelengder mellom 650nm og 1050nm, mens for bølgelengder utenfor er det økende refleksjon. Spektrometeret er oppgitt til å ha spektralt spekter fra 150 til 1500nm. (Figur \ref{fig:kameragraf})
 
-Den første komponenten lyset skal gjennom er vinduet i kryostaten, det er oppgitt til å slippe gjennom over 90\% av lyset for bølgelengder mellom 200nm og nesten helt opp til 2000nm. (Se figur \ref{fig:cryovindu} under vedlegg) Objektivet har en transmisjonfaktor på rundt 60\% for bølgelengder mellom 500 og 1800nm (figur \ref{fig:objektiv}). Beamsplitteren er oppgitt til å dele strålen 50:50, med mindre enn 1\% refleksjon (tap) for bølgelengdene 400-700nm. Men ut ifra figur \ref{fig:beamsplitter400-700nm} ser det ut til å være eksponensielt økende for bølgelengder over 700nm (figur \ref{fig:beamsplitter400-700nm}). I tillegg forsvinner 50\% av lyset i selve split prosessen. Linsene er oppgitt til å ha under 1\% refleksjon for bølgelengder mellom 650nm og 1050nm, mens for bølgelengder utenfor er det økende refleksjon. Spektrometeret er oppgitt til å ha spektralt spekter fra 150 til 1500nm. (Figur \ref{fig:kameragraf})
-
-Dette viser tydelig at beamsplitteren og linsene som er brukt i oppsettet er store kilder til tap, og bør byttes ut for målinger med bølgelengder over 700nm.
+Dette viser at beamsplitteren og linsene som er brukt i oppsettet er kilder til tap, og bør byttes ut for målinger med bølgelengder over 700nm.
 
 \subsection{Forslag til nytt oppsett}
 
 %Hvordan løse problemet?
 
-Det er tydelig at objektivet, beamsplitteren og linsene er kilder til store tap i systemet. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for bølgelengdene som er interessante med tanke på dårlige områder. Dette for å kunne karaketisere kilder til tap, som dislokasjoner. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp en beamsplitter og speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
+Det kommer fram av datablad at beamsplitteren og linsene er optimalisert for andre bølgelengder enn de som er mest intersante. For å kunne gjøre målinger mellom 1\micro m og 1,5\micro m bør disse byttes ut med komponenter som har begrenset med tap for disse bølgelengdene. Dette for å kunne karaketisere kilder til tap, som dislokasjoner. For å få til et større bølgelengdeområde foreslås det å sette opp en parallell veibane for bølgelengder fra 1000nm og opp til 1500nm. Dette kan realiseres ved å sette opp en beamsplitter og speil i strålebanen som manuelt kan flippes opp og ned for å kontrollere hvor lyset beveger seg.
 
 Forslag til oppsett for parallell optisk vei:
 
@@ -95,6 +93,7 @@ Speil monteres på en såkalt 'flip mount', slik at det kan skrus fast i det optis
 % figur.
 
 %Prøven s071016 er med doping nivå 1%Er og 1%Yb so up-konvertering effekt er ikke veldig sterk (se spektrum i vedlegg). Films tykkelsen er 2um
+\subsection{Teste nytt oppsett}
 
 For å verifisere det nye lapoppsettet, er det tatt i bruk en prøve dopet med Erbium som i følge \cite{erbium} skal lyse opp rundt 1550 (se fig. \ref{fig:erbium_eksitasjon}). Denne prøven har et absorbsjonsspekter som vist i figur \ref{fig:erbium_absorbsjon} som gjør grønn laser på 532nm særdeles godt egnet som pumpelys.
 
@@ -118,10 +117,42 @@ Til å måle på prøven brukes grating 300 i spektrometeret, som gir et intervall p
 
 Kameraet er effektivt for bølgelengder mellom 900nm og 1700nm (se figur \ref{fig:kameragraf}) Kameraet gir ut en verdi i form av et tall som sier noe om hvor mye lys de ulike bølgelengdene har i form av intensitet, og kan sendes til en datamaskin som behandler dem som vist i figur \ref{fig:pl}.
 
+Linsene i det gamle oppsettet var optimalisert for bølgelengder mellom 700nm og 1000nm. Bølgelengdene som er interesante her ligger rundt 1550nm som tilsvarer 0.8eV. 0.8eV er hvor D1 linja forventes. Det er ikke oppgitt i datablad hvor mye tap det er for bølgelengder rundt 1550nm i denne linsa, men det er antydning til at det blir flere prosent. Den andre linsa er oppgitt til å ha 5\% tap for 1550nm. Tatt i betrakning at den parallelle veibanen bare har en linse, mot tre linser tidligere, er det rimelig å anta at minst 10\% av tapet unngås ved bruk av ny linse, i forhold til gamle. Beamsplitteren i et gamle oppsettet antyder voldsom økning i tap for bølgelengder over 650nm. Datablad viser 0,7\% tap for 650nm. Hvis tendensen fra databladet til beamsplitteren fortsetter for høyere bølgelengder vil tapet rundt 1550nm være over 90\% for transmisjon gjennom splitteren. 
+
+For et signal med verdi 100\%, vil det gjennom veibane 1 være:
+ \begin{equation}
+100\%*0,9^3*0,1 \approx 7\%
+\label{eq:tap_lysbane1}
+\end{equation}
+ 
+ igjen av lyset på 1550nm når det når spektrometeret. Hvis man antar 10\% tap i hver av linsene, og antar at tendensen til tap i beamsplitteren fra datablad fortsetter for høyere bølgelengder. For lysbane 2 i følge datablad:
+ 
+\begin{equation}
+100\%*0,95*0,4*0,98^4 \approx 35\%
+\label{eq:}
+\end{equation}
+ 
+av lyset kommer fram til spektrometeret. Dette tilsvarer fem ganger så mye signal ved 1550nm til spektrometeret gjennom lysbane 2, enn gjennom lysbane 1. 
+
+I det nye oppsettet vil emmitert lys ut av prøven med bølgelengde 900-1600nm i gjennomsnitt miste 5\% gjennom vinduet til cryostaten, 40\% gjennom objektivet, 0,02\% i speilene, 55\% i beamsplitteren og 5\% i linsa før det når spektrometeret. Kameraet har en effektivitet på 85\% for disse bølgelengdene. Det vil si at det kun er
+
+\begin{equation}
+100\%*0,6*0,98^4*0,45*0,85 \approx 21\%
+\label{eq:}
+\end{equation}
+
+av emmiterte fotoner som blir detektert av kameraet, selv med nye komponenter. 
+
 \subsection{Lavtempratur målinger i cryostat}
 
-For å oppnå lave temperaturer tas det i bruk en Janis ST-500 kryostat. Med denne er det mulig å opere fra 3.5K til 375K. Flytende helium brukes til å kjøle ned prøven. Veldig lave temperaturer kan oppnås ved å bruke flytende helium som fordamper ved 4K. En billigere løsning er flytende nitrogen hvor en kan oppnå temperaturer ned mot 77K, avhengig av hvor kritist temperatur er for målingen. Prøven monteres i cryostaten, som så pumpes fri for luft til vakum. Flytende helium føres inn i cryostaten hvor det fordamper. Hadde det vært luft i systemet ved innføring av helium ville eventuell vanndamp ha fryst til is og blokkert flyten av helium.
+For å oppnå lave temperaturer tas det i bruk en Janis ST-500 kryostat \cite{cryostat}. Med denne er det mulig å opere fra 3.5K til 375K. Flytende helium brukes til å kjøle ned prøven. Veldig lave temperaturer kan oppnås ved å bruke flytende helium som fordamper ved 4K. En billigere løsning er flytende nitrogen hvor en kan oppnå temperaturer ned mot 77K, avhengig av hvor kritist temperatur er for målingen. Prøven monteres i cryostaten, som så pumpes fri for luft til vakum. Flytende helium føres inn i cryostaten hvor det fordamper. Hadde det vært luft i systemet ved innføring av helium ville eventuell vanndamp ha fryst til is og blokkert flyten av helium.
 % mer stash her
 
 % hvor dypt går laseren?
-532nm laser har en inntrengningsdybde på 9,5 \micro m i krystallinsk silisum \cite{laserdybde}. Det vil si at defekter som dislokasjoner som ligger dypere enn det ikke er mulig å observere her.
+532nm laser har en inntrengningsdybde på 9,5 \micro m i krystallinsk silisum \cite{laserdybde}. Det vil si at defekter som dislokasjoner som ligger dypere enn det ikke er mulig å observere med pumpelaser på 532nm. 
+
+Kameraet integrerer opp lyset over et gitt intervall, og gir ut et tall. Dette tallet sier noe om hvor mye lys som treffer det bestemte pikselet. Formålet med dette er å gi ut en oversikt over mengden fotoner ved en bølgelengde, for å kunne enkelt se og sammenligne topper i spekteret. Jeg har i denne oppgaven valgt å kalle dette tallet som kommer ut av kameraet for lysmengde.
+
+I tillegg til selve signalet er det også innslag av støy. Eksempler på dette er termisk støy, mørkestrøm, ulik forsterkning på forskjellige piksler i kameraet, uønskede refleksjoner, andre ordens diffraksjonstopper, artifakter og ulikheter med tanke på forskjellig energi for forskjellige fotoner. Det vil alltid være støy på målingene, og ved å ha lengre integreringstid vil også støyen få større verdi på resultatet. Mørkestrøm kommer fra termisk energi i detektoren på kameraet og er uavhengig av innkommende lys. Denne støyen blir registrert som et signal. Ved å kjøle ned kameraet, kan en redusere mørkestrømmen ned til neglisjerbar størrelse. Dette gjør at man kan ha lang integreringstid uten at resultatene drukner i støy. I dette prosjektet kjøles kameraet ned til -75$^\circ$C før målingene tas, for å være innenfor en sikkerhetsmargin på avkjølingen da kameraet er oppgitt til å ha en minimum driftstemperatur på -85$^\circ$C. For å transportere bort varmen fra kameraet benyttes vannkjøling.
+ 	
+Kameraet er oppgitt og ha en effektivitet på 85\% for bølgelengder mellom 900nm og 1700nm. Dette tilsvarer henholdsvis 1.38eV og 0.73eV (\ref{eq:lysenergi}), og er det området som er interesant for målinger på multikrystallinsk silisum \cite{davies88} \cite{tarasov00}.
