@@ -23,7 +23,8 @@ F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23
 %Cy = C(:,2);
 %C = [Cx,Cy/5];
 
-A = matrix_align_and_glue(C,D);
+A = matrix_align_and_glue(B,C);
+A = matrix_align_and_glue(A,D);
 A = matrix_align_and_glue(A,E);
 %A = matrix_align_and_glue(A,F);
 %A = [A B C D E F];
@@ -45,13 +46,13 @@ plot(Ax,Ay)
 %Zx = nm_to_ev(Zx);
 %plot(Zx,Zy)
 
-ylabel('Intensitet');
+ylabel('Lysmengde');
 
 xlabel('Energi [eV]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_bad'
+%print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_bad'
 
 
 % ################################
@@ -90,11 +91,11 @@ plot(Ax,Ay)
 %Zx = nm_to_ev(Zx);
 %plot(Zx,Zy)
 %title('Sample 4 i "good spot"');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 %xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_good'
+%print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_good'
 

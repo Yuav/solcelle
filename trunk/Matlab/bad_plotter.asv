@@ -13,19 +13,20 @@ D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23
 E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_bad\1460nm-g300-11_2mW-10s-bad',delimiter);
 F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_bad\1600nm-g300-11_2mW-10s-bad',delimiter);
 
-%Ex = A(:,1);
-%Ey = A(:,2);
-%E = [Ex,Ey];
 
-Fx = A(:,1);
-Fy = A(:,2);
-F = [Fx,Fy];
+%A = matrix_align_and_glue(A,B);
+%A = matrix_align_and_glue(A,C);
+%A = matrix_align_and_glue(A,D);
 
-A = matrix_align_and_glue(A,B);
-A = matrix_align_and_glue(A,C);
-A = matrix_align_and_glue(A,D);
+
+%Cx = C(:,1);
+%Cy = C(:,2);
+%C = [Cx,Cy/5];
+
+A = matrix_align_and_glue(C,D);
+A = matrix_align_and_glue(C,D);
 A = matrix_align_and_glue(A,E);
-A = matrix_align_and_glue(A,F);
+%A = matrix_align_and_glue(A,F);
 %A = [A B C D E F];
 
 
@@ -45,30 +46,30 @@ plot(Ax,Ay)
 %Zx = nm_to_ev(Zx);
 %plot(Zx,Zy)
 
-ylabel('Intensitet');
+ylabel('Lysmengde');
 
 xlabel('Energi [eV]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_bad'
+%print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_bad'
 
 
 % ################################
 % Sample 4 grating 300 11.2mW 10s good
 
-A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\900nm-g300-11_2mW-10s-good',delimiter);
-B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1040nm-g300-11_2mW-10s-good',delimiter);
-C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1180-g300-11_2mW-10s-good',delimiter);
-D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1320nm-g300-11_2mW-10s-good',delimiter);
-E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1460nm-g300-11_2mW-10s-good',delimiter);
-F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1600nm-g300-11_2mW-10s-good',delimiter);
+%A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\900nm-g300-11_2mW-10s-good',delimiter);
+A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1040nm-g300-11_2mW-10s-good',delimiter);
+%C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1180-g300-11_2mW-10s-good',delimiter);
+%D = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1320nm-g300-11_2mW-10s-good',delimiter);
+%E = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1460nm-g300-11_2mW-10s-good',delimiter);
+%F = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-23-2009\Romtempratur_good\1600nm-g300-11_2mW-10s-good',delimiter);
 
-A = matrix_align_and_glue(A,B);
-A = matrix_align_and_glue(A,C);
-A = matrix_align_and_glue(A,D);
-A = matrix_align_and_glue(A,E);
-A = matrix_align_and_glue(A,F);
+%A = matrix_align_and_glue(A,B);
+%A = matrix_align_and_glue(A,C);
+%A = matrix_align_and_glue(A,D);
+%A = matrix_align_and_glue(A,E);
+%A = matrix_align_and_glue(A,F);
 
 %Z = matrix_align_and_glue(D,E);
 %Z = matrix_align_and_glue(E,F);
@@ -90,11 +91,11 @@ plot(Ax,Ay)
 %Zx = nm_to_ev(Zx);
 %plot(Zx,Zy)
 %title('Sample 4 i "good spot"');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 %xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('10s integrering');
 
 % Skrive til fil for bruk i latex
-print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_good'
+%print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_romtemp_good'
 

@@ -10,7 +10,7 @@ Spektroskopi benytter seg av fotoluminescens. Når et elektronhullpar rekombinere
 \label{fig:luminisens}%
 \end{figure}
 
-Figur \ref{fig:luminisens} viser inkommende lys med høy energi som eksiterer et elektron hullpar i $a$, som etter meget kort tid faller ned til en lavere energitilstand i $b$. I $c$ rekombinerer elektronet og det sendes ut et foton med energi lik $E_c$. Det andre elektronet som eksiteres i $d$ havner i en såkalt "`trap"' state, hvor det kan befinne seg forurensninger eller defekter i en krystallstruktur. Når dette elektronet rekombinerer sendes det ut et foton med lavere energi enn i $c$. Ved å se på lyset som kommer ut fra en slik trap state kan det lokaliseres blant annet forurensninger. 
+Figur \ref{fig:luminisens} viser innkommende lys med høy energi som eksiterer et elektron hullpar i $a$, som etter meget kort tid faller ned til en lavere energitilstand i $b$. I $c$ rekombinerer elektronet og det sendes ut et foton med energi lik $E_c$. Det andre elektronet som eksiteres i $d$ havner i en såkalt "`trap"' state, hvor det kan befinne seg forurensninger eller defekter i en krystallstruktur. Når dette elektronet rekombinerer sendes det ut et foton med lavere energi enn i $c$. Ved å se på lyset som kommer ut fra en slik trap state kan det lokaliseres blant annet forurensninger. 
 
 \subsubsection{Spektrometer}
 
@@ -21,21 +21,24 @@ d\sin(\theta _m)=m\lambda
 \label{eq:grating_equation}
 \end{equation}
 
-Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til lyset, $m$ er et heltall for diffraksjonsordenen og $\lambda$ er bølgelengden. I et spektrometer er det ofte mulig å bytte mellom flere ulike spalter. Spredningen er ofte begrensen, avhengig av hvor god oppløsning man trenger. Dette fører til at en måling kun er innenfor et gitt intervall med en gitt senterbølgelengde. For å få ut et helt spekter, må det gjøres flere målinger med ulike senterfrekvenser.
+Hvor $d$ er avstanden mellom spaltene i gratingen, $\theta _m$ er vinkelen til lyset, $m$ er et heltall for diffraksjonsordenen og $\lambda$ er bølgelengden. I et spektrometer er det ofte mulig å bytte mellom flere ulike spalter. Spredningen er ofte begrenset, avhengig av hvor god oppløsning man trenger. Dette fører til at en måling kun er innenfor et gitt intervall med en gitt senterbølgelengde. For å få ut et helt spekter, må det gjøres flere målinger med ulike senterfrekvenser.
 
 \begin{figure}[H]
 \centering
 %\includegraphics[width=10cm,bb=0 0 306 265]{luminisence.png}%
 \includegraphics[width=10cm]{PL}%
-\caption{Fotoluminisens}%
+\caption{Fotoluminescens}%
 \label{fig:pl}%
 \end{figure}
 
 De ulike bølgelengdene som kommer ut av prøven fanges opp av et kamera. Kameraet består av en endimensjonal rekke av detektorer, eller piksler, som fanger opp hver sin bølgelengde avhengig av hvilke bølgelengder som treffer hvilke piksler. Intensiteten og bølgelengden til lyset registreres og lagres i en tabell som sendes til en datamaskin.
 
-\subsection{Forventede verdier på referanseprøve}
+%\subsection{Forventede verdier på referanseprøve}
 
 
+\subsubsection{Støy}
+
+I tillegg til selve signalet er det også innslag av støy. Eksempler på dette er termisk støy, mørkestrøm, ulik forsterkning på forskjellige piksler i kameraet, uønskede refleksjoner, andre ordens diffraksjonstopper, artefakter og ulikheter med tanke på forskjellig energi for forskjellige fotoner. Det vil alltid være støy på målingene, og ved å ha lengre integreringstid vil også støyen få større verdi på resultatet. Mørkestrøm kommer fra termisk energi i detektoren på kameraet og er uavhengig av innkommende lys. Denne støyen blir registrert som et signal. Ved å kjøle ned kameraet, kan en redusere mørkestrømmen ned til neglisjerbar størrelse. Dette gjør at man kan ha lang integreringstid uten at resultatene drukner i støy. Andre ordens diffraksjon kan også dukke opp i spekteret. Hvis en laser på 532nm sendes inn, er intensiteten så høy at andre ordens diffraksjonstopp også er synlig. Den kommer da på 1064nm, som tilsvarer 1.165eV.
 
 \subsubsection{Forventet spekter for multikrystallinsk silisium}
 
@@ -49,7 +52,7 @@ Ved å se på spekteret som fanges opp av kameraet er det mulig å relatere spekter
 	\label{fig:dislokasjonslinjer}
 \end{figure}
 
-Disse dårlige områdene er antatt å være relatert til dislokasjonslinjer \cite{tarasov00} \cite{d-linje-temp} \cite{dislokasjoner85}. Hvilke energi disse linjene har, og hvor høy intensitet som kommer ut er avhengig av tempetratur \cite{d-linje-temp}. Ved akustisk fonon-foton interaksjon i romtempratur blir det et bredere spekter som følge av ulike energier blant fononene som inngår \cite{spekterbredning}. For å få fram tydelige topper, gjøres målinger ved temperaturer under -150$^\circ$C. Lave temperaturer er viktig for å kunne se individuelle topper, slik at de ikke forsvinner i termisk støy som følge av fonon interaksjon med de dominerende karakteristikkene. 
+Disse dårlige områdene er antatt å være relatert til dislokasjonslinjer \cite{tarasov00} \cite{d-linje-temp} \cite{dislokasjoner85}. Hvilke energi disse linjene har, og hvor høy intensitet som kommer ut er avhengig av tempetratur \cite{d-linje-temp}. Ved akustisk fonon-foton interaksjon i romtemperatur blir det et bredere spekter som følge av ulike energier blant fononene som inngår \cite{spekterbredning}. For å få fram tydelige topper, gjøres målinger ved temperaturer under -150$^\circ$C. Lave temperaturer er viktig for å kunne se individuelle topper, slik at de ikke forsvinner i termisk støy som følge av fonon interaksjon med de dominerende karakteristikkene. 
 
 \begin{figure}[H]%
 \centering
@@ -77,7 +80,7 @@ Energi & Årsak & Referanse \\
 1.16eV & Null-fonon komponent & \cite{davies88} \\
 \hline
 \end{tabular}
-\caption{Forventede topper for et bra område ved lavtempratur}
+\caption{Forventede topper for et bra område ved lavtemperatur}
 \label{tab:bra_omrade}
 \end{table}
 
@@ -102,7 +105,7 @@ Transversal optisk mode ved ~1.125eV er båndgapet til silisium (ved 0K \cite{dav
 1.14eV & Transversal Akustisk Mode (TA) & \cite{davies88} \\
 \hline
 \end{tabular}
-\caption{Forventede topper for et dårlig område ved lavtempratur}
+\caption{Forventede topper for et dårlig område ved lavtemperatur}
 \label{tab:bad_omrade}
 \end{table}
 
