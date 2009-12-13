@@ -1,14 +1,43 @@
 \section{Diskusjon}
 
-For å optimalisere laboppsettet ble det gjort målinger hvert sekund, og utstyret justert slik at det ble høyest mulig amplitude. Høyere amplitude viser til mindre tap i systemet. Målingene som ble gjort på referanseprøven forgikk i romtemperatur.
 
-\subsubsection{Erbium dopet referanseprøve}
 
-Målet med denne prøven var å forsikre seg om at utstyret fungerer som forventet, og for å kunne finjustere vinkler og fokalplan. Figur \ref{fig:erbium_gammel} viser intensiteten til det eksiterte lyset fra referanseprøven gjennom det eksisterende utstyret. Sammenlignet med resultatet fra figur \ref{fig:erbium_ny} kommer det frem at det nye utstyret gir mer enn tre ganger så høy amplitude for bølgelengder rundt 1550nm. I figur \ref{fig:erbium_ny} kommer det også fram en tydelig karakteristikk ved 1064nm, som er det dobbelte av bølgelengden til pumpelyset. Denne er altfor smal til å komme fra luminisensspekteret, og antas å komme fra andre ordens diffrasjon gitt av (\ref{eq:grating_equation})
+\subsection{Resultatet av nytt oppsett}
 
-\subsubsection{Upolert og polert prøve}
+For å optimalisere laboppsettet ble det gjort målinger hvert sekund, og utstyret justert slik at det ble høyest mulig amplitude. Høyere amplitude viser til mindre tap i systemet. 
+
+\subsubsection{Referanseprøven i romtempratur}
+
+Emmitert lys fra referanseprøven ble sendt gjennom gammelt oppsett, og nytt oppsett. De mest interessante bølgelengdene befinner seg i området rundt 1550nm, altså ved 0,8eV. Det var på forhånd ventet en vesentlig forbedring for disse bølgelengdene.
+
+\begin{figure}[h]
+  \hfill
+  \begin{minipage}[t]{.45\textwidth}
+    \begin{center}  
+      	\includegraphics[width=5cm]{referanse_gammel_piler.png}%
+      \caption{Referanseprøve gjennom gammelt oppsett}
+      \label{fig:referanse_gammel_piler}
+    \end{center}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{.45\textwidth}
+    \begin{center}  
+      	\includegraphics[width=5cm]{referanse_ny_piler.png}%
+      \caption{Referanseprøve gjennom nytt oppsett}
+      \label{fig:referanse_ny_piler}
+    \end{center}
+  \end{minipage}
+  \hfill
+\end{figure}
+
+
+Figur \ref{fig:referanse_gammel_piler} og \ref{fig:referanse_ny_piler} viser at det nye utstyret gir mer enn tre ganger så mye lys for bølgelengder rundt 1550nm. Forventet resultat var fem ganger så mye lys, men dette var basert på en rekke antagelser om tap i eksisterende utstyr. Det nye oppsettet gir en klar forbedring for interessante bølgelengder.
+
+\subsubsection{Upolert og polert prøve i romtempratur}
 
 Prøven i figur \ref{fig:polert_sample} er den samme polerte prøven som er gitt i figur \ref{fig:cryolabtap}. Det eneste som er tilstede her er andreordens diffraksjon fra laseren som kommer på nøyaktig 1064nm. Hvorfor prøven ikke gir ut noe spekter er ukjent. Det antas å være feil i målingen som for eksempel feil fokus. Andre feilkilder kan være at prøven har en vinkel i forhold til sample holderen, eller at termisk pasta på overflaten fra tidligere målinger absorberer mesteparten av det eksiterte lyset. 
+
+I figur \ref{fig:polert_sample} kommer det også fram en tydelig karakteristikk ved 1064nm, som er det dobbelte av bølgelengden til pumpelyset. Denne er altfor smal til å komme fra luminescensspekteret, og antas å komme fra andre ordens diffrasjon gitt av (\ref{eq:grating_equation})
 
 Det er også dukket opp enkeltstående "`spiker"' som ikke hører til noe kjent karakteristikk for silisium. Eksempelvis med senterfrekvens på 1280nm viser en spiker verdiene:
 
@@ -52,18 +81,28 @@ Og med senterfrekvens på 1420nm:
 \label{t:uregel2}
 \end{table}
 
-Årsaken til disse kan være et defekt pixel på kameraet, da de dukker opp helt konsekvent på samme sted i målingen rundt senterfrekvens + 62nm. Bredden på disse er også under 0.4nm, som er oppgitt nøyaktighet for spektrometeret \cite{spektrometer}.
+Årsaken til disse kan være et defekt piksel på kameraet, da de dukker opp helt konsekvent på samme sted i målingen rundt senterfrekvens + 62nm. Bredden på disse er også under 0.4nm, som er oppgitt nøyaktighet for spektrometeret \cite{spektrometer}.
 
-Den polerte prøven i figur \ref{fig:polert_sample} er mer som forventet med bakgrunn i \cite{davies88}, med mesteparten av intensiteten rundt 1.1eV. Silisium har et indirekte båndgap, som gjør at et elektron-hullpar ikke kan rekombinere uten hjelp fra et fonon. Ved romtemperatur har disse fononene høyere termisk energi slik at et eksitert foton kan få høyere energi når det eksiteres via et slik fonon. Dette gir utslag på spekteret ved at det blir en utbredning i energinivåer på detekterte fotoner.
+Den upolerte prøven i figur \ref{fig:upolert_sample} er mer som forventet med bakgrunn i \cite{davies88}, med mesteparten av intensiteten rundt 1.1eV. Silisium har et indirekte båndgap, som gjør at et elektron-hullpar ikke kan rekombinere uten hjelp fra et fonon. Ved romtemperatur har disse fononene høyere termisk energi slik at et eksitert foton kan få høyere energi når det eksiteres via et slik fonon. Dette gir utslag på spekteret ved at det blir en utbredning i energinivåer på detekterte fotoner. Refleksjoner fra laseren er også vesentlig mindre her enn for den polerte prøven.
 
 \subsection{Sample 4 i romtempratur}
+% hva skjer her egentlig??
+Målingene gjort i romtemperatur på sample 4 er preget av mye støy som en følge av høy intensitet fra laseren. Sample 4 i figur \ref{fig:sample_4_romtemp_good} er gjort på et såkalt bra område som hovedsaklig består av krystallinsk silisium. Her er det kun refleksjon fra laseren som er synlig. Det er samme resultat som for den polerte prøven i figur \ref{fig:polert_sample}. Det er fortsatt uklart hvorfor det ikke båndgapet til silisium kommer til syne her. Den polerte blanke overflaten reflekterer store mengder laserlys, som gir en kraftig spiker ved andreordens diffraksjonsmønster. 
 
-Målingene gjort i romtemperatur på sample 4 er preget av mye støy som en følge av høy intensitet fra laseren. Lavere intensitet på laseren ga mindre støy, men også mye mindre intensitet på spekteret. Deler av spekteret er utelatt i mangel på informasjonsverdi. Sample 4 i figur \ref{fig:sample_4_romtemp_good} er gjort på et såkalt bra område som hovedsaklig består av krystallinsk silisium. Her er det et tydelig bredere spekter enn for lavtempratur i et tilsvarende område i figur \ref{fig:good_spot}. Dette er som forventet \cite{spekterbredning}. For et dårlig område (figur \ref{fig:sample_4_romtemp_bad}) er ikke d-linjene synlig i romtemperatur. Årsaken til dette er ukjent, men støyproblemer er nok en medvirkende årsak. Intervallet fra 1eV til 1.1eV  er tatt med lenger integreringstid. Her ventes det en topp tilsvarende den i figur \ref{fig:bad_spot}, bare bredere, men denne er sterkt påvirket av støy.
+Intervallet fra 1eV til 1.1eV er tatt med lenger integreringstid, for å lokalisere toppen ved 1.1eV i et dårlig område. For et dårlig område (figur \ref{fig:sample_4_romtemp_bad}) er det antydning til en topp ved 1.1eV som tilsvarer båndgapet til silisium. D-linjene er ikke synlig i romtemperatur her i det hele tatt. Det er samme resultat som i \cite{sugimoto07}. Det ventes en topp tilsvarende den i figur \ref{fig:bad_spot}, bare bredere, men denne er sterkt påvirket av støy. Også her er refleksjoner fra laserlyset dominerende på spekteret.
 
 \subsection{Sample4 ved lavtempratur}
 
 Ved målinger på 23K er det ikke lenger noe særlig utbredning i spekteret av fotoner direkte relatert til båndgapet til silisium. Det kommer til syne en karakteristikk med lavere energi som i følge \cite{tarasov00} er dominert av effekter i forbindelse med dislokasjonslinjer eller defekter i krystallstrukturen. Eksempelvis i figurene \ref{fig:sample_4_} og \ref{fig:sample_4_1}. I figur \ref{fig:posisjonsavhengighet} er det et utdrag av 20 målinger gjort på forskjellige lokasjoner på Sample4. Her kommer det fram at denne karakteristikken er posisjonsavhengig. 
 
-Med bakgrunn i figur \ref{fig:posisjonsavhengighet} ble det gjort en måling i et såkalt dårlig område, og en måling i et bra område, med lang integreringstid. Et bra område består hovedsakelig av intrisnikk silisium. Posisjonene er avmerket på figur \ref{fig:sample4}. Resultatene fra et dårlig område i figur \ref{fig:bad_spot} (svart område) viser et bredt spekter rundt 1eV som ikke er synlig for et bra område, som vist i figur \ref{fig:good_spot}. Resultaene fra \cite{tarasov00} viser til mye tydeligere topper, som refererer til såkalte D-linjer. Disse kommer ikke tydelig fram her. Mellom 0,9eV og 1,0eV er det antydning til topper som ofte omtales som D3 og D4 \cite{tarasov00} \cite{arguirov}. D3 er et fonon replika av D4 \cite{replica} Linjene som omtales som D1 og D2 ser ut til å være helt borte. I følge \cite{d-linje-temp} er posisjon og intensitet avhengig av temperatur. Videre studie bør gjøres for å finne årsaken til fraværet av D1 og D2. Tidligere forsøk på å karakterisere slike dislokasjonslinjer, som figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt} viser heller ingen tegn til D1 eller D2, men her var heller ikke D3 og D4 synlige. Det er også mulig at det var forskjeller i prøvene som utgjør problemet. Tatt i betraktning hvor lav intensitet disse linjene har, og hvor mye tap som kom av tidligere utstyr, er det usikkert om disse linjene ville vært synlige, selv om de var tilstede.
+\subsubsection{Bra område}
 
-Sammenlignet med intrinsikk luminisence måling av silisium ved 26K gjort i \cite{davies88} stemmer figur \ref{fig:good_spot} veldig bra med forventende verdier. Hovedtyngden ligger rundt 1.1eV som blir kalt transversal optisk mode i \cite{davies88}. Med 50s integreringstid gikk kameraet i metning for denne bølgelengden, men med bakgrunn i resultater fra figur \ref{fig:sample_4_2_1} og \ref{fig:sample_4_2_2} er det tydelig at denne karakteristikken er dominant også her. Altså, at mesteparten av energien ligger ved det indirekte båndgapet til silisium. Videre har fotonene assistert av to fonon (energi rundt 1.04eV) vesentlig høyere intensitet enn for et dårlig område. Området som er karakteristisk for et dårlig område, som for eksempel ved dislokasjonslinjer, er ikke å finne i figur \ref{fig:good_spot}. I følge \cite{davies88} har det dukket opp en antydning til tre fonon assisterte fotoner rundt 0.97eV, transversal akustisk linje ved 1,14eV og en ideelt sett forbudt prosess der det ikke er noen fononer involvert med energier like over 1,14eV synlig som en liten topp.
+Sammenlignet med intrinsikk luminescense måling av silisium ved 26K gjort i \cite{davies88} stemmer figur \ref{fig:good_spot} veldig bra med forventende verdier. Hovedtyngden ligger rundt 1.1eV som blir kalt transversal optisk mode i \cite{davies88}. Med 50s integreringstid gikk kameraet i metning for denne bølgelengden, men med bakgrunn i resultater fra figur \ref{fig:sample_4_2_1} og \ref{fig:sample_4_2_2} er det tydelig at denne karakteristikken er dominant også her. Altså, at mesteparten av energien ligger ved det indirekte båndgapet til silisium. Videre har fotonene assistert av to fonon (energi rundt 1.04eV) vesentlig høyere intensitet enn for et dårlig område. Området som er karakteristisk for et dårlig område, som for eksempel ved dislokasjonslinjer, er ikke å finne i figur \ref{fig:good_spot}. I følge \cite{davies88} har det dukket opp en antydning til tre fonon assisterte fotoner rundt 0.97eV, transversal akustisk linje ved 1,14eV og en ideelt sett forbudt prosess der det ikke er noen fononer involvert med energier like over 1,14eV synlig som en liten topp.
+
+\subsubsection{Dårlig område}
+
+Med bakgrunn i figur \ref{fig:posisjonsavhengighet} ble det gjort en måling i et såkalt dårlig område, og en måling i et bra område, med lang integreringstid. Et bra område består hovedsakelig av intrinsikk silisium. Posisjonene er avmerket på figur \ref{fig:sample4}. Resultatene fra et dårlig område i figur \ref{fig:bad_spot} (svart område) viser et bredt spekter rundt 1eV som ikke er synlig for et bra område, som vist i figur \ref{fig:good_spot}. Resultatene fra \cite{tarasov00} viser til mye tydeligere topper, som refererer til såkalte D-linjer. Disse kommer ikke tydelig fram her. Mellom 0,9eV og 1,0eV er det antydning til topper som ofte omtales som D3 og D4 \cite{tarasov00} \cite{arguirov}. D3 er et fonon replika av D4 \cite{replica}. Linjene som omtales som D1 og D2 ser ut til å være helt borte. I følge \cite{d-linje-temp} er posisjon og intensitet avhengig av temperatur. Videre studie bør gjøres for å finne årsaken til fraværet av D1 og D2. Tidligere forsøk på å karakterisere slike dislokasjonslinjer, som figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt} viser heller ingen tegn til D1 eller D2, men her var heller ikke D3 og D4 synlige. Det er også mulig at det var forskjeller i prøvene som utgjør problemet. Tatt i betraktning hvor lav intensitet disse linjene har, og hvor mye tap som kom av tidligere utstyr, er det usikkert om disse linjene ville vært synlige, selv om de var tilstede.
+
+\subsection{Manglende D-Linjer}
+
+D1 og D2 linjene er ikke synlig på noen av resultatene. Disse er antatt å ha noe med hverandre å gjøre \cite{tarasov00}. \cite{arguirov} antyder at D1 og D2 linjene kan ha noe å gjøre med lokale fenomen, som materialstress. Hva som gir disse linjene er ikke kjent, men antas å være relatert til dislokasjoner. \cite{sugimoto07} viser at D1 linja ofte dominerer spekteret her, med relativt bred utstrekning. Dersom linjene hadde vært tilstede, er det sannsynlig at de ville dukket opp på spekteret, selv med tap i systemet, da D3 og D4 linjene er synlige.

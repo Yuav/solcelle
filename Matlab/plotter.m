@@ -28,7 +28,8 @@ hold on;
 
 plot(Ax,Ay);
 %title('Erbium referanseprøve ved 300K, gjennom eksisterende lysbane');
-ylabel('Intensitet');
+legend('5s integrering')
+ylabel('Lysmengde');
 xlabel('Bølgelengde [nm]');
 
 
@@ -87,7 +88,7 @@ figure(2)
 plot(Ax,Ay)
 set(gca,'FontSize',fontsize)
 %title('Er referanseprøve ved 300K, gjennom ny lysbane');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Bølgelengde [nm]');
 legend('5s integrering')
 
@@ -122,7 +123,7 @@ figure(3)
 plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Polert multikrystallinsk silisium ved 300K');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 %xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('5s integrering')
@@ -158,7 +159,7 @@ figure(4);
 plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Upolert sample ved 300K');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 %xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('5s integrering')
@@ -192,7 +193,7 @@ figure(5)
 plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Energi [eV]');
 %xlabel('Bølgelengde [nm]');
 legend('10s integrering');
@@ -228,7 +229,7 @@ figure(6);
 plot(nm_to_ev(Ax),Ay);
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 18K pumpet med 4.6mW');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Energi [eV]');
 %xlabel('Bølgelengde [nm]');
 legend('2s integrering');
@@ -261,7 +262,7 @@ figure(7)
 plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 15mW');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Energi [eV]');
 %xlabel('Bølgelengde [nm]');
 legend('10s integrering');
@@ -292,7 +293,7 @@ figure(8)
 plot(nm_to_ev(Ax),Ay)
 set(gca,'FontSize',fontsize)
 %title('Sample 4 ved 23K i område 2 pumpet med 30mW');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Energi [eV]');
 %xlabel('Bølgelengde [nm]');
 legend('5s integrering');
@@ -388,7 +389,7 @@ F20y = F20(:,2);
 figure(9)
 set(gca,'FontSize',fontsize)
 %title('Posisjonsavhengig karakteristikk');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Energi [eV]');
 %xlabel('Bølgelengde [nm]');
 
@@ -441,7 +442,7 @@ figure(10)
 set(gca,'FontSize',fontsize)
 plot(nm_to_ev(Ax),Ay)
 %title('Sample 4 i "bad spot"');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('50s integrering');
@@ -451,7 +452,7 @@ print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex
 
 % ################################
 % Sample 4 SPOT 2 50s 13mW
-figure(11)
+figure11 = figure(11)
 A = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-900nm-19k-SPOT2-13mW',delimiter);
 B = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-1040nm-19k-SPOT2-13mW',delimiter);
 C = dlmread('C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\nov-06-2009\MC Si - Sample 4\Sample 4 - SPOT 2 - 13mW\300grv-50s-1180nm-19k-SPOT2-13mW',delimiter);
@@ -471,10 +472,32 @@ set(gca,'FontSize',fontsize)
 Ax = nm_to_ev(Ax);
 plot(Ax,Ay)
 %title('Sample 4 i "good spot"');
-ylabel('Intensitet');
+ylabel('Lysmengde');
 %xlabel('Bølgelengde [nm]');
 xlabel('Energi [eV]');
 legend('50s integrering');
+
+
+% Create textarrow
+annotation(figure11,'textarrow',[0.357142857142857 0.403571428571429],...
+    [0.353761904761905 0.288095238095238],'TextEdgeColor','none',...
+    'String',{'0.96eV'});
+annotation(figure11,'textarrow',[0.369642857142857 0.448214285714286],...
+    [0.653761904761905 0.638095238095238],'TextEdgeColor','none',...
+    'String',{'1.02eV'});
+annotation(figure11,'textarrow',[0.623214285714286 0.573214285714286],...
+    [0.789476190476191 0.811904761904762],'TextEdgeColor','none',...
+    'String',{'1.165eV'});
+annotation(figure11,'textarrow',[0.632142857142857 0.553571428571429],...
+    [0.432333333333333 0.354761904761905],'TextEdgeColor','none',...
+    'String',{'1.137eV'});
+annotation(figure11,'textarrow',[0.605357142857143 0.542857142857143],...
+    [0.703761904761905 0.771428571428571],'TextEdgeColor','none',...
+    'String',{'1.12eV'});
+annotation(figure11,'textarrow',[0.405357142857142 0.503571428571429],...
+    [0.891857142857144 0.845238095238095],'TextEdgeColor','none',...
+    'String',{'1.085eV'});
+
 
 % Skrive til fil for bruk i latex
 print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Sample_4_SPOT_2_GOOD'
