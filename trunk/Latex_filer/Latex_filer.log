@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  15 DEC 2009 16:17
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  15 DEC 2009 18:17
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/Late
 x_filer.tex
@@ -880,7 +880,7 @@ File: ./bilder/intrinsikk_silisium.png Graphic file (type png)
 
 <use ./bilder/intrinsikk_silisium.png> [14 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/intrinsikk_silisium.png (PNG copy)
->] <./bilder/dislokasjonslinjer_tarasov00.png, id=473, 513.92pt x 298.11375pt>
+>] <./bilder/dislokasjonslinjer_tarasov00.png, id=474, 513.92pt x 298.11375pt>
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
 
 <use ./bilder/dislokasjonslinjer_tarasov00.png> [15 <C:/Documents and Settings/
@@ -888,7 +888,7 @@ Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/dislokasjonslinjer_taraso
 v00.png (PNG copy)>]) [16]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
 emetode.tex"
-<./bilder/laboppsett_gammelt.png, id=506, 798.985pt x 579.16376pt>
+<./bilder/laboppsett_gammelt.png, id=507, 798.985pt x 579.16376pt>
 File: ./bilder/laboppsett_gammelt.png Graphic file (type png)
 
 <use ./bilder/laboppsett_gammelt.png>
@@ -901,16 +901,16 @@ Overfull \hbox (101.36812pt too wide) in paragraph at lines 22--39
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/laboppsett_gammelt.png>]
-<./bilder/laboppsett_nytt.png, id=529, 397.485pt x 579.16376pt>
+<./bilder/laboppsett_nytt.png, id=530, 397.485pt x 579.16376pt>
 File: ./bilder/laboppsett_nytt.png Graphic file (type png)
 
 <use ./bilder/laboppsett_nytt.png> [18] [19 <C:/Documents and Settings/Jon/My D
 ocuments/Prosjekt/solcelle/Latex_filer/bilder/laboppsett_nytt.png>]
-<./bilder/erbium_absorbsjon.png, id=554, 418.56375pt x 266.9975pt>
+<./bilder/erbium_absorbsjon.png, id=555, 418.56375pt x 266.9975pt>
 File: ./bilder/erbium_absorbsjon.png Graphic file (type png)
 
 <use ./bilder/erbium_absorbsjon.png>
-<./bilder/erbium_emisjon.png, id=555, 354.32375pt x 282.05376pt>
+<./bilder/erbium_emisjon.png, id=556, 354.32375pt x 282.05376pt>
 File: ./bilder/erbium_emisjon.png Graphic file (type png)
 
 <use ./bilder/erbium_emisjon.png> [20 <C:/Documents and Settings/Jon/My Documen
@@ -931,7 +931,7 @@ converted-to.pdf ./bilder/Erbium_gammel.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_gammel-eps-converted-to.pdf, id=589, 524.96124pt x 401.5pt>
+<./bilder/Erbium_gammel-eps-converted-to.pdf, id=590, 524.96124pt x 401.5pt>
 File: ./bilder/Erbium_gammel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Erbium_gammel-eps-converted-to.pdf>
@@ -946,7 +946,7 @@ erted-to.pdf ./bilder/Erbium_ny.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_ny-eps-converted-to.pdf, id=590, 513.92pt x 415.5525pt>
+<./bilder/Erbium_ny-eps-converted-to.pdf, id=591, 513.92pt x 415.5525pt>
 File: ./bilder/Erbium_ny-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Erbium_ny-eps-converted-to.pdf> [24
@@ -965,7 +965,7 @@ nverted-to.pdf ./bilder/Polert_300K.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Polert_300K-eps-converted-to.pdf, id=604, 518.93875pt x 401.5pt>
+<./bilder/Polert_300K-eps-converted-to.pdf, id=605, 518.93875pt x 401.5pt>
 File: ./bilder/Polert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Polert_300K-eps-converted-to.pdf> [25 <C:/Documents and Settings/
@@ -983,7 +983,7 @@ onverted-to.pdf ./bilder/Upolert_300K.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Upolert_300K-eps-converted-to.pdf, id=613, 518.93875pt x 401.5pt>
+<./bilder/Upolert_300K-eps-converted-to.pdf, id=614, 518.93875pt x 401.5pt>
 File: ./bilder/Upolert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Upolert_300K-eps-converted-to.pdf>
@@ -999,7 +999,7 @@ ad-eps-converted-to.pdf ./bilder/Sample_4_romtemp_bad.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=614, 507.8975pt x 415.5
+<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=615, 507.8975pt x 415.5
 525pt>
 File: ./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1019,7 +1019,7 @@ ood-eps-converted-to.pdf ./bilder/Sample_4_romtemp_good.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=627, 499.8675pt x 415.
+<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=628, 499.8675pt x 415.
 5525pt>
 File: ./bilder/Sample_4_romtemp_good-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1037,7 +1037,7 @@ rted-to.pdf ./bilder/Sample_4.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4-eps-converted-to.pdf, id=637, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4-eps-converted-to.pdf, id=638, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4-eps-converted-to.pdf> [28 <C:/Documents and Settings/Jon
@@ -1067,7 +1067,7 @@ onverted-to.pdf ./bilder/Sample_4_2_1.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=645, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=646, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [29 <C:/Documents and Settings
@@ -1085,7 +1085,7 @@ onverted-to.pdf ./bilder/Sample_4_2_2.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=653, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=654, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_2-eps-converted-to.pdf>
@@ -1101,7 +1101,7 @@ et-eps-converted-to.pdf ./bilder/Posisjonsavhengighet.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=654, 522.95375pt x 401.
+<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=655, 522.95375pt x 401.
 5pt>
 File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1109,7 +1109,7 @@ File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
  Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_2_1-ep
 s-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcel
 le/Latex_filer/bilder/Sample_4_2_2-eps-converted-to.pdf>]
-<./bilder/sample_4_edited.png, id=665, 1162.3425pt x 496.85625pt>
+<./bilder/sample_4_edited.png, id=666, 1162.3425pt x 496.85625pt>
 File: ./bilder/sample_4_edited.png Graphic file (type png)
 
 <use ./bilder/sample_4_edited.png>
@@ -1129,7 +1129,7 @@ D-eps-converted-to.pdf ./bilder/Sample_4_SPOT_1_BAD.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=666, 495.8525pt x 415.55
+<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=667, 495.8525pt x 415.55
 25pt>
 File: ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1149,7 +1149,7 @@ OD-eps-converted-to.pdf ./bilder/Sample_4_SPOT_2_GOOD.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=675, 495.8525pt x 415.5
+<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=676, 495.8525pt x 415.5
 525pt>
 File: ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1163,11 +1163,11 @@ usjon.tex"
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-<./bilder/referanse_gammel_piler.png, id=688, 562.1pt x 421.575pt>
+<./bilder/referanse_gammel_piler.png, id=689, 562.1pt x 421.575pt>
 File: ./bilder/referanse_gammel_piler.png Graphic file (type png)
 
 <use ./bilder/referanse_gammel_piler.png>
-<./bilder/referanse_ny_piler.png, id=689, 562.1pt x 421.575pt>
+<./bilder/referanse_ny_piler.png, id=690, 562.1pt x 421.575pt>
 File: ./bilder/referanse_ny_piler.png Graphic file (type png)
 
 <use ./bilder/referanse_ny_piler.png> [33
@@ -1176,17 +1176,17 @@ File: ./bilder/referanse_ny_piler.png Graphic file (type png)
 er/referanse_gammel_piler.png (PNG copy)> <C:/Documents and Settings/Jon/My Doc
 uments/Prosjekt/solcelle/Latex_filer/bilder/referanse_ny_piler.png (PNG copy)>]
  [34]
-<./bilder/sample_4_good_arrows.png, id=720, 562.1pt x 421.575pt>
+<./bilder/sample_4_good_arrows.png, id=721, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_good_arrows.png Graphic file (type png)
 
 <use ./bilder/sample_4_good_arrows.png>
-<./bilder/sample_4_bad_arrows.png, id=721, 562.1pt x 421.575pt>
+<./bilder/sample_4_bad_arrows.png, id=722, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_bad_arrows.png Graphic file (type png)
 
 <use ./bilder/sample_4_bad_arrows.png> [35 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/sample_4_good_arrows.png (PNG copy
 )> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bi
-lder/sample_4_bad_arrows.png (PNG copy)>]) [36] [37]
+lder/sample_4_bad_arrows.png (PNG copy)>] [36]) [37]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\konk
 lusjon.tex") [38
 
@@ -1236,54 +1236,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--73
  / models /
  []
 
+[39
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+]
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 []\T1/cmr/m/n/10.95 Horiba Sci-en-tif-ic.  ihr550 imag-ing spec-trom-e-ter.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 []$\T1/cmtt/m/n/10.95 http : / / www . horiba . com / us / en / scientific / pr
 oducts /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 \T1/cmtt/m/n/10.95 optical-[]spectroscopy / spectrometers-[]monochromators / ih
 r /
  []
 
-[39
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 []\T1/cmr/m/n/10.95 Thorlabs.  Linse acn127-020-b.  []$\T1/cmtt/m/n/10.95 http 
 : / / www . thorlabs . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--145
 []\T1/cmr/m/n/10.95 Thorlabs.  Pro-tect-ed sil-ver mir-ror.  []$\T1/cmtt/m/n/10
 .95 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--145
 \T1/cmtt/m/n/10.95 thorlabs . de / NewGroupPage9 . cfm ? ObjectGroup _ ID = 903
 &pn =
  []
 
 ) [40]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
-egg_transmisjon.tex" <./bilder/cryovindu.png, id=802, 1072.005pt x 650.43pt>
+egg_transmisjon.tex" <./bilder/cryovindu.png, id=807, 1072.005pt x 650.43pt>
 File: ./bilder/cryovindu.png Graphic file (type png)
 
 <use ./bilder/cryovindu.png>
-<./bilder/objektiv.png, id=804, 873.2625pt x 525.965pt>
+<./bilder/objektiv.png, id=809, 873.2625pt x 525.965pt>
 File: ./bilder/objektiv.png Graphic file (type png)
 
 <use ./bilder/objektiv.png>
-<./bilder/speil.png, id=806, 937.5025pt x 658.46pt>
+<./bilder/speil.png, id=811, 937.5025pt x 658.46pt>
 File: ./bilder/speil.png Graphic file (type png)
  <use ./bilder/speil.png>
 [41
@@ -1291,29 +1291,29 @@ File: ./bilder/speil.png Graphic file (type png)
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/cryovindu.png (PNG copy)> <C:/Documents and Settings/Jon/My Documents/Prosje
 kt/solcelle/Latex_filer/bilder/objektiv.png (PNG copy)>]
-<./bilder/kameragraf.png, id=812, 737.75626pt x 592.2125pt>
+<./bilder/kameragraf.png, id=817, 737.75626pt x 592.2125pt>
 File: ./bilder/kameragraf.png Graphic file (type png)
 
 <use ./bilder/kameragraf.png>
-<./bilder/breamsplitter400-700nm.png, id=814, 782.925pt x 680.5425pt>
+<./bilder/breamsplitter400-700nm.png, id=819, 782.925pt x 680.5425pt>
 File: ./bilder/breamsplitter400-700nm.png Graphic file (type png)
 
 <use ./bilder/breamsplitter400-700nm.png> [42 <C:/Documents and Settings/Jon/My
  Documents/Prosjekt/solcelle/Latex_filer/bilder/speil.png (PNG copy)> <C:/Docum
 ents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/kamerag
 raf.png (PNG copy)>]
-<./bilder/old_linse.png, id=821, 635.37375pt x 215.80624pt>
+<./bilder/old_linse.png, id=826, 635.37375pt x 215.80624pt>
 File: ./bilder/old_linse.png Graphic file (type png)
 
 <use ./bilder/old_linse.png>
-<./bilder/breamsplitter1100-1600nm.png, id=823, 785.93625pt x 693.59125pt>
+<./bilder/breamsplitter1100-1600nm.png, id=828, 785.93625pt x 693.59125pt>
 File: ./bilder/breamsplitter1100-1600nm.png Graphic file (type png)
 
 <use ./bilder/breamsplitter1100-1600nm.png> [43 <C:/Documents and Settings/Jon/
 My Documents/Prosjekt/solcelle/Latex_filer/bilder/breamsplitter400-700nm.png (P
 NG copy)> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_f
 iler/bilder/old_linse.png (PNG copy)>]
-<./bilder/ny_linse.png, id=830, 658.46pt x 443.6575pt>
+<./bilder/ny_linse.png, id=835, 658.46pt x 443.6575pt>
 File: ./bilder/ny_linse.png Graphic file (type png)
 
 <use ./bilder/ny_linse.png>) [44 <C:/Documents and Settings/Jon/My Documents/Pr
@@ -1323,13 +1323,13 @@ y_linse.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 16164 strings out of 495285
- 298101 string characters out of 3180345
- 625480 words of memory out of 3000000
- 18705 multiletter control sequences out of 15000+200000
+ 16166 strings out of 495285
+ 298122 string characters out of 3180345
+ 625510 words of memory out of 3000000
+ 18706 multiletter control sequences out of 15000+200000
  23197 words of font info for 66 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,9n,61p,1734b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,9n,61p,2065b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\Jon\Local Settings\Application Data\
 MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk> <C:\Documents and Se
 ttings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\
@@ -1362,9 +1362,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/eu
 ler/eurm10.pfb>
-Output written on Latex_filer.pdf (49 pages, 2731349 bytes).
+Output written on Latex_filer.pdf (49 pages, 2734041 bytes).
 PDF statistics:
- 1360 PDF objects out of 1440 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
+ 1368 PDF objects out of 1440 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 
