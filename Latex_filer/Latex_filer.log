@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  15 DEC 2009 13:48
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  15 DEC 2009 16:17
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/Late
 x_filer.tex
@@ -177,6 +177,113 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box29
 )
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2009/09/10 v6.78u Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2008/09/08 v1.4 Code for color options of hyperref/bookmark (H
+O)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2008/09/08 xcolor patch
+))
+\@linkdim=\dimen115
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2009/09/10 v6.78u Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2009/04/10 v0.4 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected on input line 144.
+)))
+\Fld@menulength=\count104
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+\Field@toks=\toks24
+Package hyperref Info: Hyper figures OFF on input line 4346.
+Package hyperref Info: Link nesting OFF on input line 4351.
+Package hyperref Info: Hyper index ON on input line 4354.
+Package hyperref Info: backreferencing OFF on input line 4361.
+Package hyperref Info: Link coloring OFF on input line 4366.
+Package hyperref Info: Link coloring with OCG OFF on input line 4371.
+Package hyperref Info: PDF/A mode OFF on input line 4376.
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+*hyperref using default driver hpdftex*
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2009/09/10 v6.78u Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\front
 endlayer\tikz.sty"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\basic
@@ -185,7 +292,7 @@ layer\pgf.sty"
 ties\pgfrcs.sty"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfutil-common.tex"
-\pgfutil@everybye=\toks24
+\pgfutil@everybye=\toks25
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfutil-latex.def")
@@ -205,21 +312,21 @@ Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 )
-\pgf@x=\dimen115
-\pgf@y=\dimen116
-\pgf@xa=\dimen117
-\pgf@ya=\dimen118
-\pgf@xb=\dimen119
-\pgf@yb=\dimen120
-\pgf@xc=\dimen121
-\pgf@yc=\dimen122
-\c@pgf@counta=\count102
-\c@pgf@countb=\count103
-\c@pgf@countc=\count104
-\c@pgf@countd=\count105
+\pgf@x=\dimen118
+\pgf@y=\dimen119
+\pgf@xa=\dimen120
+\pgf@ya=\dimen121
+\pgf@xb=\dimen122
+\pgf@yb=\dimen123
+\pgf@xc=\dimen124
+\pgf@yc=\dimen125
+\c@pgf@counta=\count109
+\c@pgf@countb=\count110
+\c@pgf@countc=\count111
+\c@pgf@countd=\count112
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgf.cfg"
@@ -238,8 +345,8 @@ File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
-\pgfsyssoftpath@smallbuffer@items=\count106
-\pgfsyssoftpath@bigbuffer@items=\count107
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgfsysprotocol.code.tex"
@@ -276,11 +383,11 @@ h\pgfmathutil.code.tex"
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
 h\pgfmathparser.code.tex"
-\pgfmath@stack=\toks27
-\c@pgfmath@parsecounta=\count108
-\c@pgfmath@parsecountb=\count109
-\c@pgfmath@parsecountc=\count110
-\pgfmath@parsex=\dimen123
+\pgfmath@stack=\toks28
+\c@pgfmath@parsecounta=\count115
+\c@pgfmath@parsecountb=\count116
+\c@pgfmath@parsecountc=\count117
+\pgfmath@parsex=\dimen126
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
 h\pgfmathoperations.code.tex"
@@ -293,32 +400,32 @@ h\pgfmathbase.code.tex")))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
-\pgf@picminx=\dimen124
-\pgf@picmaxx=\dimen125
-\pgf@picminy=\dimen126
-\pgf@picmaxy=\dimen127
-\pgf@pathminx=\dimen128
-\pgf@pathmaxx=\dimen129
-\pgf@pathminy=\dimen130
-\pgf@pathmaxy=\dimen131
-\pgf@xx=\dimen132
-\pgf@xy=\dimen133
-\pgf@yx=\dimen134
-\pgf@yy=\dimen135
-\pgf@zx=\dimen136
-\pgf@zy=\dimen137
+\pgf@picminx=\dimen127
+\pgf@picmaxx=\dimen128
+\pgf@picminy=\dimen129
+\pgf@picmaxy=\dimen130
+\pgf@pathminx=\dimen131
+\pgf@pathmaxx=\dimen132
+\pgf@pathminy=\dimen133
+\pgf@pathmaxy=\dimen134
+\pgf@xx=\dimen135
+\pgf@xy=\dimen136
+\pgf@yx=\dimen137
+\pgf@yy=\dimen138
+\pgf@zx=\dimen139
+\pgf@zy=\dimen140
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
-\pgf@path@lastx=\dimen138
-\pgf@path@lasty=\dimen139
+\pgf@path@lastx=\dimen141
+\pgf@path@lasty=\dimen142
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
-\pgf@shorten@end@additional=\dimen140
-\pgf@shorten@start@additional=\dimen141
+\pgf@shorten@end@additional=\dimen143
+\pgf@shorten@start@additional=\dimen144
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorescopes.code.tex"
@@ -326,19 +433,19 @@ File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count111
+\pgf@picture@serial@count=\count118
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
-\pgflinewidth=\dimen142
+\pgflinewidth=\dimen145
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
-\pgf@pt@x=\dimen143
-\pgf@pt@y=\dimen144
-\pgf@pt@temp=\dimen145
+\pgf@pt@x=\dimen146
+\pgf@pt@y=\dimen147
+\pgf@pt@temp=\dimen148
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorequick.code.tex"
@@ -359,8 +466,8 @@ File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
-\pgf@max=\dimen146
-\pgf@sys@shading@range@num=\count112
+\pgf@max=\dimen149
+\pgf@sys@shading@range@num=\count119
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoreimage.code.tex"
@@ -383,7 +490,7 @@ File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
 ules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
 \pgfnodeparttextbox=\box35
-\toks@savedmacro=\toks28
+\toks@savedmacro=\toks29
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmoduleplot.code.tex"
@@ -393,8 +500,8 @@ File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
 tibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen147
-\pgf@nodesepend=\dimen148
+\pgf@nodesepstart=\dimen150
+\pgf@nodesepend=\dimen151
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
 tibility\pgfcomp-version-1-18.sty"
@@ -405,8 +512,8 @@ ties\pgffor.sty"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgffor.code.tex"
 Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
-\pgffor@iter=\dimen149
-\pgffor@skip=\dimen150
+\pgffor@iter=\dimen152
+\pgffor@skip=\dimen153
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\tikz.code.tex"
@@ -415,30 +522,30 @@ Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
-\pgf@plot@mark@count=\count113
-\pgfplotmarksize=\dimen151
+\pgf@plot@mark@count=\count120
+\pgfplotmarksize=\dimen154
 )
-\tikz@lastx=\dimen152
-\tikz@lasty=\dimen153
-\tikz@lastxsaved=\dimen154
-\tikz@lastysaved=\dimen155
-\tikzleveldistance=\dimen156
-\tikzsiblingdistance=\dimen157
+\tikz@lastx=\dimen155
+\tikz@lasty=\dimen156
+\tikz@lastxsaved=\dimen157
+\tikz@lastysaved=\dimen158
+\tikzleveldistance=\dimen159
+\tikzsiblingdistance=\dimen160
 \tikz@figbox=\box36
 \tikz@tempbox=\box37
-\tikztreelevel=\count114
-\tikznumberofchildren=\count115
-\tikznumberofcurrentchild=\count116
-\tikz@fig@count=\count117
+\tikztreelevel=\count121
+\tikznumberofchildren=\count122
+\tikznumberofcurrentchild=\count123
+\tikz@fig@count=\count124
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfmatrixcurrentrow=\count118
-\pgfmatrixcurrentcolumn=\count119
-\pgf@matrix@numberofcolumns=\count120
+\pgfmatrixcurrentrow=\count125
+\pgfmatrixcurrentcolumn=\count126
+\pgf@matrix@numberofcolumns=\count127
 )
-\tikz@expandcount=\count121
+\tikz@expandcount=\count128
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
@@ -449,7 +556,7 @@ kz-tab.sty"
 Package: tkz-tab 2009/02/21 v1.0c variations (ctan version) 
  ("C:\Program Files\MiKTeX 2.8\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count122
+\et@xins=\count129
 )
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -458,9 +565,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
-\XKV@depth=\count123
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+\XKV@depth=\count130
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
@@ -479,20 +586,20 @@ File: tikzlibrarypatterns.code.tex 2008/01/15 v2.00 (rcs-revision 1.2)
 raries\pgflibrarypatterns.code.tex"
 File: pgflibrarypatterns.code.tex 2008/01/15 v2.00 (rcs-revision 1.12)
 ))
-\tkz@XF=\dimen158
-\tkz@YF=\dimen159
-\c@tkz@cnt@line=\count124
-\c@tkz@cnt@lg=\count125
-\c@tkz@cnt@cl=\count126
-\c@tkz@cnt@pred=\count127
-\c@tkz@cnt@temp=\count128
-\c@tkz@cnt@arrow=\count129
-\c@tkz@cnt@zone=\count130
-\c@tkz@cnt@lgnext=\count131
-\c@tkz@cnt@clnext=\count132
-\c@tkz@cnt@pair=\count133
-\c@tkz@cnt@impair=\count134
-\c@tkz@cnt@aw=\count135
+\tkz@XF=\dimen161
+\tkz@YF=\dimen162
+\c@tkz@cnt@line=\count131
+\c@tkz@cnt@lg=\count132
+\c@tkz@cnt@cl=\count133
+\c@tkz@cnt@pred=\count134
+\c@tkz@cnt@temp=\count135
+\c@tkz@cnt@arrow=\count136
+\c@tkz@cnt@zone=\count137
+\c@tkz@cnt@lgnext=\count138
+\c@tkz@cnt@clnext=\count139
+\c@tkz@cnt@pair=\count140
+\c@tkz@cnt@impair=\count141
+\c@tkz@cnt@aw=\count142
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
@@ -500,14 +607,14 @@ ntendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
 ntendlayer\tikz\libraries\tikzlibrarydecorations.code.tex"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen160
-\pgfdecoratedremainingdistance=\dimen161
-\pgfdecoratedinputsegmentcompleteddistance=\dimen162
-\pgfdecoratedinputsegmentremainingdistance=\dimen163
-\pgf@decorate@distancetomove=\dimen164
-\pgf@decorate@repeatstate=\count136
-\pgfdecorationsegmentamplitude=\dimen165
-\pgfdecorationsegmentlength=\dimen166
+\pgfdecoratedcompleteddistance=\dimen163
+\pgfdecoratedremainingdistance=\dimen164
+\pgfdecoratedinputsegmentcompleteddistance=\dimen165
+\pgfdecoratedinputsegmentremainingdistance=\dimen166
+\pgf@decorate@distancetomove=\dimen167
+\pgf@decorate@repeatstate=\count143
+\pgfdecorationsegmentamplitude=\dimen168
+\pgfdecorationsegmentlength=\dimen169
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibrarydecorations.pathmorphing.code.tex"))
@@ -570,25 +677,25 @@ File: pgflibraryshapes.multipart.code.tex 2008/01/15 v2.00 (rcs-revision 1.7)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\rotating\
 rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count137
+\c@r@tfl@t=\count144
 \rotFPtop=\skip47
 \rotFPbot=\skip48
 \rot@float@box=\box42
-\rot@mess@toks=\toks31
+\rot@mess@toks=\toks32
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\subfigure
 \subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip49
 \subfigcapskip=\skip50
-\subfigcaptopadj=\dimen167
+\subfigcaptopadj=\dimen170
 \subfigbottomskip=\skip51
-\subfigcapmargin=\dimen168
+\subfigcapmargin=\dimen171
 \subfiglabelskip=\skip52
-\c@subfigure=\count138
-\c@lofdepth=\count139
-\c@subtable=\count140
-\c@lotdepth=\count141
+\c@subfigure=\count145
+\c@lofdepth=\count146
+\c@subtable=\count147
+\c@lotdepth=\count148
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -603,142 +710,36 @@ Package: epstopdf 2009/07/16 v2.2 Conversion with epstopdf on the fly (HO)
  ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2009/07/16 v2.2 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2009/04/10 v0.4 LuaTeX support for pdfTeX utility functions
- (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected on input line 144.
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 429.
 ))
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2009/09/10 v6.78u Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
-)
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
-Package: hycolor 2008/09/08 v1.4 Code for color options of hyperref/bookmark (H
-O)
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
-Package: xcolor-patch 2008/09/08 xcolor patch
-))
-\@linkdim=\dimen169
-\Hy@linkcounter=\count142
-\Hy@pagecounter=\count143
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2009/09/10 v6.78u Hyperref: PDFDocEncoding definition (HO)
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
-("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 3428.
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-))
-\Fld@menulength=\count144
-\Field@Width=\dimen170
-\Fld@charsize=\dimen171
-\Field@toks=\toks32
-Package hyperref Info: Hyper figures OFF on input line 4346.
-Package hyperref Info: Link nesting OFF on input line 4351.
-Package hyperref Info: Hyper index ON on input line 4354.
-Package hyperref Info: backreferencing OFF on input line 4361.
-Package hyperref Info: Link coloring OFF on input line 4366.
-Package hyperref Info: Link coloring with OCG OFF on input line 4371.
-Package hyperref Info: PDF/A mode OFF on input line 4376.
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
-)
-\Hy@abspage=\count145
-\c@Item=\count146
-\c@Hfootnote=\count147
-)
-*hyperref using default driver hpdftex*
-("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2009/09/10 v6.78u Hyperref driver for pdfTeX
-\Fld@listcount=\count148
-)
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 ("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -756,7 +757,7 @@ LaTeX Font Info:    ... okay on input line 34.
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 32.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -765,8 +766,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
 
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.out")
@@ -774,11 +775,11 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -786,53 +787,54 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
 x/config/pdftex.map}]
+("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\samm
+endrag.tex") [1]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.toc")
 \tf@toc=\write5
  [2
 
-] [3]
+]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.lof"
-Overfull \hbox (16.24104pt too wide) in paragraph at lines 20--20
+Overfull \hbox (2.32707pt too wide) in paragraph at lines 20--20
  [][] [][]\T1/cmr/m/n/10.95 Eksitert lys sendt gjen-nom laboppsett brukt på tid
-ligere målinger, 
+ligere målinger[] [][]  
  []
 
-
-Overfull \hbox (5.59125pt too wide) in paragraph at lines 42--42
- [][] [][]\T1/cmr/m/n/10.95 Beamsplitter re-flek-sjon fra dat-ablad op-ti-malis
--ert for 400-700nm 
- []
-
-[4
+[3
 
 ])
 \tf@lof=\write6
- [5]
+ [4]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
-oduksjon.tex" <./bilder/energiemix_no.png, id=340, 907.39pt x 558.085pt>
+oduksjon.tex" <./bilder/energiemix_no.png, id=331, 907.39pt x 558.085pt>
 File: ./bilder/energiemix_no.png Graphic file (type png)
 
-<use ./bilder/energiemix_no.png> [6
+<use ./bilder/energiemix_no.png>pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 
+      [1
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/energiemix_no.png>]
-<bilder/cryolabtap.png, id=349, 333.245pt x 275.0275pt>
+<bilder/cryolabtap.png, id=339, 333.245pt x 275.0275pt>
 File: bilder/cryolabtap.png Graphic file (type png)
 
 <use bilder/cryolabtap.png>
-<./bilder/dlinjerjakt.png, id=350, 427.5975pt x 345.29pt>
+<./bilder/dlinjerjakt.png, id=340, 427.5975pt x 345.29pt>
 File: ./bilder/dlinjerjakt.png Graphic file (type png)
 
-<use ./bilder/dlinjerjakt.png> [7 <C:/Documents and Settings/Jon/My Documents/P
-rosjekt/solcelle/Latex_filer/bilder/cryolabtap.png (PNG copy)>]) [8 <C:/Documen
+<use ./bilder/dlinjerjakt.png> [2 <C:/Documents and Settings/Jon/My Documents/P
+rosjekt/solcelle/Latex_filer/bilder/cryolabtap.png (PNG copy)>]) [3 <C:/Documen
 ts and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/dlinjerja
 kt.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori.tex" [9
+elle_teori.tex" [4
 
-] [10] [11]
+] [5] [6]
 Overfull \hbox (7.54541pt too wide) in paragraph at lines 130--131
 \T1/cmr/m/n/10.95 Det er to mekanis-mer som bidrar til trans-port av elek-trone
 r og hull i halvledere:
@@ -848,11 +850,11 @@ Overfull \hbox (32.72105pt too wide) in paragraph at lines 196--196
 []\T1/cmr/m/n/10.95 Valensbånd  
  []
 
-[12] <./bilder/fononassistert.png, id=409, 798.985pt x 510.90875pt>
+[7] <./bilder/fononassistert.png, id=399, 798.985pt x 510.90875pt>
 File: ./bilder/fononassistert.png Graphic file (type png)
 
-<use ./bilder/fononassistert.png> [13 <C:/Documents and Settings/Jon/My Documen
-ts/Prosjekt/solcelle/Latex_filer/bilder/fononassistert.png>]
+<use ./bilder/fononassistert.png> [8 <C:/Documents and Settings/Jon/My Document
+s/Prosjekt/solcelle/Latex_filer/bilder/fononassistert.png>]
 Overfull \hbox (6.42833pt too wide) in paragraph at lines 248--249
 \T1/cmr/m/n/10.95 være den tiden elek-troner er i led-nings-bån-det før det rek
 om-biner-er. Tilsvarende
@@ -860,33 +862,33 @@ om-biner-er. Tilsvarende
 
 )
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\solc
-elle_teori_inhomogene_halvledere.tex" [14] [15])
+elle_teori_inhomogene_halvledere.tex" [9] [10])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
-troskopi.tex" [16]
-<./bilder/luminisence.png, id=443, 307.1475pt x 265.99374pt>
+troskopi.tex" [11]
+<./bilder/luminisence.png, id=432, 307.1475pt x 265.99374pt>
 File: ./bilder/luminisence.png Graphic file (type png)
 
-<use ./bilder/luminisence.png> [17 <C:/Documents and Settings/Jon/My Documents/
+<use ./bilder/luminisence.png> [12 <C:/Documents and Settings/Jon/My Documents/
 Prosjekt/solcelle/Latex_filer/bilder/luminisence.png>]
-<./bilder/PL.png, id=452, 394.47375pt x 229.85875pt>
+<./bilder/PL.png, id=441, 394.47375pt x 229.85875pt>
 File: ./bilder/PL.png Graphic file (type png)
  <use ./bilder/PL.png>
-[18 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
+[13 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
 ilder/PL.png>]
-<./bilder/intrinsikk_silisium.png, id=466, 697.60625pt x 501.875pt>
+<./bilder/intrinsikk_silisium.png, id=455, 697.60625pt x 501.875pt>
 File: ./bilder/intrinsikk_silisium.png Graphic file (type png)
 
-<use ./bilder/intrinsikk_silisium.png> [19 <C:/Documents and Settings/Jon/My Do
+<use ./bilder/intrinsikk_silisium.png> [14 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/intrinsikk_silisium.png (PNG copy)
->] <./bilder/dislokasjonslinjer_tarasov00.png, id=484, 513.92pt x 298.11375pt>
+>] <./bilder/dislokasjonslinjer_tarasov00.png, id=473, 513.92pt x 298.11375pt>
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
 
-<use ./bilder/dislokasjonslinjer_tarasov00.png> [20 <C:/Documents and Settings/
+<use ./bilder/dislokasjonslinjer_tarasov00.png> [15 <C:/Documents and Settings/
 Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/dislokasjonslinjer_taraso
-v00.png (PNG copy)>]) [21]
+v00.png (PNG copy)>]) [16]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
 emetode.tex"
-<./bilder/laboppsett_gammelt.png, id=517, 798.985pt x 579.16376pt>
+<./bilder/laboppsett_gammelt.png, id=506, 798.985pt x 579.16376pt>
 File: ./bilder/laboppsett_gammelt.png Graphic file (type png)
 
 <use ./bilder/laboppsett_gammelt.png>
@@ -894,27 +896,27 @@ Overfull \hbox (101.36812pt too wide) in paragraph at lines 22--39
  [][] 
  []
 
-[22
+[17
 
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/laboppsett_gammelt.png>]
-<./bilder/laboppsett_nytt.png, id=539, 397.485pt x 579.16376pt>
+<./bilder/laboppsett_nytt.png, id=529, 397.485pt x 579.16376pt>
 File: ./bilder/laboppsett_nytt.png Graphic file (type png)
 
-<use ./bilder/laboppsett_nytt.png> [23] [24 <C:/Documents and Settings/Jon/My D
+<use ./bilder/laboppsett_nytt.png> [18] [19 <C:/Documents and Settings/Jon/My D
 ocuments/Prosjekt/solcelle/Latex_filer/bilder/laboppsett_nytt.png>]
-<./bilder/erbium_absorbsjon.png, id=563, 418.56375pt x 266.9975pt>
+<./bilder/erbium_absorbsjon.png, id=554, 418.56375pt x 266.9975pt>
 File: ./bilder/erbium_absorbsjon.png Graphic file (type png)
 
 <use ./bilder/erbium_absorbsjon.png>
-<./bilder/erbium_emisjon.png, id=564, 354.32375pt x 282.05376pt>
+<./bilder/erbium_emisjon.png, id=555, 354.32375pt x 282.05376pt>
 File: ./bilder/erbium_emisjon.png Graphic file (type png)
 
-<use ./bilder/erbium_emisjon.png> [25 <C:/Documents and Settings/Jon/My Documen
+<use ./bilder/erbium_emisjon.png> [20 <C:/Documents and Settings/Jon/My Documen
 ts/Prosjekt/solcelle/Latex_filer/bilder/erbium_absorbsjon.png (PNG copy)>]
-[26 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
-ilder/erbium_emisjon.png (PNG copy)>]) [27] [28]
+[21 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
+ilder/erbium_emisjon.png (PNG copy)>]) [22] [23]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\resu
 ltater.tex"
 Package epstopdf Info: Source file: <./bilder/Erbium_gammel.eps>
@@ -929,7 +931,7 @@ converted-to.pdf ./bilder/Erbium_gammel.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_gammel-eps-converted-to.pdf, id=598, 524.96124pt x 401.5pt>
+<./bilder/Erbium_gammel-eps-converted-to.pdf, id=589, 524.96124pt x 401.5pt>
 File: ./bilder/Erbium_gammel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Erbium_gammel-eps-converted-to.pdf>
@@ -944,10 +946,10 @@ erted-to.pdf ./bilder/Erbium_ny.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_ny-eps-converted-to.pdf, id=599, 513.92pt x 415.5525pt>
+<./bilder/Erbium_ny-eps-converted-to.pdf, id=590, 513.92pt x 415.5525pt>
 File: ./bilder/Erbium_ny-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Erbium_ny-eps-converted-to.pdf> [29
+<use ./bilder/Erbium_ny-eps-converted-to.pdf> [24
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/Erbium_gammel-eps-converted-to.pdf>]
@@ -963,10 +965,10 @@ nverted-to.pdf ./bilder/Polert_300K.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Polert_300K-eps-converted-to.pdf, id=613, 518.93875pt x 401.5pt>
+<./bilder/Polert_300K-eps-converted-to.pdf, id=604, 518.93875pt x 401.5pt>
 File: ./bilder/Polert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Polert_300K-eps-converted-to.pdf> [30 <C:/Documents and Settings/
+<use ./bilder/Polert_300K-eps-converted-to.pdf> [25 <C:/Documents and Settings/
 Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Erbium_ny-eps-converted-t
 o.pdf>]
 Package epstopdf Info: Source file: <./bilder/Upolert_300K.eps>
@@ -981,7 +983,7 @@ onverted-to.pdf ./bilder/Upolert_300K.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Upolert_300K-eps-converted-to.pdf, id=622, 518.93875pt x 401.5pt>
+<./bilder/Upolert_300K-eps-converted-to.pdf, id=613, 518.93875pt x 401.5pt>
 File: ./bilder/Upolert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Upolert_300K-eps-converted-to.pdf>
@@ -997,11 +999,11 @@ ad-eps-converted-to.pdf ./bilder/Sample_4_romtemp_bad.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=623, 507.8975pt x 415.5
+<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=614, 507.8975pt x 415.5
 525pt>
 File: ./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf Graphic file (type pdf
 )
- <use ./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf> [31 <C:/Documents and
+ <use ./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf> [26 <C:/Documents and
  Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Polert_300K-eps
 -converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcell
 e/Latex_filer/bilder/Upolert_300K-eps-converted-to.pdf>]
@@ -1017,11 +1019,11 @@ ood-eps-converted-to.pdf ./bilder/Sample_4_romtemp_good.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=636, 499.8675pt x 415.
+<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=627, 499.8675pt x 415.
 5525pt>
 File: ./bilder/Sample_4_romtemp_good-eps-converted-to.pdf Graphic file (type pd
 f)
- <use ./bilder/Sample_4_romtemp_good-eps-converted-to.pdf> [32 <C:/Documents an
+ <use ./bilder/Sample_4_romtemp_good-eps-converted-to.pdf> [27 <C:/Documents an
 d Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_romte
 mp_bad-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
@@ -1035,10 +1037,10 @@ rted-to.pdf ./bilder/Sample_4.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4-eps-converted-to.pdf, id=646, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4-eps-converted-to.pdf, id=637, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Sample_4-eps-converted-to.pdf> [33 <C:/Documents and Settings/Jon
+<use ./bilder/Sample_4-eps-converted-to.pdf> [28 <C:/Documents and Settings/Jon
 /My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_romtemp_good-eps-co
 nverted-to.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4.eps>
@@ -1065,10 +1067,10 @@ onverted-to.pdf ./bilder/Sample_4_2_1.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=654, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=645, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [34 <C:/Documents and Settings
+<use ./bilder/Sample_4_2_1-eps-converted-to.pdf> [29 <C:/Documents and Settings
 /Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4-eps-converted-t
 o.pdf>]
 Package epstopdf Info: Source file: <./bilder/Sample_4_2_2.eps>
@@ -1083,7 +1085,7 @@ onverted-to.pdf ./bilder/Sample_4_2_2.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=662, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=653, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_2-eps-converted-to.pdf>
@@ -1099,15 +1101,15 @@ et-eps-converted-to.pdf ./bilder/Posisjonsavhengighet.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=663, 522.95375pt x 401.
+<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=654, 522.95375pt x 401.
 5pt>
 File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
 )
- <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf> [35 <C:/Documents and
+ <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf> [30 <C:/Documents and
  Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_2_1-ep
 s-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcel
 le/Latex_filer/bilder/Sample_4_2_2-eps-converted-to.pdf>]
-<./bilder/sample_4_edited.png, id=674, 1162.3425pt x 496.85625pt>
+<./bilder/sample_4_edited.png, id=665, 1162.3425pt x 496.85625pt>
 File: ./bilder/sample_4_edited.png Graphic file (type png)
 
 <use ./bilder/sample_4_edited.png>
@@ -1127,11 +1129,11 @@ D-eps-converted-to.pdf ./bilder/Sample_4_SPOT_1_BAD.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=675, 495.8525pt x 415.55
+<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=666, 495.8525pt x 415.55
 25pt>
 File: ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf Graphic file (type pdf)
 
- <use ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> [36 <C:/Documents and 
+ <use ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf> [31 <C:/Documents and 
 Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Posisjonsavhengi
 ghet-eps-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjekt
 /solcelle/Latex_filer/bilder/sample_4_edited.png (PNG copy)>]
@@ -1147,11 +1149,11 @@ OD-eps-converted-to.pdf ./bilder/Sample_4_SPOT_2_GOOD.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=684, 495.8525pt x 415.5
+<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=675, 495.8525pt x 415.5
 525pt>
 File: ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf Graphic file (type pdf
 )
- <use ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>) [37 <C:/Documents an
+ <use ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>) [32 <C:/Documents an
 d Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_SPOT_
 1_BAD-eps-converted-to.pdf> <C:/Documents and Settings/Jon/My Documents/Prosjek
 t/solcelle/Latex_filer/bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf>]
@@ -1161,32 +1163,32 @@ usjon.tex"
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-<./bilder/referanse_gammel_piler.png, id=697, 562.1pt x 421.575pt>
+<./bilder/referanse_gammel_piler.png, id=688, 562.1pt x 421.575pt>
 File: ./bilder/referanse_gammel_piler.png Graphic file (type png)
 
 <use ./bilder/referanse_gammel_piler.png>
-<./bilder/referanse_ny_piler.png, id=698, 562.1pt x 421.575pt>
+<./bilder/referanse_ny_piler.png, id=689, 562.1pt x 421.575pt>
 File: ./bilder/referanse_ny_piler.png Graphic file (type png)
 
-<use ./bilder/referanse_ny_piler.png> [38
+<use ./bilder/referanse_ny_piler.png> [33
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/referanse_gammel_piler.png (PNG copy)> <C:/Documents and Settings/Jon/My Doc
 uments/Prosjekt/solcelle/Latex_filer/bilder/referanse_ny_piler.png (PNG copy)>]
- [39]
-<./bilder/sample_4_good_arrows.png, id=729, 562.1pt x 421.575pt>
+ [34]
+<./bilder/sample_4_good_arrows.png, id=720, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_good_arrows.png Graphic file (type png)
 
 <use ./bilder/sample_4_good_arrows.png>
-<./bilder/sample_4_bad_arrows.png, id=730, 562.1pt x 421.575pt>
+<./bilder/sample_4_bad_arrows.png, id=721, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_bad_arrows.png Graphic file (type png)
 
-<use ./bilder/sample_4_bad_arrows.png> [40 <C:/Documents and Settings/Jon/My Do
+<use ./bilder/sample_4_bad_arrows.png> [35 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/sample_4_good_arrows.png (PNG copy
 )> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bi
-lder/sample_4_bad_arrows.png (PNG copy)>]) [41] [42]
+lder/sample_4_bad_arrows.png (PNG copy)>]) [36] [37]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\konk
-lusjon.tex") [43
+lusjon.tex") [38
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
@@ -1251,7 +1253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--85
 r /
  []
 
-[44
+[39
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 125--128
@@ -1271,61 +1273,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--140
 &pn =
  []
 
-) [45]
+) [40]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
-egg_transmisjon.tex" <./bilder/cryovindu.png, id=811, 1072.005pt x 650.43pt>
+egg_transmisjon.tex" <./bilder/cryovindu.png, id=802, 1072.005pt x 650.43pt>
 File: ./bilder/cryovindu.png Graphic file (type png)
 
 <use ./bilder/cryovindu.png>
-<./bilder/objektiv.png, id=813, 873.2625pt x 525.965pt>
+<./bilder/objektiv.png, id=804, 873.2625pt x 525.965pt>
 File: ./bilder/objektiv.png Graphic file (type png)
 
 <use ./bilder/objektiv.png>
-<./bilder/speil.png, id=815, 937.5025pt x 658.46pt>
+<./bilder/speil.png, id=806, 937.5025pt x 658.46pt>
 File: ./bilder/speil.png Graphic file (type png)
  <use ./bilder/speil.png>
-[46
+[41
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/cryovindu.png (PNG copy)> <C:/Documents and Settings/Jon/My Documents/Prosje
 kt/solcelle/Latex_filer/bilder/objektiv.png (PNG copy)>]
-<./bilder/kameragraf.png, id=821, 737.75626pt x 592.2125pt>
+<./bilder/kameragraf.png, id=812, 737.75626pt x 592.2125pt>
 File: ./bilder/kameragraf.png Graphic file (type png)
 
 <use ./bilder/kameragraf.png>
-<./bilder/breamsplitter400-700nm.png, id=823, 782.925pt x 680.5425pt>
+<./bilder/breamsplitter400-700nm.png, id=814, 782.925pt x 680.5425pt>
 File: ./bilder/breamsplitter400-700nm.png Graphic file (type png)
 
-<use ./bilder/breamsplitter400-700nm.png> [47 <C:/Documents and Settings/Jon/My
+<use ./bilder/breamsplitter400-700nm.png> [42 <C:/Documents and Settings/Jon/My
  Documents/Prosjekt/solcelle/Latex_filer/bilder/speil.png (PNG copy)> <C:/Docum
 ents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/kamerag
 raf.png (PNG copy)>]
-<./bilder/old_linse.png, id=830, 635.37375pt x 215.80624pt>
+<./bilder/old_linse.png, id=821, 635.37375pt x 215.80624pt>
 File: ./bilder/old_linse.png Graphic file (type png)
 
 <use ./bilder/old_linse.png>
-<./bilder/breamsplitter1100-1600nm.png, id=832, 785.93625pt x 693.59125pt>
+<./bilder/breamsplitter1100-1600nm.png, id=823, 785.93625pt x 693.59125pt>
 File: ./bilder/breamsplitter1100-1600nm.png Graphic file (type png)
 
-<use ./bilder/breamsplitter1100-1600nm.png> [48 <C:/Documents and Settings/Jon/
+<use ./bilder/breamsplitter1100-1600nm.png> [43 <C:/Documents and Settings/Jon/
 My Documents/Prosjekt/solcelle/Latex_filer/bilder/breamsplitter400-700nm.png (P
 NG copy)> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_f
 iler/bilder/old_linse.png (PNG copy)>]
-<./bilder/ny_linse.png, id=839, 658.46pt x 443.6575pt>
+<./bilder/ny_linse.png, id=830, 658.46pt x 443.6575pt>
 File: ./bilder/ny_linse.png Graphic file (type png)
 
-<use ./bilder/ny_linse.png>) [49 <C:/Documents and Settings/Jon/My Documents/Pr
+<use ./bilder/ny_linse.png>) [44 <C:/Documents and Settings/Jon/My Documents/Pr
 osjekt/solcelle/Latex_filer/bilder/breamsplitter1100-1600nm.png (PNG copy)> <C:
 /Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/n
 y_linse.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 16146 strings out of 495285
- 297678 string characters out of 3180345
- 625538 words of memory out of 3000000
- 18689 multiletter control sequences out of 15000+200000
- 22421 words of font info for 65 fonts, out of 3000000 for 9000
+ 16164 strings out of 495285
+ 298101 string characters out of 3180345
+ 625480 words of memory out of 3000000
+ 18705 multiletter control sequences out of 15000+200000
+ 23197 words of font info for 66 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,9n,61p,1734b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\Jon\Local Settings\Application Data\
@@ -1334,33 +1336,35 @@ ttings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecti1095.pk> <C:\Documents and Settings\Jon\Local Settings\Applicatio
 n Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Documents
  and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local Settings\App
-lication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Do
+nappen\ec\dpi600\ecrm0600.pk> <C:\Documents and Settings\Jon\Local Settings\App
+lication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Do
 cuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\lj
-four\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Local Setti
-ngs\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk>
+four\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Settings\Jon\Local Setti
+ngs\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk>
  <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\font
-s\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\Jon\Loca
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\Jon\Loca
 l Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
-095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2
-.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\J
+000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2
+.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Documents and Settings\J
 on\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm1728.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/M
-iKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
-rogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
-les/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTe
-X 2.8/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on Latex_filer.pdf (49 pages, 2715304 bytes).
+0\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\M
+iKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKT
+eX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.8/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.8/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/eu
+ler/eurm10.pfb>
+Output written on Latex_filer.pdf (49 pages, 2731349 bytes).
 PDF statistics:
- 1317 PDF objects out of 1440 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 506 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1360 PDF objects out of 1440 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
+ 498 words of extra memory for PDF output out of 10000 (max. 10000000)
 

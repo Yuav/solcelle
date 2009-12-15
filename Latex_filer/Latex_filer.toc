@@ -1,38 +1,37 @@
 \select@language {norsk}
-\contentsline {section}{list of figures}{4}{section*.1}
-\contentsline {section}{\numberline {1}Introduksjon}{6}{section.1}
-\contentsline {subsection}{\numberline {1.1}Mangelfulle tidligere resultater}{6}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Nye m\r alinger}{8}{subsection.1.2}
-\contentsline {section}{\numberline {2}Teori}{9}{section.2}
-\contentsline {subsection}{\numberline {2.1}B\r andgap}{9}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Doping}{11}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Transport- og rekombinasjons-prosesser}{12}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Eksitasjon og rekombinasjon}{12}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Solceller}{14}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Spektroskopi}{16}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Spektrometer}{17}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}St\IeC {\o }y}{18}{subsubsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.3}Forventet spekter for multikrystallinsk silisium}{19}{subsubsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.4}Bra omr\r ade}{19}{subsubsection.2.6.4}
-\contentsline {subsubsection}{\numberline {2.6.5}D\r arlig omr\r ade}{20}{subsubsection.2.6.5}
-\contentsline {section}{\numberline {3}M\r alemetode og instrumentering}{22}{section.3}
-\contentsline {subsection}{\numberline {3.1}Tidligere oppsett}{22}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Forslag til nytt oppsett}{23}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Teste nytt oppsett}{25}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Lavtemperatur m\r alinger i cryostat}{27}{subsection.3.4}
-\contentsline {section}{\numberline {4}Resultater}{29}{section.4}
-\contentsline {subsection}{\numberline {4.1}Referansepr\IeC {\o }ve i romtemperatur}{29}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Polert og upolert pr\IeC {\o }ve i romtemperatur}{30}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Sample 4 i romtemperatur}{32}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Sample 4 ved lavtemperatur}{33}{subsection.4.4}
-\contentsline {section}{\numberline {5}Diskusjon}{38}{section.5}
-\contentsline {subsubsection}{\numberline {5.0.1}Forbedring med nytt oppsett}{38}{subsubsection.5.0.1}
-\contentsline {subsubsection}{\numberline {5.0.2}Upolert og polert pr\IeC {\o }ve i romtempratur}{38}{subsubsection.5.0.2}
-\contentsline {subsection}{\numberline {5.1}Sample 4 i romtemperatur}{39}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Sample4 ved lavtemperatur}{40}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Bra omr\r ade}{40}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}D\r arlig omr\r ade}{41}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}Konklusjon}{43}{section.6}
-\contentsline {section}{\numberline {A}Transmisjonskurver}{46}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}F\IeC {\o }rste veibane}{48}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Andre veibane}{49}{subsection.A.2}
+\contentsline {section}{\numberline {1}Introduksjon}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Mangelfulle tidligere resultater}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Nye m\r alinger}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Teori}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}B\r andgap}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Doping}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Transport- og rekombinasjons-prosesser}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Eksitasjon og rekombinasjon}{7}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Solceller}{9}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Spektroskopi}{11}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Spektrometer}{12}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}St\IeC {\o }y}{13}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Forventet spekter for multikrystallinsk silisium}{14}{subsubsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.4}Bra omr\r ade}{14}{subsubsection.2.6.4}
+\contentsline {subsubsection}{\numberline {2.6.5}D\r arlig omr\r ade}{15}{subsubsection.2.6.5}
+\contentsline {section}{\numberline {3}M\r alemetode og instrumentering}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tidligere oppsett}{17}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Forslag til nytt oppsett}{18}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Teste nytt oppsett}{20}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Lavtemperatur m\r alinger i cryostat}{22}{subsection.3.4}
+\contentsline {section}{\numberline {4}Resultater}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Referansepr\IeC {\o }ve i romtemperatur}{24}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Polert og upolert pr\IeC {\o }ve i romtemperatur}{25}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Sample 4 i romtemperatur}{27}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Sample 4 ved lavtemperatur}{28}{subsection.4.4}
+\contentsline {section}{\numberline {5}Diskusjon}{33}{section.5}
+\contentsline {subsubsection}{\numberline {5.0.1}Forbedring med nytt oppsett}{33}{subsubsection.5.0.1}
+\contentsline {subsubsection}{\numberline {5.0.2}Upolert og polert pr\IeC {\o }ve i romtempratur}{33}{subsubsection.5.0.2}
+\contentsline {subsection}{\numberline {5.1}Sample 4 i romtemperatur}{34}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Sample4 ved lavtemperatur}{35}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Bra omr\r ade}{35}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}D\r arlig omr\r ade}{36}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Konklusjon}{38}{section.6}
+\contentsline {section}{\numberline {A}Transmisjonskurver}{41}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}F\IeC {\o }rste veibane}{43}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Andre veibane}{44}{subsection.A.2}
