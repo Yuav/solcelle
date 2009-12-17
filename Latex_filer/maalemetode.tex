@@ -19,7 +19,9 @@ Eksitert lys fra prøven i figur \ref{fig:cryolabtap} går gjennom følgende kompon
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{|m{1.5cm}|c|m{2.2cm}|m{2.2cm}|c|}
+\hline
+Nummer fra figur&Beskrivelse&Produktnavn&Produsent&Referanse \\
 \hline
 1 & Vindu på cryostaten & Janis ST-500 & Janis Research Company & \cite{cryostat} \\
 \hline
@@ -65,7 +67,10 @@ Utstyr for å realisere dette oppsettet:
 
 \begin{table}[H]%
 \centering
-\begin{tabular}{|c|c|c|c|c|}
+	
+\begin{tabular}{|m{1.5cm}|c|c|c|c|}
+\hline
+Nummer fra figur&Beskrivelse&Produktnavn&Produsent&Referanse \\
 \hline
 1 2 4 5 & Speil & PF10-03-P01-10 & Thorlabs & \cite{speil} \\ 
 \hline
@@ -80,6 +85,7 @@ Utstyr for å realisere dette oppsettet:
 \end{tabular}
 \caption{Utstyr til parallell lysbane}
 \label{t:nytt_utstyr}
+
 \end{table}
 
 Linsa som er valgt ut skal i følge datablad (figur \ref{fig:linsetrans_ny}) klare over 90 \% transmisjon helt opp til 2\micro m i motsetning til den forrige linsa som er optimalisert for bølgelengder 650nm-1050nm (figur \ref{fig:linsetrans}). Da målingene som skal gjøres kan gjøres over et relativt stort område på prøven er det ikke så farlig om det belyste området ikke holder 100 \% fokus, slik at et avvik på noen grader i strålebanen ikke er kritisk for resultatet. Det trengs kun en linse på den parallelle banen for å fokusere inn til spektrometeret som alene gjør at det blir mindre tap. Beamsplitteren er oppgitt til å ha mindre enn 0,3 \% refleksjon for bølgelengdene 1,1 til 1,6 \micro m (figur \ref{fig:beamsplitter1100-1600nm}). Det vil fortsatt forsvinne 50 \% intensitet her på grunn av at lyset splittes, men det frekvensavhengige tapet for disse bølgelengdene er minimalisert ved at den er optimalisert for de bølgelengdene som er mest interessante for multikrystallinsk silisium.
@@ -115,7 +121,7 @@ For å verifisere det nye laboppsettet, er det tatt i bruk en prøve dopet med Erb
 
 Til å måle på prøven brukes grating 300 i spektrometeret, som gir et intervall på 140nm som er detekterbart i kameraet. Så settes en senterfrekvens målingene skal gjøres rundt, før målingen tas. Ved neste måling flyttes senterfrekvensen 140nm for å måte neste intervall og så videre. Dette må gjøres manuelt, men et forslag til forbedring er å automatisere prosessen ved å programmere denne funksjonaliteten inn i labview.
 
-Kameraet er effektivt for bølgelengder mellom 900nm og 1700nm (se figur \ref{fig:kameragraf}) Kameraet gir ut en verdi i form av et tall som sier noe om hvor mye lys de ulike bølgelengdene har i form av intensitet, og kan sendes til en datamaskin som behandler dem som vist i figur \ref{fig:pl}.
+Kameraet er effektivt for bølgelengder mellom 900nm og 1700nm (se figur \ref{fig:kameragraf}) Kameraet gir ut en verdi i form av et tall som sier noe om hvor mye lys de ulike bølgelengdene har i form av intensitet, og kan sendes til en datamaskin som behandler dem.
 
 Linsene i det gamle oppsettet var optimalisert for bølgelengder mellom 700nm og 1000nm. Bølgelengdene som er interessante her ligger rundt 1550nm som tilsvarer 0,8eV. 0,8eV er hvor D1 linja forventes. Det er ikke oppgitt i datablad hvor mye tap det er for bølgelengder rundt 1550nm i denne linsa, men det er antydning til at det blir flere prosent. Den andre linsa er oppgitt til å ha 5 \% tap for 1550nm. Tatt i betraktning at den parallelle veibanen bare har en linse, mot tre linser tidligere, er det rimelig å anta at minst 10 \% av tapet unngås ved bruk av ny linse, i forhold til gamle. Beamsplitteren i det gamle oppsettet antyder voldsom økning i tap for bølgelengder over 650nm. Datablad viser 0,7 \% tap for 650nm. Hvis tendensen fra databladet til beamsplitteren fortsetter for høyere bølgelengder vil tapet rundt 1550nm være over 90 \% for transmisjon gjennom splitteren. 
 
