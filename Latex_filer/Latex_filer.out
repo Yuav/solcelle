@@ -16,7 +16,7 @@
 \BOOKMARK [1][-]{section.3}{M\345lemetode og instrumentering}{}
 \BOOKMARK [2][-]{subsection.3.1}{Tidligere oppsett}{section.3}
 \BOOKMARK [2][-]{subsection.3.2}{Forslag til nytt oppsett}{section.3}
-\BOOKMARK [2][-]{subsection.3.3}{Teste nytt oppsett}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Test av nytt oppsett}{section.3}
 \BOOKMARK [2][-]{subsection.3.4}{Lavtemperatur m\345linger i cryostat}{section.3}
 \BOOKMARK [1][-]{section.4}{Resultater}{}
 \BOOKMARK [2][-]{subsection.4.1}{Referansepr\370ve i romtemperatur}{section.4}
@@ -27,9 +27,10 @@
 \BOOKMARK [2][-]{subsection.5.1}{Forbedring med nytt oppsett}{section.5}
 \BOOKMARK [2][-]{subsection.5.2}{Upolert og polert pr\370ve i romtempratur}{section.5}
 \BOOKMARK [2][-]{subsection.5.3}{Sample 4 i romtemperatur}{section.5}
-\BOOKMARK [2][-]{subsection.5.4}{Sample4 ved lavtemperatur}{section.5}
+\BOOKMARK [2][-]{subsection.5.4}{Sample 4 ved lavtemperatur}{section.5}
 \BOOKMARK [3][-]{subsubsection.5.4.1}{Bra omr\345de}{subsection.5.4}
 \BOOKMARK [3][-]{subsubsection.5.4.2}{D\345rlig omr\345de}{subsection.5.4}
+\BOOKMARK [2][-]{subsection.5.5}{Gausstiln\346rming av d\345rlig omr\345de}{section.5}
 \BOOKMARK [1][-]{section.6}{Konklusjon}{}
 \BOOKMARK [1][-]{appendix.A}{Transmisjonskurver}{}
 \BOOKMARK [2][-]{subsection.A.1}{F\370rste veibane}{appendix.A}

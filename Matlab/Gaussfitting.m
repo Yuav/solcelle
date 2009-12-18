@@ -131,15 +131,17 @@ lambdahigh = 1344.6;
 %param0 = [518 38 570 546 25 900 592 32 1280 658 54 880 749 38 260];% 900 250 280];
 
         %pos  width intensity
-topp0 = [1192   20  1600]; % TO + 1 fonon
-topp1 = [1221.5 10  1350]; % Fonon replika av EHD
-topp2 = [1240   10  1425]; %D4
-topp3 = [1278   15  995]; %TO + G fonon replika
-topp4 = [1305   15  758]; %D3
+
+topp0 = [1192   29  1600]; % TO + G fonon replika
+topp1 = [1221.5 10  500]; % TO + G + IV
+topp2 = [1240   10  1825]; %D4
+topp5 = [1260 15 1400]; % Ukjent
+topp3 = [1278   15  1500]; %TO + 2G fonon replika
+topp4 = [1305   15  958]; %D3
 
 %param0 = [1290 20 1850 1315 10 1450];
 %param0 = [1192 10 2050 1240 51 2100 1305 31 1400]
-param0 = [topp0 topp1 topp2 topp3 topp4]
+param0 = [topp0 topp1 topp2 topp3 topp4 topp5]
 indexlow = find(x > lambdalow,1)
 indexhigh = find(x > lambdahigh,1)
 
@@ -163,7 +165,7 @@ intensity = y(indexlow:indexhigh);
 intensity = sgolayfilt(intensity,1,19);
 
 
-[calcInt,g1,g2,g3,g4,g5] = Gn(param0,lambda);
+[calcInt,g1,g2,g3,g4,g5,g6] = Gn(param0,lambda);
 %[calcInt,g1,g2,g3] = Gn(param0,lambda);
 
 figure1 = figure(1);
@@ -180,7 +182,7 @@ plot(lambda,g2,'--r','Color','b');
 plot(lambda,g3,'--r','Color','b');
 plot(lambda,g4,'--r','Color','b');
 plot(lambda,g5,'--r','Color','b');
-%plot(lambda,g6,'--r','Color','b');
+plot(lambda,g6,'--r','Color','b');
 xlabel({'Wavelength [nm]'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
 ylabel({'Intensity'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
 title({'sf090604 visible spectrum Gaussian fit'},'FontWeight','bold','FontSize',24,'FontName','Calibri');
@@ -219,7 +221,7 @@ lambda = lambda2;
 
 param = lsqcurvefit(@Gn, param0, lambda, intensity);
 
-[calcInt,g1,g2,g3,g4,g5] = Gn(param,lambda);
+[calcInt,g1,g2,g3,g4,g5,g6] = Gn(param,lambda);
 
 figure(2);
 lambda = nm_to_ev(lambda);
@@ -231,7 +233,7 @@ plot(lambda,g2,'--r','Color','b');
 plot(lambda,g3,'--r','Color','b');
 plot(lambda,g4,'--r','Color','b');
 plot(lambda,g5,'--r','Color','b');
-%plot(lambda,g6,'--r','Color','b');
+plot(lambda,g6,'--r','Color','b');
 %xlabel({'Wavelength [nm]'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
 %ylabel({'Intensity'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
 %title({'sf090604 visible spectrum Gaussian fit'},'FontWeight','bold','FontSize',24,'FontName','Calibri');
