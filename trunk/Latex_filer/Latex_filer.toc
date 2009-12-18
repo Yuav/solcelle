@@ -17,21 +17,22 @@
 \contentsline {section}{\numberline {3}M\r alemetode og instrumentering}{16}{section.3}
 \contentsline {subsection}{\numberline {3.1}Tidligere oppsett}{16}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Forslag til nytt oppsett}{17}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Teste nytt oppsett}{19}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Test av nytt oppsett}{19}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Lavtemperatur m\r alinger i cryostat}{21}{subsection.3.4}
 \contentsline {section}{\numberline {4}Resultater}{23}{section.4}
 \contentsline {subsection}{\numberline {4.1}Referansepr\IeC {\o }ve i romtemperatur}{23}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Polert og upolert pr\IeC {\o }ve i romtemperatur}{24}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Sample 4 i romtemperatur}{26}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Sample 4 ved lavtemperatur}{27}{subsection.4.4}
-\contentsline {section}{\numberline {5}Diskusjon}{32}{section.5}
-\contentsline {subsection}{\numberline {5.1}Forbedring med nytt oppsett}{32}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Upolert og polert pr\IeC {\o }ve i romtempratur}{32}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Sample 4 i romtemperatur}{33}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Sample4 ved lavtemperatur}{34}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Bra omr\r ade}{35}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}D\r arlig omr\r ade}{36}{subsubsection.5.4.2}
-\contentsline {section}{\numberline {6}Konklusjon}{39}{section.6}
-\contentsline {section}{\numberline {A}Transmisjonskurver}{42}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}F\IeC {\o }rste veibane}{44}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Andre veibane}{45}{subsection.A.2}
+\contentsline {section}{\numberline {5}Diskusjon}{33}{section.5}
+\contentsline {subsection}{\numberline {5.1}Forbedring med nytt oppsett}{33}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Upolert og polert pr\IeC {\o }ve i romtempratur}{33}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Sample 4 i romtemperatur}{34}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Sample 4 ved lavtemperatur}{35}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Bra omr\r ade}{36}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}D\r arlig omr\r ade}{37}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Gausstiln\IeC {\ae }rming av d\r arlig omr\r ade}{38}{subsection.5.5}
+\contentsline {section}{\numberline {6}Konklusjon}{40}{section.6}
+\contentsline {section}{\numberline {A}Transmisjonskurver}{43}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}F\IeC {\o }rste veibane}{45}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Andre veibane}{46}{subsection.A.2}

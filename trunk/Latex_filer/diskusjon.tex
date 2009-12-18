@@ -19,7 +19,7 @@ Emmitert lys fra referanseprøven ble sendt gjennom gammelt oppsett, og nytt opps
   \begin{minipage}[t]{.45\textwidth}
     \begin{center}  
       	\includegraphics[width=\columnwidth]{referanse_ny_piler.png}%
-      \caption[Referanseprøve zoomet inn og angitt toppunkt fra nytt oppsett]{Referanseprøve gjennom nytt oppsett}
+      \caption[Referanseprøve med angitt toppunkt fra nytt oppsett]{Referanseprøve gjennom nytt oppsett}
       \label{fig:referanse_ny_piler}
     \end{center}
   \end{minipage}
@@ -35,13 +35,13 @@ Prøven i figur \ref{fig:polert_sample} er den samme polerte prøven som er gitt i
 
 I figur \ref{fig:polert_sample} kommer det også fram en tydelig karakteristikk ved 1064nm, som er det dobbelte av bølgelengden til pumpelyset. Denne er altfor smal til å komme fra luminescensspekteret, og antas å komme fra andre ordens diffrasjon gitt av (\ref{eq:grating_equation})
 
-Det er også dukket opp enkeltstående \"spiker\" som ikke hører til noe kjent karakteristikk for silisium. Dette er en voldsom økning i amplitude for et veldig lite bølgelengdeområde. Eksempelvis med senterfrekvens på 1280nm fra resultatene i figur \ref{fig:polert_sample} viser en verdier rundt en spiker:
+Det er også dukket opp enkeltstående 'spiker' som ikke hører til noe kjent karakteristikk for silisium. Dette er en voldsom økning i lysmengde i resultatet for et veldig lite bølgelengdeområde. Eksempelvis med senterfrekvens på 1280nm fra resultatene i figur \ref{fig:polert_sample} viser en verdier rundt en spiker:
 
 \begin{table}[H]%
 \centering
 \begin{tabular}{|c|c|}
 \hline
-Bølgelengde & Amplitude \\
+Bølgelengde & Lysmengde \\
 \hline
 1341.950nm & 2089.000 \\
 \hline
@@ -64,7 +64,7 @@ Og med senterfrekvens på 1420nm:
 \centering
 \begin{tabular}{|c|c|}
 \hline
-Bølgelengde & Amplitude \\
+Bølgelengde & Lysmengde \\
 \hline
 1482.136nm & 2089.000 \\
 \hline
@@ -81,19 +81,23 @@ Bølgelengde & Amplitude \\
 \label{t:uregel2}
 \end{table}
 
-Årsaken til disse kan være et defekt piksel på kameraet, da de dukker opp helt konsekvent på samme sted i målingen rundt senterfrekvens + 62nm. Bredden på disse er også under 0,4nm, som er oppgitt nøyaktighet for spektrometeret \cite{spektrometer}.
+Årsaken til disse er sannsynligvis et defekt piksel på kameraet, da de dukker opp helt konsekvent på samme sted i målingen rundt senterfrekvens + 62nm. Bredden på disse er også under 0,4nm, som er oppgitt nøyaktighet for spektrometeret \cite{spektrometer}.
 
 Den upolerte prøven i figur \ref{fig:upolert_sample} er mer som forventet med bakgrunn i \cite{davies88}, med mesteparten av intensiteten rundt 1,1eV. Silisium har et indirekte båndgap, som gjør at et elektron-hullpar ikke kan rekombinere uten hjelp fra et fonon. Ved romtemperatur har disse fononene høyere termisk energi slik at et eksitert foton kan få høyere energi når det eksiteres via et slik fonon. Dette gir utslag på spekteret ved at det blir en utbredning i energinivåer på detekterte fotoner. Refleksjoner fra laseren er også vesentlig mindre her enn for den polerte prøven.
 
 \subsection{Sample 4 i romtemperatur}
 % hva skjer her egentlig??
-Målingene gjort i romtemperatur på sample 4 er preget av mye støy som en følge av høy intensitet fra laseren. Sample 4 i figur \ref{fig:sample_4_romtemp_good} er gjort på et såkalt bra område som hovedsaklig består av krystallinsk silisium. Her er det kun refleksjon fra laseren som er synlig. Det er samme resultat som for den polerte prøven i figur \ref{fig:polert_sample}. Det er fortsatt uklart hvorfor det ikke båndgapet til silisium kommer til syne her. Den polerte blanke overflaten reflekterer store mengder laserlys, som gir en kraftig spiker ved andreordens diffraksjonsmønster. 
+Målingene gjort i romtemperatur på sample 4 er preget av mye støy som en følge av høy intensitet fra laseren. Sample 4 i figur \ref{fig:sample_4_romtemp_good} er gjort på et såkalt bra område som hovedsaklig består av krystallinsk silisium. Her er det kun refleksjon fra laseren som er synlig. Det er samme resultat som for den polerte prøven i figur \ref{fig:polert_sample}. Det er fortsatt uklart hvorfor ikke båndgapet til silisium kommer til syne her. Den polerte blanke overflaten reflekterer store mengder laserlys, som gir en kraftig spiker ved andreordens diffraksjonsmønster. 
 
 Intervallet fra 1eV til 1,1eV er tatt med lenger integreringstid, for å lokalisere toppen ved 1,1eV i et dårlig område. For et dårlig område (figur \ref{fig:sample_4_romtemp_bad}) er det antydning til en topp ved 1,1eV som tilsvarer båndgapet til silisium. D-linjene er ikke synlig i romtemperatur her i det hele tatt. Det er samme resultat som i \cite{sugimoto07}. Det ventes en topp tilsvarende den i figur \ref{fig:bad_spot}, bare bredere, men denne er sterkt påvirket av støy. Også her er refleksjoner fra laserlyset dominerende på spekteret.
 
-\subsection{Sample4 ved lavtemperatur}
+\subsection{Sample 4 ved lavtemperatur}
 
 Med bakgrunn i figur \ref{fig:posisjonsavhengighet} ble det gjort en måling i et såkalt dårlig område, og en måling i et bra område, med lang integreringstid. Et bra område består hovedsakelig av intrinsikk silisium. Posisjonene er avmerket på figur \ref{fig:sample4}. 
+
+Resultatene i figur \ref{fig:sample_4_} og \ref{fig:sample_4_1} viser til en voldsom endring i lysmengde for den høyeste toppen. Den ene figuren har en høyere topp, med en femtedel av integreringstiden, enda pumpelyset er under halvparten. Det vil si at antall tilstander over båndbapet er dramatisk redusert i figur \ref{fig:sample_4_1}.
+
+Figur \ref{fig:sample_4_2_1} og \ref{fig:sample_4_2_2} viser at det er liten forskjell mellom intensitet fra laseren. Dette er sannsynligvis et resultat av at intensiteten fra laseren er høy i begge tilfeller til å kunne fylle alle ledige tilstander i prøven som er synlig på spekteret.
 
 Ved målinger på 23K er det ikke lenger noe særlig utbredning i spekteret av fotoner direkte relatert til båndgapet til silisium. Det kommer til syne en karakteristikk med lavere energi som i følge \cite{tarasov00} er dominert av effekter i forbindelse med dislokasjonslinjer eller defekter i krystallstrukturen. Eksempelvis i figurene \ref{fig:sample_4_} og \ref{fig:sample_4_1}. I figur \ref{fig:posisjonsavhengighet} er det et utdrag av 20 målinger gjort på forskjellige lokasjoner på Sample4. Her kommer det fram at denne karakteristikken er posisjonsavhengig. 
 
@@ -103,32 +107,34 @@ Ved målinger på 23K er det ikke lenger noe særlig utbredning i spekteret av foto
 \begin{figure}[H]%
 \centering
     	\includegraphics[width=\columnwidth]{sample_4_good_arrows.png}%
-      \caption[Sampe 4 for et bra område med merkede topper]{Sample 4 for et bra område}
+      \caption[Sample 4 for et bra område med merkede topper]{Sample 4 for et bra område}
       \label{fig:sample_4_good_arrows}%
 \end{figure}
 
-Sammenlignet med intrinsikk luminescense måling av silisium ved 26K gjort i \cite{davies88} stemmer figur \ref{fig:good_spot} veldig bra med forventende verdier. Hovedtyngden ligger rundt 1,1eV som blir kalt transversal optisk mode i \cite{davies88}. Dette er bånd til bånd rekombinering \cite{arguirov}. Med 50s integreringstid gikk kameraet i metning for denne bølgelengden, men med bakgrunn i resultater fra figur \ref{fig:sample_4_2_1} og \ref{fig:sample_4_2_2} er det tydelig at denne karakteristikken er dominant også her. Altså, at mesteparten av energien ligger ved det indirekte båndgapet til silisium. Det var ventet en elektron-null droplet karakteristikk ved 1,08eV. Det er mulig den har forsvunnet i den dominerende toppen. Bånd til bånd karakteristikken kan være for dominant til å kunne separere elektron-hull droplet karakteristikken. Fotonene assistert av to fonon var ventet ved 1,04eV. Det antas at den her forsvinner i fonon replika til elektron-hull droplett ved 1,02eV som har vesentlig høyere intensitet enn for et dårlig område. Andre ordens diffraksjon fra laseren er som forventet ved 1,165eV. Området som er karakteristisk for et dårlig område, som for eksempel ved dislokasjonslinjer, er ikke å finne i figur \ref{fig:good_spot}. I følge \cite{davies88} har det dukket opp en antydning til tre fonon assisterte fotoner rundt 0,96eV, transversal akustisk linje ved 1,12eV og en ideelt sett forbudt prosess der det ikke er noen fononer involvert med energier like over 1,14eV synlig som en liten topp. Toppene har et lite avvik på rundt 0,1eV i forhold til \cite{davies88}. Det er mulig dette skyldes støy, eller for lav oppløsning. Resultatet er som forventet, uten store forskjeller.
+Sammenlignet med intrinsikk luminescense måling av silisium ved 26K gjort i \cite{davies88} stemmer figur \ref{fig:good_spot} veldig bra med forventende verdier. Hovedtyngden ligger rundt 1,1eV som blir kalt transversal optisk mode i \cite{davies88}. Dette er bånd til bånd rekombinering \cite{arguirov}. Med 50s integreringstid gikk kameraet i metning for denne bølgelengden, men med bakgrunn i resultater fra figur \ref{fig:sample_4_2_1} og \ref{fig:sample_4_2_2} er det tydelig at denne karakteristikken er dominant også her. Altså, at mesteparten av energien ligger ved det indirekte båndgapet til silisium. Det var ventet en elektron-hull droplet karakteristikk ved 1,08eV. Bånd til bånd karakteristikken ser ut til å være for dominant til å kunne separere elektron-hull droplet karakteristikken. Fotonene assistert av to fonon var ventet ved 1,04eV. Det antas at den her forsvinner i fonon replika til elektron-hull droplett ved 1,02eV som har vesentlig høyere intensitet enn for et dårlig område. Andre ordens diffraksjon fra laseren er som forventet ved 1,165eV. Linjene som er karakteristisk for et dårlig område, som for eksempel ved dislokasjonslinjer, er ikke å finne i figur \ref{fig:good_spot}. I følge \cite{davies88} har det dukket opp en antydning til tre fonon assisterte fotoner rundt 0,96eV, transversal akustisk linje ved 1,12eV og en ideelt sett forbudt prosess der det ikke er noen fononer involvert med energier like over 1,14eV synlig som en liten topp. Toppene har et lite avvik i forhold til \cite{davies88}. Det er mulig dette skyldes støy, eller forskjeller i kamera eller spektrometer. Resultatet er som forventet, uten store forskjeller.
 
 \subsubsection{Dårlig område}
 
 \begin{figure}[H]%
 \centering
      	\includegraphics[width=\columnwidth]{sample_4_bad_arrows.png}%
-      \caption[Sampe 4 for et dårlig område med merkede topper]{Sample 4 for et dårlig område}
+      \caption[Sample 4 for et dårlig område med merkede topper]{Sample 4 for et dårlig område}
       \label{fig:sample_4_bad_arrows}
 \end{figure}
 
-Resultatene fra et dårlig område i figur \ref{fig:bad_spot} viser et bredt spekter rundt 1eV som ikke er synlig for et bra område, som vist i figur \ref{fig:good_spot}. Resultatene fra \cite{tarasov00} viser til mye tydeligere topper for dette området, som refererer til såkalte D-linjer. Disse kommer ikke tydelig fram her. Mellom 0,9eV og 1,0eV er det antydning til topper som ofte omtales som D3 og D4 \cite{tarasov00} \cite{arguirov}. D3 er et fonon replika av D4 \cite{replica}. Linjene som omtales som D1 og D2 ser ut til å være helt borte. D3 og D4 er fra tabell \ref{tab:bad_omrade} ventet å være synlige ved henholdsvis 0,95eV og 1,00eV. Resultatet viser en topp ved 0,944eV og en ved 1,01eV. Toppen ved 1,01eV er også høyere enn toppen ved 0,944. Toppen ved 1,1eV er som ventet vesentlig lavere enn for et bra område. Det samme er fonon replikert topp ved 1,034eV (ventet ved 1,04eV). Toppen ved 1,12eV blir omtalt som transversal akustisk fonon assisert rekombinering \cite{davies88}. Det er også antydning til en tre-fonon assisert topp ved 0,962eV, som ligger på akkurat samme energi som for et bra område. Det samme gjelder toppen ved 1,134eV som for et bra område som kan relatere seg til null-fonon interaksjon. Det er også mulig at denne toppen kommer av forurensinger fra jern \cite{sauer85}, da forurensinger også bidrar til å gjøre et område dårlig. Det er en topp ved 1,075eV som er antatt å komme fra elektron-hull droplet \cite{drozdov02}. Posisjon og amplitude på denne toppen er avhengig av intensiteten på laseren \cite{drozdov02}. Det antas at denne karakteristikken først blir synlig når 1,1eV toppen blir liten nok til ikke å dominere spekteret. Det er et lite avvik i resultatene i forhold til forventede verdier på d-linjene. En forklaring kan være at posisjon og temperatur til d-linjene er avhengig av temperatur \cite{d-linje-temp}. 
+Resultatene fra et dårlig område i figur \ref{fig:bad_spot} viser et bredt spekter rundt 1eV som ikke er synlig for et bra område, som vist i figur \ref{fig:good_spot}. Resultatene fra \cite{tarasov00} viser til mye tydeligere topper for dette området, som refererer til såkalte D-linjer. Disse kommer ikke tydelig fram her. Mellom 0,9eV og 1,0eV er det antydning til topper som ofte omtales som D3 og D4 \cite{tarasov00} \cite{arguirov}. Linjene som omtales som D1 og D2 ser ut til å være helt borte. D3 og D4 er fra tabell \ref{tab:bad_omrade} var ventet å være synlige ved henholdsvis 0,95eV og 1,00eV. Resultatet viser en topp ved 0,944eV og en ved 1,01eV. Toppen ved 1,01eV er også høyere enn toppen ved 0,944, som ikke samsvarer med forholdet mellom D3 og D4. D3 er et fonon replika av D4 \cite{replica}, og ventes derfor å være vesentlig lavere. Toppen ved 1,1eV, som kommer av båndgapet til silisium, er som ventet lavere enn for et bra område. Det samme er fonon replikert topp ved 1,034eV (ventet ved 1,04eV). Toppen ved 1,12eV blir omtalt som transversal akustisk fonon assisert rekombinering \cite{davies88}. Det er også antydning til en tre-fonon assisert topp ved 0,962eV, som ligger på akkurat samme energi som for et bra område. Det samme gjelder toppen ved 1,134eV som for et bra område som kan relatere seg til null-fonon interaksjon. Det er også mulig at denne toppen kommer av forurensinger fra jern \cite{sauer85}, da forurensinger også bidrar til å gjøre et område dårlig. Det er en topp ved 1,075eV som er antatt å komme fra elektron-hull droplet \cite{drozdov02}. Posisjon og amplitude på denne toppen er avhengig av intensiteten på laseren \cite{drozdov02}. Det antas at denne karakteristikken først blir synlig når 1,1eV toppen blir liten nok til ikke å dominere spekteret. Det er et lite avvik i resultatene i forhold til forventede verdier på d-linjene. En forklaring kan være at posisjon og temperatur til d-linjene er avhengig av temperatur \cite{d-linje-temp}. 
+
+\subsection{Gausstilnærming av dårlig område}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{posisjon_daarlig_gauss}%
-\caption{Gauss tilnærming av spekter fra dårlig område}%
+\caption{Gausstilnærming av spekter fra dårlig område}%
 \label{fig:gaus}%
 \end{figure}
 
-Ved å sette inn gauskurver for kjente karakteristikker for et dårlig område kan gauskurvene tilnærmes for å treffe spekteret best mulig (figur \ref{fig:gaus}). For å kunne forklare dette spekteret er det satt inn en ekstra kurve, som ikke er kjent, for å tilpasse kurven. Det ser ut til at det inngår en ukjent karakteristikk rett under D4 linja. Videre studie bør gjøres for å finne årsaken til denne. D4 ligger rett under forventet verdi, mens D3, som er et fonon replika av D4, har enda mer avvik fra forventet energi. D3 er ventet å ha vesentlig mindre amplitude enn D4, noe som stemmer bra her \cite{replica}. 
+Ved å sette inn gausskurver for kjente karakteristikker for et dårlig område, kan gausskurvene tilnærmes for å treffe spekteret best mulig (figur \ref{fig:gaus}). For å kunne forklare dette spekteret er det satt inn en ekstra ukjent kurve for å få tilnærmingen til å stemme. Det ser ut til at det inngår en ukjent karakteristikk rett under D4 linja. Videre studie bør gjøres for å finne årsaken til denne. D4 ligger rett under forventet verdi, mens D3, som er et fonon replika av D4, har enda mer avvik fra forventet energi. D3 er ventet å ha vesentlig mindre amplitude enn D4, noe som stemmer bra her \cite{replica}. 
 
-D1 og D2 linjene er ikke å finne på spekteret i det hele tatt. Disse er antatt å ha noe med hverandre å gjøre \cite{tarasov00}. \cite{arguirov} antyder at D1 og D2 linjene kan ha noe å gjøre med lokale fenomen, som materialstress. Hva som gir disse linjene er ikke kjent, men antas å være relatert til dislokasjoner. \cite{sugimoto07} viser at D1 linja ofte dominerer spekteret her, med relativt bred utstrekning. Dersom linjene hadde vært tilstede, er det sannsynlig at de ville dukket opp på spekteret, selv med tap i systemet, da D3 og D4 linjene er synlige. Fraværet av D1 og D2 bør undersøkes mer nærmere.
+D1 og D2 linjene er ikke å finne på spekteret i det hele tatt. Disse er antatt å ha noe med hverandre å gjøre \cite{tarasov00}. \cite{arguirov} antyder at D1 og D2 linjene kan ha noe å gjøre med lokale fenomen, som materialstress. Hva som gir disse linjene er ikke kjent, men antas å være relatert til dislokasjoner. \cite{sugimoto07} viser at D1 linja ofte dominerer spekteret for dislokasjoner, med relativt bred utstrekning. Dersom linjene hadde vært tilstede, er det sannsynlig at de ville dukket opp på spekteret, selv med tap i systemet, da D3 og D4 linjene er synlige. Fraværet av D1 og D2 bør undersøkes mer nærmere.
 
-Tidligere forsøk gjort av Sintef på å karakterisere slike dislokasjonslinjer, som figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt} viser heller ingen tegn til D1 eller D2, men her var heller ikke D3 og D4 synlige. Å kunne se D3 og D4 linjene er en klar forbedring i forhold til tidligere forsøk. Det er mulig at det er forskjeller i prøvene som utgjør problemet. Tatt i betraktning hvor lav intensitet d-linjene har, og hvor mye tap som kom av tidligere utstyr, er det usikkert om disse linjene ville vært synlige, selv om de var tilstede.
+Tidligere forsøk gjort av Sintef på å karakterisere slike dislokasjonslinjer, som figur \ref{fig:cryolabtap} og \ref{fig:dlinjerjakt} viser heller ingen tegn til D1 eller D2, men her var heller ikke D3 og D4 synlige. Å kunne se D3 og D4 linjene er en klar forbedring i forhold til tidligere forsøk. Det er mulig at det er forskjeller i prøvene som utgjør problemet. Tatt i betraktning hvor lav intensitet d-linjene har, og hvor mye tap som kom av tidligere utstyr, er det usikkert om disse linjene ville vært synlige tidligere, selv om de var tilstede.
