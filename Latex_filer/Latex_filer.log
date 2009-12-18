@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  18 DEC 2009 08:26
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  18 DEC 2009 09:17
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/Late
 x_filer.tex
@@ -783,22 +783,40 @@ x_filer.out")
 x_filer.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
- ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+Package epstopdf Info: Source file: <./bilder/NTNU-det-skapende_CMYK.eps>
+(epstopdf)                    date: 2009-12-18 08:58:00
+(epstopdf)                    size: 244498 bytes
+(epstopdf)             Output file: <./bilder/NTNU-det-skapende_CMYK-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2009-12-18 08:58:15
+(epstopdf)                    size: 16099 bytes
+(epstopdf)             Command: <epstopdf --outfile=./bilder/NTNU-det-skapende_
+CMYK-eps-converted-to.pdf ./bilder/NTNU-det-skapende_CMYK.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+<./bilder/NTNU-det-skapende_CMYK-eps-converted-to.pdf, id=157, 429.605pt x 119.
+44624pt>
+File: ./bilder/NTNU-det-skapende_CMYK-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./bilder/NTNU-det-skapende_CMYK-eps-converted-to.pdf> [1
 
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
-x/config/pdftex.map}]
+x/config/pdftex.map} <C:/Documents and Settings/Jon/My Documents/Prosjekt/solce
+lle/Latex_filer/bilder/NTNU-det-skapende_CMYK-eps-converted-to.pdf>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\samm
 endrag.tex") [1]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
-x_filer.toc")
+x_filer.toc"
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+))
 \tf@toc=\write5
  [2
 
@@ -816,7 +834,7 @@ ligere målinger[] [][]
 \tf@lof=\write6
  [4]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\intr
-oduksjon.tex" <./bilder/energiemix_no.png, id=344, 907.39pt x 558.085pt>
+oduksjon.tex" <./bilder/energiemix_no.png, id=350, 907.39pt x 558.085pt>
 File: ./bilder/energiemix_no.png Graphic file (type png)
 
 <use ./bilder/energiemix_no.png>pdfTeX warning (ext4): destination with the sam
@@ -828,11 +846,11 @@ l.20
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/energiemix_no.png>]
-<bilder/cryolabtap.png, id=352, 333.245pt x 275.0275pt>
+<bilder/cryolabtap.png, id=357, 333.245pt x 275.0275pt>
 File: bilder/cryolabtap.png Graphic file (type png)
 
 <use bilder/cryolabtap.png>
-<./bilder/dlinjerjakt.png, id=353, 427.5975pt x 345.29pt>
+<./bilder/dlinjerjakt.png, id=358, 427.5975pt x 345.29pt>
 File: ./bilder/dlinjerjakt.png Graphic file (type png)
 
 <use ./bilder/dlinjerjakt.png> [2 <C:/Documents and Settings/Jon/My Documents/P
@@ -858,7 +876,7 @@ Overfull \hbox (32.72105pt too wide) in paragraph at lines 196--196
 []\T1/cmr/m/n/10.95 Valensbånd  
  []
 
-[7] <./bilder/fononassistert.png, id=413, 798.985pt x 510.90875pt>
+[7] <./bilder/fononassistert.png, id=418, 798.985pt x 510.90875pt>
 File: ./bilder/fononassistert.png Graphic file (type png)
 
 <use ./bilder/fononassistert.png> [8 <C:/Documents and Settings/Jon/My Document
@@ -873,17 +891,17 @@ om-biner-er. Tilsvarende
 elle_teori_inhomogene_halvledere.tex" [9] [10])
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\spek
 troskopi.tex" [11]
-<./bilder/luminisence.png, id=446, 307.1475pt x 265.99374pt>
+<./bilder/luminisence.png, id=451, 307.1475pt x 265.99374pt>
 File: ./bilder/luminisence.png Graphic file (type png)
 
 <use ./bilder/luminisence.png> [12 <C:/Documents and Settings/Jon/My Documents/
 Prosjekt/solcelle/Latex_filer/bilder/luminisence.png>] [13]
-<./bilder/intrinsikk_silisium.png, id=469, 697.60625pt x 501.875pt>
+<./bilder/intrinsikk_silisium.png, id=474, 697.60625pt x 501.875pt>
 File: ./bilder/intrinsikk_silisium.png Graphic file (type png)
 
 <use ./bilder/intrinsikk_silisium.png> [14 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/intrinsikk_silisium.png (PNG copy)
->] <./bilder/dislokasjonslinjer_tarasov00.png, id=489, 513.92pt x 298.11375pt>
+>] <./bilder/dislokasjonslinjer_tarasov00.png, id=494, 513.92pt x 298.11375pt>
 File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
 
 <use ./bilder/dislokasjonslinjer_tarasov00.png>) [15 <C:/Documents and Settings
@@ -891,7 +909,7 @@ File: ./bilder/dislokasjonslinjer_tarasov00.png Graphic file (type png)
 ov00.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\maal
 emetode.tex"
-<./bilder/laboppsett_gammelt.png, id=516, 798.985pt x 579.16376pt>
+<./bilder/laboppsett_gammelt.png, id=521, 798.985pt x 579.16376pt>
 File: ./bilder/laboppsett_gammelt.png Graphic file (type png)
 
 <use ./bilder/laboppsett_gammelt.png>
@@ -949,7 +967,7 @@ Overfull \hbox (13.29733pt too wide) in paragraph at lines 22--41
 
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/laboppsett_gammelt.png>] [17]
-<./bilder/laboppsett_nytt.png, id=542, 397.485pt x 579.16376pt>
+<./bilder/laboppsett_nytt.png, id=547, 397.485pt x 579.16376pt>
 File: ./bilder/laboppsett_nytt.png Graphic file (type png)
 
 <use ./bilder/laboppsett_nytt.png>
@@ -964,11 +982,11 @@ Overfull \hbox (19.57901pt too wide) in paragraph at lines 71--86
 
 [18 <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/b
 ilder/laboppsett_nytt.png>]
-<./bilder/erbium_absorbsjon.png, id=562, 418.56375pt x 266.9975pt>
+<./bilder/erbium_absorbsjon.png, id=567, 418.56375pt x 266.9975pt>
 File: ./bilder/erbium_absorbsjon.png Graphic file (type png)
 
 <use ./bilder/erbium_absorbsjon.png>
-<./bilder/erbium_emisjon.png, id=563, 354.32375pt x 282.05376pt>
+<./bilder/erbium_emisjon.png, id=568, 354.32375pt x 282.05376pt>
 File: ./bilder/erbium_emisjon.png Graphic file (type png)
 
 <use ./bilder/erbium_emisjon.png> [19 <C:/Documents and Settings/Jon/My Documen
@@ -989,7 +1007,7 @@ converted-to.pdf ./bilder/Erbium_gammel.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_gammel-eps-converted-to.pdf, id=596, 524.96124pt x 401.5pt>
+<./bilder/Erbium_gammel-eps-converted-to.pdf, id=601, 524.96124pt x 401.5pt>
 File: ./bilder/Erbium_gammel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Erbium_gammel-eps-converted-to.pdf>
@@ -1004,7 +1022,7 @@ erted-to.pdf ./bilder/Erbium_ny.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Erbium_ny-eps-converted-to.pdf, id=597, 513.92pt x 415.5525pt>
+<./bilder/Erbium_ny-eps-converted-to.pdf, id=602, 513.92pt x 415.5525pt>
 File: ./bilder/Erbium_ny-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Erbium_ny-eps-converted-to.pdf> [23
@@ -1023,7 +1041,7 @@ nverted-to.pdf ./bilder/Polert_300K.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Polert_300K-eps-converted-to.pdf, id=613, 518.93875pt x 401.5pt>
+<./bilder/Polert_300K-eps-converted-to.pdf, id=618, 518.93875pt x 401.5pt>
 File: ./bilder/Polert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Polert_300K-eps-converted-to.pdf> [24 <C:/Documents and Settings/
@@ -1041,7 +1059,7 @@ onverted-to.pdf ./bilder/Upolert_300K.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Upolert_300K-eps-converted-to.pdf, id=622, 518.93875pt x 401.5pt>
+<./bilder/Upolert_300K-eps-converted-to.pdf, id=627, 518.93875pt x 401.5pt>
 File: ./bilder/Upolert_300K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Upolert_300K-eps-converted-to.pdf>
@@ -1057,7 +1075,7 @@ ad-eps-converted-to.pdf ./bilder/Sample_4_romtemp_bad.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=623, 507.8975pt x 415.5
+<./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf, id=628, 507.8975pt x 415.5
 525pt>
 File: ./bilder/Sample_4_romtemp_bad-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1077,7 +1095,7 @@ ood-eps-converted-to.pdf ./bilder/Sample_4_romtemp_good.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=635, 499.8675pt x 415.
+<./bilder/Sample_4_romtemp_good-eps-converted-to.pdf, id=640, 499.8675pt x 415.
 5525pt>
 File: ./bilder/Sample_4_romtemp_good-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1095,7 +1113,7 @@ rted-to.pdf ./bilder/Sample_4.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4-eps-converted-to.pdf, id=645, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4-eps-converted-to.pdf, id=650, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4-eps-converted-to.pdf> [27 <C:/Documents and Settings/Jon
@@ -1112,7 +1130,7 @@ verted-to.pdf ./bilder/Sample_4_1.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_1-eps-converted-to.pdf, id=653, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_1-eps-converted-to.pdf, id=658, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_1-eps-converted-to.pdf> [28 <C:/Documents and Settings/J
@@ -1131,7 +1149,7 @@ onverted-to.pdf ./bilder/Sample_4_2_1.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=666, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_1-eps-converted-to.pdf, id=671, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_1-eps-converted-to.pdf>
@@ -1147,7 +1165,7 @@ onverted-to.pdf ./bilder/Sample_4_2_2.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=667, 507.8975pt x 415.5525pt>
+<./bilder/Sample_4_2_2-eps-converted-to.pdf, id=672, 507.8975pt x 415.5525pt>
 File: ./bilder/Sample_4_2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bilder/Sample_4_2_2-eps-converted-to.pdf> [29 <C:/Documents and Settings
@@ -1165,12 +1183,12 @@ et-eps-converted-to.pdf ./bilder/Posisjonsavhengighet.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=677, 522.95375pt x 401.
+<./bilder/Posisjonsavhengighet-eps-converted-to.pdf, id=682, 522.95375pt x 401.
 5pt>
 File: ./bilder/Posisjonsavhengighet-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ./bilder/Posisjonsavhengighet-eps-converted-to.pdf>
-<./bilder/sample_4_edited.png, id=679, 1162.3425pt x 496.85625pt>
+<./bilder/sample_4_edited.png, id=684, 1162.3425pt x 496.85625pt>
 File: ./bilder/sample_4_edited.png Graphic file (type png)
 
 <use ./bilder/sample_4_edited.png>
@@ -1194,7 +1212,7 @@ D-eps-converted-to.pdf ./bilder/Sample_4_SPOT_1_BAD.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=693, 495.8525pt x 415.55
+<./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf, id=698, 495.8525pt x 415.55
 25pt>
 File: ./bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1211,7 +1229,7 @@ OD-eps-converted-to.pdf ./bilder/Sample_4_SPOT_2_GOOD.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=695, 495.8525pt x 415.5
+<./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf, id=700, 495.8525pt x 415.5
 525pt>
 File: ./bilder/Sample_4_SPOT_2_GOOD-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1222,11 +1240,11 @@ Latex_filer/bilder/Sample_4_SPOT_1_BAD-eps-converted-to.pdf>]) [32 <C:/Document
 s and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/Sample_4_S
 POT_2_GOOD-eps-converted-to.pdf>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\disk
-usjon.tex" <./bilder/referanse_gammel_piler.png, id=712, 562.1pt x 421.575pt>
+usjon.tex" <./bilder/referanse_gammel_piler.png, id=717, 562.1pt x 421.575pt>
 File: ./bilder/referanse_gammel_piler.png Graphic file (type png)
 
 <use ./bilder/referanse_gammel_piler.png>
-<./bilder/referanse_ny_piler.png, id=713, 562.1pt x 421.575pt>
+<./bilder/referanse_ny_piler.png, id=718, 562.1pt x 421.575pt>
 File: ./bilder/referanse_ny_piler.png Graphic file (type png)
 
 <use ./bilder/referanse_ny_piler.png> [33
@@ -1234,17 +1252,17 @@ File: ./bilder/referanse_ny_piler.png Graphic file (type png)
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/referanse_gammel_piler.png> <C:/Documents and Settings/Jon/My Documents/Pros
 jekt/solcelle/Latex_filer/bilder/referanse_ny_piler.png>] [34]
-<./bilder/sample_4_good_arrows.png, id=752, 562.1pt x 421.575pt>
+<./bilder/sample_4_good_arrows.png, id=757, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_good_arrows.png Graphic file (type png)
 
 <use ./bilder/sample_4_good_arrows.png> [35] [36 <C:/Documents and Settings/Jon
 /My Documents/Prosjekt/solcelle/Latex_filer/bilder/sample_4_good_arrows.png (PN
-G copy)>] <./bilder/sample_4_bad_arrows.png, id=770, 562.1pt x 421.575pt>
+G copy)>] <./bilder/sample_4_bad_arrows.png, id=775, 562.1pt x 421.575pt>
 File: ./bilder/sample_4_bad_arrows.png Graphic file (type png)
 
 <use ./bilder/sample_4_bad_arrows.png> [37 <C:/Documents and Settings/Jon/My Do
 cuments/Prosjekt/solcelle/Latex_filer/bilder/sample_4_bad_arrows.png (PNG copy)
->] <./bilder/posisjon_daarlig_gauss.png, id=788, 531.9875pt x 401.5pt>
+>] <./bilder/posisjon_daarlig_gauss.png, id=793, 531.9875pt x 401.5pt>
 File: ./bilder/posisjon_daarlig_gauss.png Graphic file (type png)
 
 <use ./bilder/posisjon_daarlig_gauss.png> [38 <C:/Documents and Settings/Jon/My
@@ -1344,15 +1362,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--150
 
 ) [42]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\vedl
-egg_transmisjon.tex" <./bilder/cryovindu.png, id=850, 1072.005pt x 650.43pt>
+egg_transmisjon.tex" <./bilder/cryovindu.png, id=855, 1072.005pt x 650.43pt>
 File: ./bilder/cryovindu.png Graphic file (type png)
 
 <use ./bilder/cryovindu.png>
-<./bilder/objektiv.png, id=852, 873.2625pt x 525.965pt>
+<./bilder/objektiv.png, id=857, 873.2625pt x 525.965pt>
 File: ./bilder/objektiv.png Graphic file (type png)
 
 <use ./bilder/objektiv.png>
-<./bilder/speil.png, id=854, 937.5025pt x 658.46pt>
+<./bilder/speil.png, id=859, 937.5025pt x 658.46pt>
 File: ./bilder/speil.png Graphic file (type png)
  <use ./bilder/speil.png>
 [43
@@ -1360,29 +1378,29 @@ File: ./bilder/speil.png Graphic file (type png)
  <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bild
 er/cryovindu.png (PNG copy)> <C:/Documents and Settings/Jon/My Documents/Prosje
 kt/solcelle/Latex_filer/bilder/objektiv.png (PNG copy)>]
-<./bilder/kameragraf.png, id=860, 737.75626pt x 592.2125pt>
+<./bilder/kameragraf.png, id=865, 737.75626pt x 592.2125pt>
 File: ./bilder/kameragraf.png Graphic file (type png)
 
 <use ./bilder/kameragraf.png>
-<./bilder/breamsplitter400-700nm.png, id=862, 782.925pt x 680.5425pt>
+<./bilder/breamsplitter400-700nm.png, id=867, 782.925pt x 680.5425pt>
 File: ./bilder/breamsplitter400-700nm.png Graphic file (type png)
 
 <use ./bilder/breamsplitter400-700nm.png> [44 <C:/Documents and Settings/Jon/My
  Documents/Prosjekt/solcelle/Latex_filer/bilder/speil.png (PNG copy)> <C:/Docum
 ents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_filer/bilder/kamerag
 raf.png (PNG copy)>]
-<./bilder/old_linse.png, id=870, 635.37375pt x 215.80624pt>
+<./bilder/old_linse.png, id=875, 635.37375pt x 215.80624pt>
 File: ./bilder/old_linse.png Graphic file (type png)
 
 <use ./bilder/old_linse.png>
-<./bilder/breamsplitter1100-1600nm.png, id=872, 785.93625pt x 693.59125pt>
+<./bilder/breamsplitter1100-1600nm.png, id=877, 785.93625pt x 693.59125pt>
 File: ./bilder/breamsplitter1100-1600nm.png Graphic file (type png)
 
 <use ./bilder/breamsplitter1100-1600nm.png> [45 <C:/Documents and Settings/Jon/
 My Documents/Prosjekt/solcelle/Latex_filer/bilder/breamsplitter400-700nm.png (P
 NG copy)> <C:/Documents and Settings/Jon/My Documents/Prosjekt/solcelle/Latex_f
 iler/bilder/old_linse.png (PNG copy)>]
-<./bilder/ny_linse.png, id=879, 658.46pt x 443.6575pt>
+<./bilder/ny_linse.png, id=884, 658.46pt x 443.6575pt>
 File: ./bilder/ny_linse.png Graphic file (type png)
 
 <use ./bilder/ny_linse.png>) [46 <C:/Documents and Settings/Jon/My Documents/Pr
@@ -1392,11 +1410,11 @@ y_linse.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\Late
 x_filer.aux") ) 
 Here is how much of TeX's memory you used:
- 16215 strings out of 495285
- 298937 string characters out of 3180345
- 626427 words of memory out of 3000000
- 18747 multiletter control sequences out of 15000+200000
- 23197 words of font info for 66 fonts, out of 3000000 for 9000
+ 16226 strings out of 495285
+ 299262 string characters out of 3180345
+ 626764 words of memory out of 3000000
+ 18754 multiletter control sequences out of 15000+200000
+ 25631 words of font info for 69 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,11n,61p,2119b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\Jon\Local Settings\Application Data\
@@ -1406,34 +1424,37 @@ ec\dpi600\ecti1095.pk> <C:\Documents and Settings\Jon\Local Settings\Applicatio
 n Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Documents
  and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jk
 nappen\ec\dpi600\ecrm0600.pk> <C:\Documents and Settings\Jon\Local Settings\App
-lication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Do
+lication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Do
 cuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\lj
-four\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Settings\Jon\Local Setti
-ngs\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk>
+four\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\Jon\Local Setti
+ngs\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk>
  <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\Jon\Loca
-l Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Loca
+l Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
 000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2
-.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Documents and Settings\J
+.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Documents and Settings\J
 on\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\M
-iKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKT
-eX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.8/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi
-9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
-iles/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
-X 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.8/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
-sfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/eu
-ler/eurm10.pfb>
-Output written on Latex_filer.pdf (51 pages, 2772199 bytes).
+iKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Set
+tings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecbx2074.pk> <C:\Documents and Settings\Jon\Local Settings\Application
+ Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbl1440.pk><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pr
+ogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
+s/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2
+.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsf
+onts/euler/eurm10.pfb>
+Output written on Latex_filer.pdf (51 pages, 2800144 bytes).
 PDF statistics:
- 1413 PDF objects out of 1440 (max. 8388607)
+ 1475 PDF objects out of 1728 (max. 8388607)
  191 named destinations out of 1000 (max. 500000)
- 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
